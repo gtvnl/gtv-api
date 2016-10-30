@@ -1,5 +1,4 @@
 class ApplicationController < ActionController::API
-  before_action :authenticate_request
   attr_reader :current_user
 
   private
@@ -7,4 +6,15 @@ class ApplicationController < ActionController::API
     @current_user = AuthorizeApiRequest.call(request.headers).result
     render json: { error: 'Not Authorized' }, status: 401 unless @current_user
   end
+
+  def default_meta
+    {
+      licence: 'CC-0',
+      authors: ['Ramsy de Vos'],
+      logged_in: (@current_user ? true : false),
+      api_version: 1,
+      latest_api_update: "2016-10-30T17:23:38.000Z"
+    }
+  end
+
 end
