@@ -10,7 +10,7 @@ gem 'mysql2', '>= 0.3.18', '< 0.5'
 gem 'thin'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
-gem 'active_model_serializers', '~> 0.10.0'
+# gem 'active_model_serializers', '~> 0.10.0'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
