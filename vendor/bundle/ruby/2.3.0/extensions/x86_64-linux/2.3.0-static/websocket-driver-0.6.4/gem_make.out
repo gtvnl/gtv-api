@@ -1,0 +1,15 @@
+current directory: /var/www/vhosts/dcgs.nl/api.dcgs.nl/gtv-api/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver
+/opt/plesk/ruby/2.3.1/bin/ruby -r ./siteconf20161031-32266-7trm4d.rb extconf.rb
+creating Makefile
+
+current directory: /var/www/vhosts/dcgs.nl/api.dcgs.nl/gtv-api/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /var/www/vhosts/dcgs.nl/api.dcgs.nl/gtv-api/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /var/www/vhosts/dcgs.nl/api.dcgs.nl/gtv-api/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20161031-32266-10rl22h
