@@ -7,7 +7,7 @@ gem 'rack-attack'
 gem 'thin'
 
 # Raspberry specific
-gem 'rpi_gpio', :group => :production
+gem 'rpi_gpio'
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
