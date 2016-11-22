@@ -7,12 +7,12 @@ module Api::V1
     def index
       @items = Item.all
 
-      render json: @items, meta: default_meta
+      render json: JSON.pretty_generate(@items.to_json), meta: default_meta
     end
 
     # GET /items/1
     def show
-      render json: @item, meta: default_meta
+      render json: JSON.pretty_generate(@item.to_js), meta: default_meta
     end
 
     # POST /items

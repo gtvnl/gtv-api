@@ -7,12 +7,12 @@ module Api::V1
     def index
       @setpoints = Setpoint.all
 
-      render json: @setpoints, meta: default_meta
+      render json: JSON.pretty_generate(@setpoints.to_json), meta: default_meta
     end
 
     # GET /setpoints/1
     def show
-      render json: @setpoint, meta: default_meta
+      render json: JSON.pretty_generate(@setpoint.to_json), meta: default_meta
     end
 
     # POST /setpoints
