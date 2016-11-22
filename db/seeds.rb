@@ -18,11 +18,9 @@ puts "API key = #{apikey} \n"
 puts "-------------------------------------------------------\n"
 
 (1...6).each do |index|
-
   Setpoint.create(name: "Setpoint #{index}", value: -20.0)
+end
 
-  Sensor.create(name: "Sensor #{index}a", value: -20)
-  Sensor.create(name: "Sensor #{index}b", value: -20)
-  Sensor.create(name: "Sensor #{index}c", value: -20)
-
+(1...18).each do |index|
+  Sensor.create(name: "Sensor #{index}", value: -20)
 end

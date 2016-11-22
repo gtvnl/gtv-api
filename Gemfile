@@ -2,22 +2,15 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.0.1'
-# Use mysql as the database for Active Record
 gem 'mysql2'
 gem 'rack-attack'
-# Use Puma as the app server
-# gem 'puma', '~> 3.0'
-gem 'thin'
-gem 'rpi_gpio'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-# gem 'jbuilder', '~> 2.5'
-# gem 'active_model_serializers', '~> 0.10.0'
+gem 'unicorn'
 
-# Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 3.0'
+# Raspberry specific
+gem 'rpi_gpio', :group => :production
+
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
-
 # encoding and decoding of HMACSHA256 tokens
 gem 'jwt'
 # The simple command gem is an easy way of creating services.
@@ -25,10 +18,6 @@ gem 'jwt'
 # the connection between the controller and the view, it does the same for the controller and the model.
 #In this way, we can shorten the code in the models and controllers.
 gem 'simple_command'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 
