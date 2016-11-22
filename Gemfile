@@ -5,6 +5,7 @@ gem 'rails', '5.0.0.1'
 gem 'mysql2'
 gem 'rack-attack'
 gem 'thin'
+gem 'sidekiq'
 
 # Raspberry specific
 gem 'rpi_gpio'
