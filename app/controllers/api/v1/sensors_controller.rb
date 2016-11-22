@@ -7,12 +7,12 @@ module Api::V1
     def index
       @sensors = Sensor.all
 
-      render json: @sensors, meta: default_meta
+      render json: JSON.pretty_generate(@sensors.as_json), meta: default_meta
     end
 
     # GET /sensors/1
     def show
-      render json: @sensor
+      render json: JSON.pretty_generate(@sensor.as_json)
     end
 
     # POST /sensors
