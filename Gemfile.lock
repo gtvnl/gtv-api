@@ -101,6 +101,7 @@ GEM
     rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    rpi_gpio (0.3.2)
     simple_command (0.0.9)
     spring (2.0.0)
       activesupport (>= 4.2)
@@ -138,6 +139,7 @@ DEPENDENCIES
   rack-attack
   rack-cors
   rails (= 5.0.0.1)
+  rpi_gpio
   simple_command
   spring
   spring-watcher-listen (~> 2.0.0)
@@ -145,4 +147,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   1.13.5
+   1.13.6

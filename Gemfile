@@ -8,6 +8,7 @@ gem 'rack-attack'
 # Use Puma as the app server
 # gem 'puma', '~> 3.0'
 gem 'thin'
+gem 'rpi_gpio'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # gem 'active_model_serializers', '~> 0.10.0'

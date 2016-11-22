@@ -1,0 +1,2 @@
+class Setpoint < ApplicationRecord
+end

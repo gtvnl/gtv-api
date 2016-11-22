@@ -9,6 +9,9 @@
 # And be sure to use new-style password hashing:
 #   http://dev.mysql.com/doc/refman/5.7/en/old-client.html
 #
+# CREATE USER 'api'@'localhost' IDENTIFIED BY 'S7dy89%r';
+# GRANT ALL PRIVILEGES ON *.* TO 'api'@'localhost';
+
 default: &default
   adapter: mysql2
   encoding: utf8
