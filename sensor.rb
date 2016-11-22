@@ -18,7 +18,6 @@ def readSensors
 
   puts "Sensor #{sensor}: #{temp} DegrC\n"
   end
-
 end
 
 

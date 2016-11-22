@@ -17,10 +17,36 @@ puts "-------------------------------------------------------\n"
 puts "API key = #{apikey} \n"
 puts "-------------------------------------------------------\n"
 
-(1...6).each do |index|
+(1..6).each do |index|
   Setpoint.create(name: "Setpoint #{index}", value: -20.0)
 end
 
-(1...18).each do |index|
-  Sensor.create(name: "Sensor #{index}", value: -20)
+
+def readSensors
+  path = "/sys/bus/w1/devices"
+
+  # Find all available sensors
+  sensors = Dir.entries(path)
+
+  sensors.delete(".")
+  sensors.delete("..")
+  sensors.delete("w1_bus_master1")
+
+  sensors.each_with_index do |sensor, index|
+
+   file = File.open("#{path}/#{sensor}/w1_slave", "rb")
+   contents = file.read
+   value = contents.split("t=")
+   temp = value[1].to_f / 1000
+
+
+   Sensor.find_or_create_by(address: sensor) do |sensor|
+     sensor.value = temp
+     sensor.name = "Sensor #{index}"
+   end
+
+   puts "FOUND: Sensor #{sensor}: #{temp} DegrC\n"
+  end
 end
+
+readSensors()
