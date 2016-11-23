@@ -6,7 +6,13 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-User.create(name: "Administrator", email: "r.d.vos@gtv.nl", password: "Admin1234!", password_confirmation: "Admin1234!")
+
+User.find_or_create_by(email: "r.d.vos@gtv.nl") do |user|
+  user.name = "Administrator"
+  user.password = "Admin1234!"
+  user.password_confirmation = "Admin1234!"
+end
+
 apikey = AuthenticateUser.call("r.d.vos@gtv.nl", "Admin1234!").result
 user = User.find_by(email: "r.d.vos@gtv.nl")
 
@@ -18,17 +24,21 @@ puts "API key = #{apikey} \n"
 puts "-------------------------------------------------------\n"
 
 (1..6).each do |index|
-  Setpoint.create(name: "Setpoint #{index}", value: -20.0)
+  Setpoint.find_or_create_by(name: "Setpoint #{index}") do |setpoint|
+    setpoint.name = "Sensor #{index}"
+    setpoint.value = -20.0
+  end
 end
 
-Gpio.create(name: "Relais 1", gpio: 18, pin: 12)
-Gpio.create(name: "Relais 2", gpio: 23, pin: 16)
-Gpio.create(name: "Relais 3", gpio: 24, pin: 18)
-Gpio.create(name: "Relais 4", gpio: 25, pin: 22)
-Gpio.create(name: "Relais 5", gpio: 8, pin: 24)
-Gpio.create(name: "Relais 6", gpio: 7, pin: 26)
-Gpio.create(name: "Relais 7", gpio: 12, pin: 32)
-Gpio.create(name: "Relais 8", gpio: 16, pin: 36)
+
+Gpio.create(name: "Relais 1", gpio: 18, pin: 12, of_type: 'output')
+Gpio.create(name: "Relais 2", gpio: 23, pin: 16, of_type: 'output')
+Gpio.create(name: "Relais 3", gpio: 24, pin: 18, of_type: 'output')
+Gpio.create(name: "Relais 4", gpio: 25, pin: 22, of_type: 'output')
+Gpio.create(name: "Relais 5", gpio: 8, pin: 24, of_type: 'output')
+Gpio.create(name: "Relais 6", gpio: 7, pin: 26, of_type: 'output')
+Gpio.create(name: "Relais 7", gpio: 12, pin: 32, of_type: 'output')
+Gpio.create(name: "Relais 8", gpio: 16, pin: 36, of_type: 'output')
 
 
 def readSensors
@@ -58,4 +68,4 @@ def readSensors
   end
 end
 
-readSensors()
+#readSensors()
