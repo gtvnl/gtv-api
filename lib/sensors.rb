@@ -51,7 +51,7 @@ class Sensors
 
       sensors = read_all()
 
-      sensors.each do |(sensor, value), index|
+      sensors.each_with_index do |(sensor, value), index|
         Sensor.find_or_create_by(address: sensor) do |obj|
           obj.name = "Sensor #{index}"
           obj.address = sensor
