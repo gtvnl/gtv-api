@@ -24,14 +24,6 @@ class Sensors
           value = contents.split("t=")
           temp = value[1].to_f / 1000
 
-          sensor = Sensor.find_by(address: sensor)
-
-          unless sensor.nil?
-            sensor.value = value
-            sensor.save
-            Log.create(description: "UPDATE: Sensor #{sensor.name} [#{sensor.address}] with value #{sensor.value} &deg;C", value: sensor.value)
-          end
-
           values.merge!("#{sensor}": temp)
 
         end
@@ -54,7 +46,7 @@ class Sensors
       return {"#{sensor}": temp}
     end
 
-    def scan
+    def update
       puts "Scanning available sensors ..."
 
       sensors = read_all()
