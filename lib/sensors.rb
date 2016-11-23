@@ -47,9 +47,24 @@ class Sensors
     end
 
     def scan
-      puts "Scanning sensors"
+      puts "Scanning available sensors ..."
+
       sensors = read_all()
-      puts sensors
+
+      sensors.each do |(sensor, value), index|
+        Sensor.find_or_create_by(address: sensor) do |obj|
+          obj.name = "Sensor #{index}"
+          obj.address = sensor
+          obj.value = value
+        end
+        sensor = Sensor.find_by(address: sensor)
+        unless sensor.nil?
+          sensor.value = value
+          sensor.save
+        end
+      end
+
+
     end
 
   end
