@@ -1,3 +1,13 @@
+require 'rpi_gpio'
+RPi::GPIO.set_numbering :board
+
+pins = [12, 16, 18, 22, 24, 26, 32, 36]
+
+pins.each do |pin|
+  RPi::GPIO.setup pin, :as => :output, :initialize => :high
+
+end
+
 def readSensors
 
   path = "/sys/bus/w1/devices"
