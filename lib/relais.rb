@@ -39,7 +39,7 @@ class Relais
       pins = [12, 16, 18, 22, 24, 26, 32, 36]
 
       pins.each do |pin|
-        RPi::GPIO.set_high number
+        RPi::GPIO.set_high pin
       end
     end
 
