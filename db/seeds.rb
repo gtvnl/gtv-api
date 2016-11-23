@@ -40,9 +40,9 @@ Gpio.create(name: "Relais 6", gpio_number: 7, pin: 26, of_type: 'output')
 Gpio.create(name: "Relais 7", gpio_number: 12, pin: 32, of_type: 'output')
 Gpio.create(name: "Relais 8", gpio_number: 16, pin: 36, of_type: 'output')
 
-if RbConfig::CONFIG['host_os'] == "linux-gnueabihf"
-  puts "Scanning for Sensors ...\n"
-  Sensors.scan
-else
-  puts "No Raspberry detected. Skipping Sensors Import ..."
-end
+# if RbConfig::CONFIG['host_os'] == "linux-gnueabihf"
+#   puts "Scanning for Sensors ...\n"
+#   Sensors.scan
+# else
+#   puts "No Raspberry detected. Skipping Sensors Import ..."
+# end
