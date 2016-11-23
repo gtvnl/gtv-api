@@ -1,8 +1,8 @@
-class ScanSensorsJob < ApplicationJob
+class UpdateSensorsJob < ApplicationJob
   queue_as :default
 
   def perform(*args)
     # Do something later
-    Sensors.scan
+    Sensors.update
   end
 end
