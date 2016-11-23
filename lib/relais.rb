@@ -26,12 +26,12 @@ class Relais
         RPi::GPIO.set_low pin.pin
         puts "Switched ON #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio})"
       else
-        puts "GPIO on #{pin_number} not configured. Check your configuration"
+        puts "GPIO on pin #{pin_number} not configured. Check your configuration"
       end
 
     end
 
-    def off(pin)
+    def off(pin_number)
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
         setup(quiet: true)
