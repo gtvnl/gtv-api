@@ -65,7 +65,6 @@ class Sensors
         sensor = Sensor.find_by(address: sensor)
         unless sensor.nil?
           puts "Updating sensor ..."
-          sensor.name = "Sensor #{sensor}"
           sensor.value = value
           sensor.save
           Log.create(description: "UPDATE: Sensor #{sensor.name} [#{sensor.address}] with value #{sensor.value} &deg;C", value: sensor.value)
