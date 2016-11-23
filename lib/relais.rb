@@ -4,16 +4,21 @@ require 'rpi_gpio'
 class Relais
   class << self
 
-    def initialize
+    def setup
       RPi::GPIO.set_warnings(false)
       RPi::GPIO.set_numbering :board
+      pins = [12, 16, 18, 22, 24, 26, 32, 36]
+
+      pins.each do |pin|
+        RPi::GPIO.setup pin, :as => :output, :initialize => :high
+      end
     end
 
-    def switch_on(number)
+    def on(number)
       RPi::GPIO.set_low number
     end
 
-    def switch_off(number)
+    def off(number)
       RPi::GPIO.set_high number
     end
 
