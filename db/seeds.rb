@@ -21,6 +21,15 @@ puts "-------------------------------------------------------\n"
   Setpoint.create(name: "Setpoint #{index}", value: -20.0)
 end
 
+Gpio.create(name: "Relais 1", gpio: 18, pin: 12)
+Gpio.create(name: "Relais 2", gpio: 23, pin: 16)
+Gpio.create(name: "Relais 3", gpio: 24, pin: 18)
+Gpio.create(name: "Relais 4", gpio: 25, pin: 22)
+Gpio.create(name: "Relais 5", gpio: 8, pin: 24)
+Gpio.create(name: "Relais 6", gpio: 7, pin: 26)
+Gpio.create(name: "Relais 7", gpio: 12, pin: 32)
+Gpio.create(name: "Relais 8", gpio: 16, pin: 36)
+
 
 def readSensors
   path = "/sys/bus/w1/devices"

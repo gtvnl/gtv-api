@@ -1,0 +1,2 @@
+class Gpio < ApplicationRecord
+end
