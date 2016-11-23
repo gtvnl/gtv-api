@@ -5,10 +5,10 @@ gem 'rails', '5.0.0.1'
 gem 'mysql2'
 gem 'rack-attack'
 gem 'thin'
-gem 'sidekiq'
+gem 'whenever', :require => false
 
 # Raspberry specific
-gem 'rpi_gpio'
+gem 'rpi_gpio', :require => false
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
