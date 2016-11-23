@@ -2,10 +2,12 @@
 
 one:
   name: MyString
-  gpio: 1
   pin: 1
+  gpio_number: 1
+  of_type: 1
 
 two:
   name: MyString
-  gpio: 1
   pin: 1
+  gpio_number: 1
+  of_type: 1

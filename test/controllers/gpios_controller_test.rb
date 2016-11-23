@@ -12,7 +12,7 @@ class GpiosControllerTest < ActionDispatch::IntegrationTest
 
   test "should create gpio" do
     assert_difference('Gpio.count') do
-      post gpios_url, params: { gpio: { gpio: @gpio.gpio, name: @gpio.name, pin: @gpio.pin } }, as: :json
+      post gpios_url, params: { gpio: { gpio_number: @gpio.gpio_number, name: @gpio.name, of_type: @gpio.of_type, pin: @gpio.pin } }, as: :json
     end
 
     assert_response 201
@@ -24,7 +24,7 @@ class GpiosControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update gpio" do
-    patch gpio_url(@gpio), params: { gpio: { gpio: @gpio.gpio, name: @gpio.name, pin: @gpio.pin } }, as: :json
+    patch gpio_url(@gpio), params: { gpio: { gpio_number: @gpio.gpio_number, name: @gpio.name, of_type: @gpio.of_type, pin: @gpio.pin } }, as: :json
     assert_response 200
   end
 

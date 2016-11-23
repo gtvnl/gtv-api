@@ -1,4 +1,4 @@
-module Api::V1
+
   class SetpointsController < ApplicationController
     before_action :authenticate_request, except: [:index, :show]
     before_action :set_setpoint, only: [:show, :update, :destroy]
@@ -7,16 +7,18 @@ module Api::V1
     def index
       @setpoints = Setpoint.all
 
-      render json: JSON.pretty_generate(@setpoints.to_json), meta: default_meta
+      render json: @setpoints, meta: default_meta
     end
 
     # GET /setpoints/1
     def show
-      render json: JSON.pretty_generate(@setpoint.to_json), meta: default_meta
+      render json: @setpoint, meta: default_meta
     end
+
 
     # POST /setpoints
     def create
+      binding.pry
       @setpoint = Setpoint.new(setpoint_params)
 
       if @setpoint.save
@@ -61,4 +63,3 @@ module Api::V1
         params.require(:setpoint).permit(:name, :value)
       end
   end
-end
