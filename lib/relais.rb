@@ -21,6 +21,8 @@ class Relais
     def on(pin_number)
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
+        RPi::GPIO.set_numbering :board
+        RPi::GPIO.setup pin.pin, :as => :output
         RPi::GPIO.set_low pin
         puts "Switched ON #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio})"
       else
@@ -31,6 +33,8 @@ class Relais
     def off(pin)
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
+        RPi::GPIO.set_numbering :board
+        RPi::GPIO.setup pin.pin, :as => :output
         RPi::GPIO.set_high pin
         puts "Switched OFF #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio})"
       else
