@@ -25,8 +25,13 @@ class Sensors
           temp = value[1].to_f / 1000
 
           sensor = Sensor.find_by(address: sensor)
-          sensor.value = temp
-          sensor.save
+
+          unless sensor.nil?
+            sensor.value = value
+            sensor.save
+            Log.create(description: "UPDATE: Sensor #{sensor.name} [#{sensor.address}] with value #{sensor.value} &deg;C", value: sensor.value)
+          end
+
           values.merge!("#{sensor}": temp)
 
         end
@@ -59,11 +64,14 @@ class Sensors
           obj.name = "Sensor #{index}"
           obj.address = sensor
           obj.value = value
+          Log.create(description: "CREATE: Sensor #{index} [#{sensor}] with value #{value} &deg;C", value: value)
+
         end
         sensor = Sensor.find_by(address: sensor)
         unless sensor.nil?
           sensor.value = value
           sensor.save
+          Log.create(description: "UPDATE: Sensor #{sensor.name} [#{sensor.address}] with value #{sensor.value} &deg;C", value: sensor.value)
         end
       end
 
