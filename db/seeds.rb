@@ -31,14 +31,18 @@ puts "Creating Setpoints ...\n"
 end
 
 puts "Creating GPIOs ...\n"
-Gpio.create(name: "Relais 1", gpio: 18, pin: 12, of_type: 'output')
-Gpio.create(name: "Relais 2", gpio: 23, pin: 16, of_type: 'output')
-Gpio.create(name: "Relais 3", gpio: 24, pin: 18, of_type: 'output')
-Gpio.create(name: "Relais 4", gpio: 25, pin: 22, of_type: 'output')
-Gpio.create(name: "Relais 5", gpio: 8, pin: 24, of_type: 'output')
-Gpio.create(name: "Relais 6", gpio: 7, pin: 26, of_type: 'output')
-Gpio.create(name: "Relais 7", gpio: 12, pin: 32, of_type: 'output')
-Gpio.create(name: "Relais 8", gpio: 16, pin: 36, of_type: 'output')
+Gpio.create(name: "Relais 1", gpio_number: 18, pin: 12, of_type: 'output')
+Gpio.create(name: "Relais 2", gpio_number: 23, pin: 16, of_type: 'output')
+Gpio.create(name: "Relais 3", gpio_number: 24, pin: 18, of_type: 'output')
+Gpio.create(name: "Relais 4", gpio_number: 25, pin: 22, of_type: 'output')
+Gpio.create(name: "Relais 5", gpio_number: 8, pin: 24, of_type: 'output')
+Gpio.create(name: "Relais 6", gpio_number: 7, pin: 26, of_type: 'output')
+Gpio.create(name: "Relais 7", gpio_number: 12, pin: 32, of_type: 'output')
+Gpio.create(name: "Relais 8", gpio_number: 16, pin: 36, of_type: 'output')
 
-puts "Scanning for Sensors ...\n"
-Sensors.scan
+if RbConfig::CONFIG['host_os'] == "linux-gnueabihf"
+  puts "Scanning for Sensors ...\n"
+  Sensors.scan
+else
+  puts "No Raspberry detected. Skipping Sensors Import ..."
+end

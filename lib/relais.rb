@@ -13,7 +13,7 @@ class Relais
       @@pins.each do |pin|
         RPi::GPIO.setup pin.pin, :as => :output
         if quiet == false
-          Log.create(description: "Initialised #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio}) as OUTPUT")
+          Log.create(description: "Initialised #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number}) as OUTPUT")
         end
       end
 
@@ -24,7 +24,7 @@ class Relais
       unless pin.nil?
         setup(quiet: true)
         RPi::GPIO.set_low pin.pin
-        Log.create(description: "Switched ON #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio})")
+        Log.create(description: "Switched ON #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number})")
       else
         Log.create(description: "ERROR: GPIO on pin #{pin_number} not configured. Check your configuration")
       end
@@ -36,7 +36,7 @@ class Relais
       unless pin.nil?
         setup(quiet: true)
         RPi::GPIO.set_high pin.pin
-        Log.create(description: "Switched OFF #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio})")
+        Log.create(description: "Switched OFF #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number})")
       else
         Log.create(description: "ERROR: GPIO on pin #{pin_number} not configured. Check your configuration")
       end
@@ -46,7 +46,7 @@ class Relais
       setup(quiet: true)
       @@pins.each do |pin|
         RPi::GPIO.set_low pin.pin
-        Log.create(description: "ERROR: Switched ON #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio})")
+        Log.create(description: "Switched ON #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number})")
       end
     end
 
@@ -54,7 +54,7 @@ class Relais
       setup(quiet: true)
       @@pins.each do |pin|
         RPi::GPIO.set_high pin.pin
-        Log.create(description: "ERROR: Switched OFF #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio})")
+        Log.create(description: "Switched OFF #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number})")
       end
     end
 
