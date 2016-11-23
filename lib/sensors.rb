@@ -24,16 +24,20 @@ class Sensors
       sensors.delete("..")
       sensors.delete("w1_bus_master1")
 
+      values = {}
+
       sensors.each do |sensor|
 
-       file = File.open("#{path}/#{sensor}/w1_slave", "rb")
-       contents = file.read
-       value = contents.split("t=")
-       temp = value[1].to_f / 1000
+        file = File.open("#{path}/#{sensor}/w1_slave", "rb")
+        contents = file.read
+        value = contents.split("t=")
+        temp = value[1].to_f / 1000
 
-      puts "Sensor #{sensor}: #{temp} DegrC\n"
+        values.merge!("#{sensor}": temp)
+        puts "Sensor #{sensor}: #{temp} DegrC\n"
+
       end
-
+        return values
     end
 
     def read_one(sensor)
@@ -43,12 +47,13 @@ class Sensors
       # Find all available sensors
       sensors = Dir.entries(path)
 
-     file = File.open("#{path}/#{sensor}/w1_slave", "rb")
-     contents = file.read
-     value = contents.split("t=")
-     temp = value[1].to_f / 1000
+      file = File.open("#{path}/#{sensor}/w1_slave", "rb")
+      contents = file.read
+      value = contents.split("t=")
+      temp = value[1].to_f / 1000
 
       puts "Sensor #{sensor}: #{temp} DegrC\n"
+      return {"#{sensor}": temp}
     end
 
 
