@@ -16,6 +16,7 @@ class Relais
           puts "Initialised #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio})"
         end
       end
+
     end
 
     def on(pin_number)
@@ -23,11 +24,12 @@ class Relais
       unless pin.nil?
         RPi::GPIO.set_numbering :board
         RPi::GPIO.setup pin.pin, :as => :output
-        RPi::GPIO.set_low pin
+        RPi::GPIO.set_low pin.pin
         puts "Switched ON #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio})"
       else
         puts "GPIO on #{pin_number} not configured. Check your configuration"
       end
+
     end
 
     def off(pin)
@@ -35,7 +37,7 @@ class Relais
       unless pin.nil?
         RPi::GPIO.set_numbering :board
         RPi::GPIO.setup pin.pin, :as => :output
-        RPi::GPIO.set_high pin
+        RPi::GPIO.set_high pin.pin
         puts "Switched OFF #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio})"
       else
         puts "GPIO on pin #{pin_number} not configured. Check your configuration"
