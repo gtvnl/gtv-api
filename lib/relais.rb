@@ -1,10 +1,10 @@
 # lib/relais.rb
 require 'rpi_gpio'
 
-pins = [12, 16, 18, 22, 24, 26, 32, 36]
-
 class Relais
   class << self
+
+    pins = [12, 16, 18, 22, 24, 26, 32, 36]
 
     def setup
       RPi::GPIO.set_warnings(false)
