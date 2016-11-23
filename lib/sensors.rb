@@ -62,15 +62,18 @@ class Sensors
       sensors.each_with_index do |(sensor, value), index|
         Sensor.find_or_create_by(address: sensor) do |obj|
           puts "Found new sensor ..."
+
           obj.name = "Sensor #{index}"
           obj.address = sensor
           obj.value = value
+          obj.save
           Log.create(description: "CREATE: Sensor #{index} [#{sensor}] with value #{value} &deg;C", value: value)
 
         end
         sensor = Sensor.find_by(address: sensor)
         unless sensor.nil?
           puts "Updating sensor ..."
+          sensor.name = "Sensor #{sensor}"
           sensor.value = value
           sensor.save
           Log.create(description: "UPDATE: Sensor #{sensor.name} [#{sensor.address}] with value #{sensor.value} &deg;C", value: sensor.value)
