@@ -11,7 +11,6 @@ class ApplicationController < ActionController::API
     {
       licence: 'CC-0',
       authors: ['Ramsy de Vos'],
-      logged_in: (@current_user ? true : false),
       api_version: 1,
       latest_api_update: "2016-10-30T17:23:38.000Z"
     }

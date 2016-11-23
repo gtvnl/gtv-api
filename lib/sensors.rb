@@ -16,18 +16,17 @@ class Sensors
 
       values = {}
 
-      sensors.each do |sensor|
+        sensors.each do |sensor|
 
-        file = File.open("#{path}/#{sensor}/w1_slave", "rb")
-        contents = file.read
-        value = contents.split("t=")
-        temp = value[1].to_f / 1000
+          file = File.open("#{path}/#{sensor}/w1_slave", "rb")
+          contents = file.read
+          value = contents.split("t=")
+          temp = value[1].to_f / 1000
 
-        values.merge!("#{sensor}": temp)
-        puts "Sensor #{sensor}: #{temp} DegrC\n"
+          values.merge!("#{sensor}": temp)
 
-      end
-        return values
+        end
+      return values
     end
 
     def read_one(sensor)
