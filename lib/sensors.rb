@@ -18,11 +18,15 @@ class Sensors
 
         sensors.each do |sensor|
 
+
           file = File.open("#{path}/#{sensor}/w1_slave", "rb")
           contents = file.read
           value = contents.split("t=")
           temp = value[1].to_f / 1000
 
+          sensor = Sensor.find_by(address: sensor)
+          sensor.value = temp
+          sensor.save
           values.merge!("#{sensor}": temp)
 
         end
