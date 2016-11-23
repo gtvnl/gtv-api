@@ -4,7 +4,7 @@ require 'rpi_gpio'
 class Relais
   class << self
 
-    @@pins = Gpio.all
+    @@pins = Gpio.where(of_type: 'output')
 
     def setup(quiet: false)
       RPi::GPIO.set_warnings(false)

@@ -46,5 +46,11 @@ class Sensors
       return {"#{sensor}": temp}
     end
 
+    def scan
+      puts "Scanning sensors"
+      sensors = read_all()
+      puts sensors
+    end
+
   end
 end
