@@ -1,16 +1,6 @@
 # lib/sensors.rb
 class Sensors
   class << self
-    def setup
-      RPi::GPIO.set_warnings(false)
-      RPi::GPIO.set_numbering :board
-
-      pins = [12, 16, 18, 22, 24, 26, 32, 36]
-
-      pins.each do |pin|
-        RPi::GPIO.setup pin, :as => :output, :initialize => :high
-      end
-    end
 
     def read_all
       puts "Reading all sensors ...\n"
@@ -55,7 +45,6 @@ class Sensors
       puts "Sensor #{sensor}: #{temp} DegrC\n"
       return {"#{sensor}": temp}
     end
-
 
   end
 end
