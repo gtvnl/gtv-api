@@ -1,4 +1,6 @@
 # lib/relais.rb
+require 'rpi_gpio'
+
 class Relais
   class << self
 
