@@ -4,13 +4,15 @@ class AuthenticationController < ApplicationController
 
   def index
   end
-  
+
   def authenticate
     command = AuthenticateUser.call(params[:email], params[:password])
 
     if command.success?
+      Log.create(description: "AUTHENTICATE: User with email #{params[:email]} successfully authenticated. [#{command.result}]")
       render json: { auth_token: command.result }
     else
+      Log.create(description: "UNAUTHORIZED: #{params[:email]} / #{params[:password]} tried to authenticate. [#{command.errors}]")
       render json: { error: command.errors }, status: :unauthorized
     end
   end
