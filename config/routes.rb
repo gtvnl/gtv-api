@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   resources :logs
   resources :gpios
   namespace :api do

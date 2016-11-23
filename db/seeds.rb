@@ -11,7 +11,7 @@ User.find_or_create_by(email: "r.d.vos@gtv.nl") do |user|
   user.name = "Administrator"
   user.password = "Admin1234!"
   user.password_confirmation = "Admin1234!"
-  Log.create(description: "Added an Administrator named '#{user.name}' with password '#{password}'")
+  Log.create(description: "Added an Administrator named '#{user.name}' with password '#{user.password}'")
 end
 
 apikey = AuthenticateUser.call("r.d.vos@gtv.nl", "Admin1234!").result
