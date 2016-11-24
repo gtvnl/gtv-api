@@ -4,9 +4,11 @@ class Rack::Attack
   # but you can override that by setting the `Rack::Attack.cache.store` value
   Rack::Attack.cache.store = ActiveSupport::Cache::MemoryStore.new
 
+  allowed = %w[ 127.0.0.1 ::1 192.168.10.158 192.168.10.147 ].to_set
+
   # Allow all local traffic
   safelist('allow-localhost') do |req|
-    '127.0.0.1' == req.ip || '::1' == req.ip
+    !allowed.include?(req.ip)
   end
 
   # # Only allow local traffic
