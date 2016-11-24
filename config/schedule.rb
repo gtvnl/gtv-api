@@ -21,4 +21,5 @@
 
 every 5.minutes do
   runner "UpdateSensorsJob.perform_now"
+  runner "StartPollingJob.perform_now"
 end
