@@ -19,7 +19,7 @@ class SensorsController < ApplicationController
     @sensor = Sensor.new(sensor_params)
 
     if @sensor.save
-      Log.create(description: "CREATE: Sensor #{@sensor.name} [#{@sensor.address}] with value #{@sensor.value} &deg;C", value: @sensor.value)
+      Log.create(description: "CREATE: Sensor #{@sensor.name} [#{@sensor.address}] with value #{@sensor.value} &deg;C", value: @sensor.value, sensor: @sensor.name)
 
       render json: @sensor, status: :created
     else
@@ -32,7 +32,7 @@ class SensorsController < ApplicationController
   # PATCH/PUT /sensors/1
   def update
     if @sensor.update(sensor_params)
-      Log.create(description: "UPDATE: Sensor #{@sensor.name} [#{@sensor.address}] with value #{@sensor.value} &deg;C", value: @sensor.value)
+      Log.create(description: "UPDATE: Sensor #{@sensor.name} [#{@sensor.address}] with value #{@sensor.value} &deg;C", value: @sensor.value, sensor: @sensor.name)
 
       render json: @sensor
     else
@@ -44,7 +44,7 @@ class SensorsController < ApplicationController
 
   # DELETE /sensors/1
   def destroy
-    Log.create(description: "DELETE: Sensor #{@sensor.name} [#{@sensor.address}] with value #{@sensor.value} &deg;C", value: @sensor.value)
+    Log.create(description: "DELETE: Sensor #{@sensor.name} [#{@sensor.address}] with value #{@sensor.value} &deg;C", value: @sensor.value, sensor: @sensor.name)
 
     @sensor.destroy
   end
