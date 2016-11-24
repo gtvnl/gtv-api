@@ -1,3 +1,5 @@
+var logs = [];
+
 var settings = {
   "async": true,
   "crossDomain": true,
@@ -10,5 +12,5 @@ var settings = {
 }
 
 $.ajax(settings).done(function (response) {
-  console.log(response);
+  logs = respone;
 });
