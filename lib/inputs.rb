@@ -11,7 +11,7 @@ class Inputs
 
       begin
           if RPi::GPIO.high? pin
-            meter = Meters.find_by(pin: pin)
+            meter = Meter.find_by(pin: pin)
             meter.value += 1
             meter.save
             sleep 1
