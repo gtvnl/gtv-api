@@ -1,4 +1,8 @@
 var logs = [];
+var dates = [];
+var values = [];
+var descriptions = [];
+
 
 var settings = {
   "async": true,
@@ -13,4 +17,20 @@ var settings = {
 
 $.ajax(settings).done(function (response) {
   logs = response;
+
+  dates = logs.forEach(function(item) {
+    // do something with `item`
+    dates.push(item.updated_at)
+  });
+
+  values = logs.forEach(function(item) {
+    // do something with `item`
+    dates.push(item.value)
+  });
+
+  descriptions = logs.forEach(function(item) {
+    // do something with `item`
+    dates.push(item.description)
+  });
+
 });
