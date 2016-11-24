@@ -10,10 +10,10 @@
     <script src="/js/jquery-2.1.4.js"></script>
     <script>
 
-    var windologs = [];
-    var dates = [];
-    var values = [];
-    var descriptions = [];
+    var logs = [];
+    var dates = ["Dates"];
+    var values = ["Values"];
+    var descriptions = ["Descriptions"];
 
 
     var settings = {
@@ -43,15 +43,12 @@
       var chart = c3.generate({
         bindto: '#chart',
         data: {
-          url: "http://192.168.10.158/logs",
-          mineType: 'json',
           x : 'date',
-          xFormat : '%Y-%m-%dT%H:%M:%S.%LZ'
-          // columns: [
-          //    ['date', dates],
-          //    ['sample', 500, 630],
-          //    ['sample2', 400, 600]
-          // ]
+          xFormat : '%Y-%m-%dT%H:%M:%S.%LZ',
+          columns: [
+             dates,
+             values
+          ]
         },
 
         axis : {
