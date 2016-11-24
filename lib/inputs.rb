@@ -7,12 +7,10 @@ class Inputs
 
     def start
       filedir = "/sys/class/gpio/gpio11"
-      filenames = [ "value", "file2" ]
 
-      listenRegex = filenames.join("$|").gsub!(".", "\.") + "$"
 
       # Should only track 'file1' and 'file2' in this directory
-      listener = Listen.to(filedir, only: /#{listenRegex}/) do |modified, added, removed|
+      listener = Listen.to(filedir, only: "value"/) do |modified, added, removed|
         puts "Updated: #{modified.first}"
       end
 
