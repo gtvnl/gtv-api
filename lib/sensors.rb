@@ -59,7 +59,7 @@ class Sensors
           obj.address = sensor
           obj.value = value
           obj.save
-          Log.create(description: "CREATE: Sensor #{index} [#{sensor}] with value #{value} &deg;C", value: value)
+          Log.create(description: "CREATE: Sensor #{index} [#{sensor}] with value #{value} &deg;C", value: value, sensor: obj.name)
 
         end
         sensor = Sensor.find_by(address: sensor)
@@ -67,7 +67,7 @@ class Sensors
           puts "Updating sensor ..."
           sensor.value = value
           sensor.save
-          Log.create(description: "UPDATE: Sensor #{sensor.name} [#{sensor.address}] with value #{sensor.value} &deg;C", value: sensor.value)
+          Log.create(description: "UPDATE: Sensor #{sensor.name} [#{sensor.address}] with value #{sensor.value} &deg;C", value: sensor.value, sensor: sensor.name)
         end
       end
 

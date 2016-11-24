@@ -12,7 +12,7 @@ class SensorsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create sensor" do
     assert_difference('Sensor.count') do
-      post sensors_url, params: { sensor: { name: @sensor.name, value: @sensor.value } }, as: :json
+      post sensors_url, params: { sensor: { name: @sensor.name, value: @sensor.value, sensor: @sensor.name } }, as: :json
     end
 
     assert_response 201
@@ -24,7 +24,7 @@ class SensorsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update sensor" do
-    patch sensor_url(@sensor), params: { sensor: { name: @sensor.name, value: @sensor.value } }, as: :json
+    patch sensor_url(@sensor), params: { sensor: { name: @sensor.name, value: @sensor.value, sensor: @sensor.name } }, as: :json
     assert_response 200
   end
 
