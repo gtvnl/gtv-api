@@ -1,7 +1,7 @@
-var window.logs = [];
-var window.dates = [];
-var window.values = [];
-var window.descriptions = [];
+var windologs = [];
+var dates = [];
+var values = [];
+var descriptions = [];
 
 
 var settings = {
@@ -21,9 +21,9 @@ $.ajax(settings).done(function (response) {
   logs.forEach(function(item) {
 
     if (item.value != undefined) {
-      window.values.push(item.value);
-      window.dates.push(item.updated_at);
-      window.descriptions.push(item.description);
+      values.push(item.value);
+      dates.push(item.updated_at);
+      descriptions.push(item.description);
     }
   });
 

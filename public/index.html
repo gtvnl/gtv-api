@@ -8,12 +8,38 @@
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script src="/js/c3.min.js"></script>
     <script src="/js/jquery-2.1.4.js"></script>
-    <script src="/js/gtv-api.js"></script>
-
     <script>
-    console.log('values', window.values.length);
-    console.log('dates', window.dates.length);
-    console.log('descriptions', window.descriptions.length);
+
+    var windologs = [];
+    var dates = [];
+    var values = [];
+    var descriptions = [];
+
+
+    var settings = {
+      "async": true,
+      "crossDomain": true,
+      "url": "http://192.168.10.158/logs",
+      "method": "GET",
+      "headers": {
+        "content-type": "application/json",
+        "authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE0Nzk5ODg3OTJ9.NqphOOMRpr9VL8pqJPo7RcMcvuvxBFzxbaHTwk5oCh0"
+      }
+    }
+
+    $.ajax(settings).done(function (response) {
+      logs = response;
+
+      logs.forEach(function(item) {
+
+        if (item.value != undefined) {
+          values.push(item.value);
+          dates.push(item.updated_at);
+          descriptions.push(item.description);
+        }
+      });
+
+
       var chart = c3.generate({
         bindto: '#chart',
         data: {
@@ -35,6 +61,12 @@
           }
         }
       });
+
+
+    });
+
+
+
       // setTimeout(function () {
       //   chart.load({
       //     columns: [
