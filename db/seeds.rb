@@ -77,12 +77,12 @@ Log.create(description: "CREATE: GPIO #{kwh6.name} (GPIO:#{kwh6.gpio_number}/PIN
 
 puts "Creating Meters ...\n"
 
-p1 = Meter.create(name: "P1", value: 0, gpio: 11)
-p2 = Meter.create(name: "P2", value: 0, gpio: 5)
-p3 = Meter.create(name: "P3", value: 0, gpio: 6)
-p4 = Meter.create(name: "P4", value: 0, gpio: 13)
-p5 = Meter.create(name: "P5", value: 0, gpio: 19)
-p6 = Meter.create(name: "P6", value: 0, gpio: 26)
+p1 = Meter.create(name: "P1", value: 0, gpio: 11, pin: 23)
+p2 = Meter.create(name: "P2", value: 0, gpio: 5, pin: 29)
+p3 = Meter.create(name: "P3", value: 0, gpio: 6, pin: 3)
+p4 = Meter.create(name: "P4", value: 0, gpio: 13, pin: 33)
+p5 = Meter.create(name: "P5", value: 0, gpio: 19, pin: 35)
+p6 = Meter.create(name: "P6", value: 0, gpio: 26, pin: 37)
 # if RbConfig::CONFIG['host_os'] == "linux-gnueabihf"
 #   puts "Scanning for Sensors ...\n"
 #   Sensors.scan

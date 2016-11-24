@@ -46,6 +46,6 @@ class MetersController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def meter_params
-      params.require(:meter).permit(:name, :value, :gpio)
+      params.require(:meter).permit(:name, :value, :gpio, :pin)
     end
 end
