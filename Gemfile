@@ -6,6 +6,7 @@ gem 'mysql2'
 gem 'rack-attack'
 gem 'thin'
 gem 'whenever', :require => false
+gem 'listen', '~> 3.0' # NOTE: for TCP functionality, use '~> 2.10' for now
 
 # Raspberry specific
 gem 'rpi_gpio', :require => false
