@@ -18,7 +18,7 @@ class Inputs
             meter.save
             sleep 1
           end
-          sleep 0.1
+          # sleep 0.1
         end while true
 
     end
