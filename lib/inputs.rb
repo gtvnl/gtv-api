@@ -6,12 +6,12 @@ class Inputs
   class << self
 
     def start_polling
-      kwh1 = Pathname.new("/sys/class/gpio/gpio11/")
-      kwh2 = Pathname.new("/sys/class/gpio/gpio5/")
-      kwh3 = Pathname.new("/sys/class/gpio/gpio6/")
-      kwh4 = Pathname.new("/sys/class/gpio/gpio13/")
-      kwh5 = Pathname.new("/sys/class/gpio/gpio19/")
-      kwh6 = Pathname.new("/sys/class/gpio/gpio21/")
+      kwh1 = Pathname.new("/sys/class/gpio/gpio11/value")
+      kwh2 = Pathname.new("/sys/class/gpio/gpio5/value")
+      kwh3 = Pathname.new("/sys/class/gpio/gpio6/value")
+      kwh4 = Pathname.new("/sys/class/gpio/gpio13/value")
+      kwh5 = Pathname.new("/sys/class/gpio/gpio19/value")
+      kwh6 = Pathname.new("/sys/class/gpio/gpio21/value")
 
       kwhs = [kwh1, kwh2, kwh3, kwh4, kwh5, kwh6]
 
