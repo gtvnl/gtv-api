@@ -5,6 +5,21 @@ require 'listen'
 class Inputs
   class << self
 
+    def start
+      filedir = "/sys/class/gpio/gpio11"
+      filenames = [ "value", "file2" ]
+
+      listenRegex = filenames.join("$|").gsub!(".", "\.") + "$"
+
+      # Should only track 'file1' and 'file2' in this directory
+      listener = Listen.to(filedir, only: /#{listenRegex}/) do |modified, added, removed|
+        puts "Updated: " + modified.first
+      end
+
+      listener.start
+      sleep
+    end
+
     def start_polling
       kwh1 = Pathname.new("/sys/class/gpio/gpio11/value")
       kwh2 = Pathname.new("/sys/class/gpio/gpio5/value")
