@@ -27,8 +27,8 @@ $.ajax(settings).done(function (response) {
     }
   });
 
-  console.log('values', values.size);
-  console.log('dates', dates.size);
-  console.log('descriptions', descriptions.size);
+  console.log('values', values.length);
+  console.log('dates', dates.length);
+  console.log('descriptions', descriptions.length);
 
 });
