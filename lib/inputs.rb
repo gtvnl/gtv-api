@@ -6,16 +6,7 @@ class Inputs
   class << self
 
     def start
-      filedir = "/sys/class/gpio/gpio11"
 
-
-      # Should only track 'file1' and 'file2' in this directory
-      listener = Listen.to(filedir, only: "value"/) do |modified, added, removed|
-        puts "Updated: #{modified.first}"
-      end
-
-      listener.start
-      sleep
     end
 
     def start_polling
