@@ -7,6 +7,7 @@ gem 'rack-attack'
 gem 'thin'
 gem 'whenever', :require => false
 gem 'filewatcher'
+gem 'pi_piper'
 
 # Raspberry specific
 gem 'rpi_gpio', :require => false
