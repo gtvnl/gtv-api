@@ -13,7 +13,7 @@ class Inputs
 
       # Should only track 'file1' and 'file2' in this directory
       listener = Listen.to(filedir, only: /#{listenRegex}/) do |modified, added, removed|
-        puts "Updated: " + modified.first
+        puts "Updated: #{modified.first}"
       end
 
       listener.start
