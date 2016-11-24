@@ -5,6 +5,18 @@ require 'listen'
 class Inputs
   class << self
 
+    FileWatcher.new(["/sys/class/gpio/gpio11/value"]).watch() do |filename, event|
+  if(event == :changed)
+    puts "File updated: " + filename
+  end
+  if(event == :delete)
+    puts "File deleted: " + filename
+  end
+  if(event == :new)
+    puts "Added file: " + filename
+  end
+end
+
     def start_polling
       kwh1 = Pathname.new("/sys/class/gpio/gpio11/value")
       kwh2 = Pathname.new("/sys/class/gpio/gpio5/value")
