@@ -1,7 +1,7 @@
 var settings = {
   "async": true,
   "crossDomain": true,
-  "url": "http://192.168.10.158:3000/logs",
+  "url": "http://192.168.10.158/logs",
   "method": "GET",
   "headers": {
     "content-type": "application/json",
