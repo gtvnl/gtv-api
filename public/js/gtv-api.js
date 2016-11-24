@@ -27,8 +27,6 @@ $.ajax(settings).done(function (response) {
     }
   });
 
-  console.log('values', values.length);
-  console.log('dates', dates.length);
-  console.log('descriptions', descriptions.length);
+
 
 });
