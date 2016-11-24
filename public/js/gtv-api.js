@@ -18,30 +18,17 @@ var settings = {
 $.ajax(settings).done(function (response) {
   logs = response;
 
-  dates = logs.forEach(function(item) {
-    // do something with `item`
-    if (item.value === undefined) {
-      dates.push(0)
-    } else {
-      dates.push(item.updated_at)
-    }  });
+  logs.forEach(function(item) {
 
-  values = logs.forEach(function(item) {
-    // do something with `item`
-    if (item.value === undefined) {
-      dates.push(0)
-    } else {
-      dates.push(item.value)
+    if (item.value != undefined) {
+      values.push(item.value);
+      dates.push(item.updated_at);
+      descriptions.push(item.description);
     }
-
   });
 
-  descriptions = logs.forEach(function(item) {
-    // do something with `item`
-    if (item.value === undefined) {
-      dates.push("ERROR")
-    } else {
-      dates.push(item.description)
-    }  });
+  console.log('values', values.size);
+  console.log('dates', dates.size);
+  console.log('descriptions', descriptions.size);
 
 });
