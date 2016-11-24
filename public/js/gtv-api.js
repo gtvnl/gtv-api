@@ -12,5 +12,5 @@ var settings = {
 }
 
 $.ajax(settings).done(function (response) {
-  logs = respone;
+  logs = response;
 });
