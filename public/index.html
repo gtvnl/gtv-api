@@ -43,14 +43,17 @@
       var chart = c3.generate({
         bindto: '#chart',
         data: {
+          url: "http://192.168.10.158/logs",
+          mineType: 'json',
           x : 'date',
-          xFormat : '%Y%m%d',
-          columns: [
-//            ['x', '2013-01-01', '2013-01-02', '2013-01-03', '2013-01-04', '2013-01-05', '2013-01-06'],
-            ['dates', [dates]],
-            ['values', [values]]
-          ]
+          xFormat : '%Y-%m-%dT%H:%M:%S.%LZ'
+          // columns: [
+          //    ['date', dates],
+          //    ['sample', 500, 630],
+          //    ['sample2', 400, 600]
+          // ]
         },
+
         axis : {
           x : {
             type : 'timeseries',
