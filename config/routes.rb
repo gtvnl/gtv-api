@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
 
 
+  resources :meters
   resources :gpios
       resources :items
       resources :sensors

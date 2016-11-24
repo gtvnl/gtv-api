@@ -57,7 +57,32 @@ Log.create(description: "CREATE: GPIO #{gpio7.name} (GPIO:#{gpio7.gpio_number}/P
 gpio8 = Gpio.create(name: "Relais 8", gpio_number: 16, pin: 36, of_type: 'output')
 Log.create(description: "CREATE: GPIO #{gpio8.name} (GPIO:#{gpio8.gpio_number}/PIN:#{gpio8.pin}")
 
+kwh1 = Gpio.create(name: "kWh1", gpio_number: 11, pin: 23, of_type: 'input')
+Log.create(description: "CREATE: GPIO #{kwh1.name} (GPIO:#{kwh1.gpio_number}/PIN:#{kwh1.pin}")
 
+kwh2 = Gpio.create(name: "kWh2", gpio_number: 5, pin: 29, of_type: 'input')
+Log.create(description: "CREATE: GPIO #{kwh2.name} (GPIO:#{kwh2.gpio_number}/PIN:#{kwh2.pin}")
+
+kwh3 = Gpio.create(name: "kWh4", gpio_number: 6, pin: 31, of_type: 'input')
+Log.create(description: "CREATE: GPIO #{kwh3.name} (GPIO:#{kwh3.gpio_number}/PIN:#{kwh3.pin}")
+
+kwh4 = Gpio.create(name: "kWh4", gpio_number: 13, pin: 33, of_type: 'input')
+Log.create(description: "CREATE: GPIO #{kwh4.name} (GPIO:#{kwh4.gpio_number}/PIN:#{kwh4.pin}")
+
+kwh5 = Gpio.create(name: "kWh5", gpio_number: 19, pin: 35, of_type: 'input')
+Log.create(description: "CREATE: GPIO #{kwh5.name} (GPIO:#{kwh5.gpio_number}/PIN:#{kwh5.pin}")
+
+kwh6 = Gpio.create(name: "kWh6", gpio_number: 26, pin: 37, of_type: 'input')
+Log.create(description: "CREATE: GPIO #{kwh6.name} (GPIO:#{kwh6.gpio_number}/PIN:#{kwh6.pin}")
+
+puts "Creating Meters ...\n"
+
+p1 = Meter.create(name: "P1", value: 0, gpio: 11)
+p2 = Meter.create(name: "P2", value: 0, gpio: 5)
+p3 = Meter.create(name: "P3", value: 0, gpio: 6)
+p4 = Meter.create(name: "P4", value: 0, gpio: 13)
+p5 = Meter.create(name: "P5", value: 0, gpio: 19)
+p6 = Meter.create(name: "P6", value: 0, gpio: 26)
 # if RbConfig::CONFIG['host_os'] == "linux-gnueabihf"
 #   puts "Scanning for Sensors ...\n"
 #   Sensors.scan
