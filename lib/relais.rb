@@ -34,8 +34,12 @@ class Relais
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
         RPi::GPIO.set_high pin.pin
+
         pin.end_time = Time.now
+        hours_run = TimeDifference.between(pin.start_time, pin.end_time).in_hours
+        pin.operating_hours += hours_run
         pin.save
+
         Log.create(description: "Switched OFF #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number})")
       else
         Log.create(description: "ERROR: GPIO on pin #{pin_number} not configured. Check your configuration")
