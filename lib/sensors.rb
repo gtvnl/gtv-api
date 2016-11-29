@@ -39,7 +39,7 @@ class Sensors
       elsif sensor.is_a? String
         address = sensor
       end
-      if sensors.has_value?(address)
+      if sensors.to_s.include?(address)
         puts "Reading sensor #{address}\n"
         path = "/sys/bus/w1/devices"
 
