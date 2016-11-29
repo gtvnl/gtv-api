@@ -50,7 +50,7 @@ class Relais
       unless pin.nil?
         if pin.is_on?
           RPi::GPIO.set_high pin.pin
-          pin.update_column(:is_off, false)
+          pin.update_column(:is_on, false)
 
           pin.end_time = Time.now
           seconds_run = TimeDifference.between(pin.start_time, pin.end_time).in_seconds
