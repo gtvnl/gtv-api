@@ -20,13 +20,16 @@ class Setpoints
         puts "Configure the target GPIO first."
       else
         # Assume we have valid data
+        relais = setpoint.gpio.pin
         current_temp = Sensors.read_one(setpoint.sensor)[setpoint.sensor.address]
         min_temp = setpoint.value
 
         if current_temp < min_temp
           puts "Temperatuur is te laag."
+          Relais.on(relais)
         elsif current_temp > min_temp
           puts "Temperatuur is te hoog."
+          Relais.off(relais)
         end
 
 
