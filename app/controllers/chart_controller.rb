@@ -16,7 +16,6 @@ class ChartController < ApplicationController
         hash.merge!(newHash)
       end
 
-
     end
 
     render json: hash
