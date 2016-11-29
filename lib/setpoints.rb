@@ -5,7 +5,7 @@ class Setpoints
     @setpoints =  Setpoint.where.not(sensor: nil, gpio: nil)
 
     @setpoints.each do |setpoint|
-
+      check(setpoint)
     end
 
   end
