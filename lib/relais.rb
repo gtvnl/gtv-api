@@ -9,7 +9,7 @@ class Relais
 
 
     def setup
-      if @@setup > 0
+      if @@setup = 0
         RPi::GPIO.set_warnings(false)
         RPi::GPIO.set_numbering :board
 
@@ -27,6 +27,7 @@ class Relais
         if !pin.is_on?
           RPi::GPIO.set_low pin.pin
           pin.start_time = Time.now
+          pin.is_on = true
           pin.save
 
           Log.create(description: "Switched ON #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number})")
@@ -53,6 +54,7 @@ class Relais
           pin.end_time = Time.now
           seconds_run = TimeDifference.between(pin.start_time, pin.end_time).in_seconds
           pin.operating_seconds += seconds_run
+          pin.is_on = false
           pin.save
           Log.create(description: "Switched OFF #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number})")
 
