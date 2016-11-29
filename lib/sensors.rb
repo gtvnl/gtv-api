@@ -3,7 +3,7 @@ class Sensors
   class << self
 
     def read_all
-      puts "Reading all sensors ...\n"
+      puts "Searching ...\n"
 
       path = "/sys/bus/w1/devices"
 
