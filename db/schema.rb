@@ -47,13 +47,11 @@ ActiveRecord::Schema.define(version: 20161129080726) do
 
   create_table "sensors", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "name"
-    t.float    "value",       limit: 24
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
+    t.float    "value",      limit: 24
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
     t.string   "address"
     t.string   "location"
-    t.integer  "setpoint_id"
-    t.index ["setpoint_id"], name: "index_sensors_on_setpoint_id", using: :btree
   end
 
   create_table "setpoints", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
@@ -62,8 +60,10 @@ ActiveRecord::Schema.define(version: 20161129080726) do
     t.datetime "created_at",            null: false
     t.datetime "updated_at",            null: false
     t.integer  "pin"
+    t.integer  "sensor_id"
     t.integer  "gpio_id"
     t.index ["gpio_id"], name: "index_setpoints_on_gpio_id", using: :btree
+    t.index ["sensor_id"], name: "index_setpoints_on_sensor_id", using: :btree
   end
 
   create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
@@ -75,6 +75,6 @@ ActiveRecord::Schema.define(version: 20161129080726) do
     t.string   "apikey"
   end
 
-  add_foreign_key "sensors", "setpoints"
   add_foreign_key "setpoints", "gpios"
+  add_foreign_key "setpoints", "sensors"
 end

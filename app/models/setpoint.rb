@@ -1,6 +1,6 @@
 class Setpoint < ApplicationRecord
-  has_one :gpio
-  has_one :sensor
+  belongs_to :gpio
+  belongs_to :sensor
 
   validates :name, presence: true, uniqueness: true
   validates :value, presence: true

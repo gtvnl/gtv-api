@@ -1,5 +1,5 @@
 class Gpio < ApplicationRecord
 
-  belongs_to :setpoint
+  has_one :setpoint
 
 end
