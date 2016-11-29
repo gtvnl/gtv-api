@@ -5,19 +5,22 @@ class Relais
   class << self
 
     @@pins = Gpio.where(of_type: 'output')
+    @@setup_already_run = false
 
     def setup
-      RPi::GPIO.set_warnings(false)
-      RPi::GPIO.set_numbering :board
+      unless @@setup_already_run
+        @@setup_already_run = true
+        RPi::GPIO.set_warnings(false)
+        RPi::GPIO.set_numbering :board
 
-      @@pins.each do |pin|
-        RPi::GPIO.setup pin.pin, :as => :output
-
-      end
-
+        @@pins.each do |pin|
+          RPi::GPIO.setup pin.pin, :as => :output
+        end
     end
 
     def on(pin_number)
+    begin
+      setup
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
         RPi::GPIO.set_low pin.pin
@@ -28,6 +31,8 @@ class Relais
         Log.create(description: "ERROR: GPIO on pin #{pin_number} not configured. Check your configuration")
       end
 
+    rescue
+      puts "GPIOs are not initialised yet. Run 'Relais.setup' first."
     end
 
     def off(pin_number)
@@ -47,7 +52,7 @@ class Relais
     end
 
     def all_on
-      setup(quiet: true)
+      setup
       @@pins.each do |pin|
         on(pin.pin)
       end
