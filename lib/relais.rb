@@ -21,6 +21,7 @@ class Relais
         @@pins.each do |pin|
           RPi::GPIO.setup pin.pin, :as => :output
         end
+        Log.create(description: "INIT GPIO")
       end
     end
 
