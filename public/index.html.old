@@ -66,20 +66,8 @@
         }
       });
 
-var chart = c3.generate({
-  bindto: '#chart',
-  data: {
-      columns: [
-          dates,
-          sensors,
-	  values
-      ]
-  }
+    });
 
-
-});
-
-});
 
     </script>
 &copy; 2016 - GTV
