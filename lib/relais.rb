@@ -28,15 +28,13 @@ class Relais
       setup
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
-        if EntityStore["#{pin.pin}"] == false
-
+        if pin.is_on?
           RPi::GPIO.set_low pin.pin
           pin.start_time = Time.now
           pin.save
 
           Log.create(description: "Switched ON #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number})")
-          EntityStore["#{pin.pin}"] = true
-          
+
         else
           puts "#{pin} is already switched on."
         end
@@ -50,7 +48,7 @@ class Relais
     def off(pin_number)
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
-        if EntityStore["#{pin.pin}"] == true
+        if !pin.is_on?
 
           RPi::GPIO.set_high pin.pin
 
@@ -59,7 +57,6 @@ class Relais
           pin.operating_seconds += seconds_run
           pin.save
           Log.create(description: "Switched OFF #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number})")
-          EntityStore.delete("#{pin.pin}")
 
         else
           puts "#{pin} is already switched off."
