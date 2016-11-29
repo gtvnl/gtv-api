@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20161129095106) do
     t.integer  "of_type"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
-    t.bigint   "operating_hours", default: 0
+    t.bigint   "operating_seconds", default: 0
     t.datetime "start_time"
     t.datetime "end_time"
   end
