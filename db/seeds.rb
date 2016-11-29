@@ -24,12 +24,10 @@ Log.create(description: "Added an API key for '#{user.name}':'#{apikey}'")
 
 puts "Creating Setpoints ...\n"
 
-relais = [12,16,18,22,24,26]
 (1..6).each do |index|
   Setpoint.find_or_create_by(name: "Setpoint #{index}") do |setpoint|
-    setpoint.name = "Setpoint #{index} PIN:#{relais[index - 1]}"
+    setpoint.name = "Setpoint #{index}"
     setpoint.value = -20.0
-    setpoint.pin = relais[index - 1]
     Log.create(description: "CREATE: Setpoint #{setpoint.name} with value #{setpoint.value} &deg;C", value: setpoint.value)
 
   end
