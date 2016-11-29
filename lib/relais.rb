@@ -41,7 +41,8 @@ class Relais
 
         pin.end_time = Time.now
         hours_run = TimeDifference.between(pin.start_time, pin.end_time).in_hours
-        pin.operating_hours += hours_run
+        pin.operating_hours = pin.operating_hours + hour_run
+        
         pin.save
 
         Log.create(description: "Switched OFF #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number})")
@@ -62,6 +63,6 @@ class Relais
         off(pin.pin)
       end
     end
-    
+
   end
 end
