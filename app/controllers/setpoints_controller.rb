@@ -5,10 +5,8 @@
 
     # GET /setpoints
     def index
-      #@setpoints = Setpoint.all
-	render json: Setpoint.includes(:sensor, :gpio), include: 
-          ['sensor', 'gpio']
-      #render json: @setpoints, meta: default_meta
+      @setpoints = Setpoint.includes(:sensor, :gpio)
+      render json: @setpoints, include: ['sensor', 'gpio'], meta: default_meta
     end
 
     # GET /setpoints/1
@@ -19,7 +17,6 @@
 
     # POST /setpoints
     def create
-      binding.pry
       @setpoint = Setpoint.new(setpoint_params)
 
       if @setpoint.save
@@ -61,6 +58,6 @@
 
       # Only allow a trusted parameter "white list" through.
       def setpoint_params
-        params.require(:setpoint).permit(:name, :value)
+        params.require(:setpoint).permit(:name, :value, :sensor, :gpio)
       end
   end
