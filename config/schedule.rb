@@ -22,3 +22,7 @@
 every 5.minutes do
   runner "UpdateSensorsJob.perform_now"
 end
+
+every 1.minute do
+  runner "CheckSetpointsJob.perform_now"
+end

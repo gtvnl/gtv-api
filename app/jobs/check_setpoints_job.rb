@@ -3,5 +3,6 @@ class CheckSetpointsJob < ApplicationJob
 
   def perform(*args)
     # Do something later
+    Setpoints.check_all
   end
 end
