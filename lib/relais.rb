@@ -28,7 +28,7 @@ class Relais
       setup
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
-        if pin.is_on?
+        if !pin.is_on?
           RPi::GPIO.set_low pin.pin
           pin.start_time = Time.now
           pin.save
@@ -48,7 +48,7 @@ class Relais
     def off(pin_number)
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
-        if !pin.is_on?
+        if pin.is_on?
 
           RPi::GPIO.set_high pin.pin
 
