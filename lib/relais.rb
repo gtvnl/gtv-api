@@ -4,21 +4,9 @@ require 'rpi_gpio'
 class Relais
   class << self
 
-    @@pins = Gpio.where(of_type: 'output')
-
-    def setup
-      on_count = Gpio.where(is_on: true).size
-
       RPi::GPIO.set_warnings(false)
       RPi::GPIO.set_numbering :board
 
-        if on_count == 0
-          @@pins.each do |pin|
-            RPi::GPIO.setup pin.pin, :as => :output
-          end
-        end
-      Log.create(description: "Initialising GPIOs ...")
-    end
 
     def on(pin_number)
       setup
@@ -26,7 +14,8 @@ class Relais
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
         if !pin.is_on?
-          RPi::GPIO.set_low pin.pin
+          RPi::GPIO.setup pin.pin, :as => :output, :initialize => :low
+          # RPi::GPIO.set_low pin.pin
           pin.update_column(:is_on, true)
 
           pin.start_time = Time.now
@@ -50,7 +39,7 @@ class Relais
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
         if pin.is_on?
-          RPi::GPIO.set_high pin.pin
+          RPi::GPIO.setup pin.pin, :as => :output, :initialize => :high
           pin.update_column(:is_on, false)
 
           pin.end_time = Time.now
