@@ -9,6 +9,7 @@ gem 'whenever', :require => false
 gem 'awesome_print'
 gem 'active_model_serializers'
 gem 'time_difference'
+gem 'entity_storage'
 
 # Raspberry specific
 gem 'rpi_gpio', :require => false
