@@ -5,7 +5,7 @@ class Relais
   class << self
 
     @@pins = Gpio.where(of_type: 'output')
-    @@setup =  Gpio.where(is_on: true)
+    @@setup =  Gpio.where(is_on: true).size
 
 
     def setup
@@ -74,7 +74,7 @@ class Relais
 
     def all_off
       setup
-      
+
       @@pins.each do |pin|
         off(pin.pin)
       end
