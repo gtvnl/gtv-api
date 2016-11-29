@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-puts "Creating Administrator ...\n"
+puts "\e[32m✔ - Creating Administrator ...\e[0m\n"
 User.find_or_create_by(email: "r.d.vos@gtv.nl") do |user|
   user.name = "Administrator"
   user.password = "Admin1234!"
@@ -14,7 +14,7 @@ User.find_or_create_by(email: "r.d.vos@gtv.nl") do |user|
   Log.create(description: "Added an Administrator named '#{user.name}' with password '#{user.password}'")
 end
 
-puts "Creating API key ...\n"
+puts "\e[32m✔ - Creating API key ...\e[0m\n"
 apikey = AuthenticateUser.call("r.d.vos@gtv.nl", "Admin1234!").result
 user = User.find_by(email: "r.d.vos@gtv.nl")
 
@@ -22,7 +22,7 @@ user.apikey = apikey
 user.save
 Log.create(description: "Added an API key for '#{user.name}':'#{apikey}'")
 
-puts "Creating Setpoints ...\n"
+puts "\e[32m✔ - Creating Setpoints ...\e[0m\n"
 
 (1..6).each do |index|
   Setpoint.find_or_create_by(name: "Setpoint #{index}") do |setpoint|
@@ -33,7 +33,7 @@ puts "Creating Setpoints ...\n"
   end
 end
 
-puts "Creating GPIOs ...\n"
+puts "\e[32m✔ - Creating GPIOs ...\e[0m\n"
 gpio1 = Gpio.create(name: "Relais 1", gpio_number: 18, pin: 12, of_type: 'output')
 Log.create(description: "CREATE: GPIO #{gpio1.name} (GPIO:#{gpio1.gpio_number}/PIN:#{gpio1.pin}")
 
@@ -76,7 +76,7 @@ Log.create(description: "CREATE: GPIO #{kwh5.name} (GPIO:#{kwh5.gpio_number}/PIN
 kwh6 = Gpio.create(name: "kWh6", gpio_number: 26, pin: 37, of_type: 'input')
 Log.create(description: "CREATE: GPIO #{kwh6.name} (GPIO:#{kwh6.gpio_number}/PIN:#{kwh6.pin}")
 
-puts "Creating Meters ...\n"
+puts "\e[32m✔ - Creating Meters ...\e[0m\n"
 
 p1 = Meter.create(name: "P1", value: 0, gpio: 11, pin: 23)
 p2 = Meter.create(name: "P2", value: 0, gpio: 5, pin: 29)
@@ -84,6 +84,7 @@ p3 = Meter.create(name: "P3", value: 0, gpio: 6, pin: 3)
 p4 = Meter.create(name: "P4", value: 0, gpio: 13, pin: 33)
 p5 = Meter.create(name: "P5", value: 0, gpio: 19, pin: 35)
 p6 = Meter.create(name: "P6", value: 0, gpio: 26, pin: 37)
+
 # if RbConfig::CONFIG['host_os'] == "linux-gnueabihf"
 #   puts "Scanning for Sensors ...\n"
 #   Sensors.scan
