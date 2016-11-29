@@ -28,7 +28,7 @@ class Relais
       setup
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
-        unless EntityStore["#{pin.pin}"]
+        if EntityStore["#{pin.pin}"] == false
           EntityStore["#{pin.pin}"] = true
 
           RPi::GPIO.set_low pin.pin
@@ -49,7 +49,7 @@ class Relais
     def off(pin_number)
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
-        if EntityStore["#{pin.pin}"]
+        if EntityStore["#{pin.pin}"] == true
           EntityStore.delete("#{pin.pin}")
 
           RPi::GPIO.set_high pin.pin
