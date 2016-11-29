@@ -20,7 +20,7 @@ class Setpoints
         puts "Configure the target GPIO first."
       else
         # Assume we have valid data
-        current_temp = Sensors.read_one(setpoint.sensor)
+        current_temp = Sensors.read_one(setpoint.sensor)[setpoint.sensor.address]
         min_temp = setpoint.value
 
         if current_temp < min_temp
