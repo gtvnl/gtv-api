@@ -52,12 +52,11 @@ class Sensors
         temp = value[1].to_f / 1000
 
         puts "Sensor #{address}: #{temp} DegrC\n"
-        return {"#{address}": temp}
+        return {"#{address}" => temp}
       end
     end
 
     def update
-      puts "Scanning available sensors ..."
 
       sensors = read_all()
 
