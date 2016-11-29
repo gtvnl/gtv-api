@@ -7,6 +7,10 @@ class Relais
     @@pins = Gpio.where(of_type: 'output')
     @@setup_already_run = false
 
+    def initialize
+      setup
+    end
+
     def setup
       unless @@setup_already_run
         @@setup_already_run = true
