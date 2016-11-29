@@ -9,10 +9,10 @@ class Relais
 
 
     def setup
-      if @@setup = 0
+      if @@setup == 0
         RPi::GPIO.set_warnings(false)
         RPi::GPIO.set_numbering :board
-
+        Log.create(description: "Initialising GPIOs ...")
         @@pins.each do |pin|
           RPi::GPIO.setup pin.pin, :as => :output
         end
