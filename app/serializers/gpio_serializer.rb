@@ -1,3 +1,5 @@
 class GpioSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :name, :pin, :gpio_number, :of_type
+  has_one :setpoint
+
 end

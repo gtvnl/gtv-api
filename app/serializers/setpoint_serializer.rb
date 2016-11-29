@@ -1,3 +1,6 @@
 class SetpointSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :name, :value,
+
+  belongs_to :gpio
+  belongs_to :sensor
 end
