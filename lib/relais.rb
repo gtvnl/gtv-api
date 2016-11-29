@@ -36,6 +36,8 @@ class Relais
           pin.save
 
           Log.create(description: "Switched ON #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number})")
+        else
+          puts "#{pin} is already switched on."
         end
       else
         Log.create(description: "ERROR: GPIO on pin #{pin_number} not configured. Check your configuration")
@@ -49,7 +51,7 @@ class Relais
       unless pin.nil?
         if EntityStore["#{pin.pin}"]
           EntityStore.delete("#{pin.pin}")
-          
+
           RPi::GPIO.set_high pin.pin
 
           pin.end_time = Time.now
@@ -57,6 +59,8 @@ class Relais
           pin.operating_seconds += seconds_run
           pin.save
           Log.create(description: "Switched OFF #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number})")
+        else
+          puts "#{pin} is already switched off."
         end
       else
         Log.create(description: "ERROR: GPIO on pin #{pin_number} not configured. Check your configuration")
