@@ -9,8 +9,6 @@ class Relais
 
 
     def on(pin_number)
-      setup
-
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
         if !pin.is_on?
@@ -34,8 +32,6 @@ class Relais
     end
 
     def off(pin_number)
-      setup
-
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
         if pin.is_on?
@@ -58,16 +54,12 @@ class Relais
     end
 
     def all_on
-      setup
-
       @@pins.each do |pin|
         on(pin.pin)
       end
     end
 
     def all_off
-      setup
-
       @@pins.each do |pin|
         off(pin.pin)
       end
