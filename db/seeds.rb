@@ -14,24 +14,15 @@ User.find_or_create_by(email: "r.d.vos@gtv.nl") do |user|
   Log.create(description: "Added an Administrator named '#{user.name}' with password '#{user.password}'")
 end
 
-puts "\e[32m✔ - Creating API key ...\e[0m\n"
+puts "\e[32m✔ - Creating API key ...\e[0m"
 apikey = AuthenticateUser.call("r.d.vos@gtv.nl", "Admin1234!").result
 user = User.find_by(email: "r.d.vos@gtv.nl")
 
 user.apikey = apikey
 user.save
 Log.create(description: "Added an API key for '#{user.name}':'#{apikey}'")
+puts ": #{apikey} \n"
 
-puts "\e[32m✔ - Creating Setpoints ...\e[0m\n"
-
-(1..6).each do |index|
-  Setpoint.find_or_create_by(name: "Setpoint #{index}") do |setpoint|
-    setpoint.name = "Setpoint #{index}"
-    setpoint.value = -20.0
-    Log.create(description: "CREATE: Setpoint #{setpoint.name} with value #{setpoint.value} &deg;C", value: setpoint.value)
-
-  end
-end
 
 puts "\e[32m✔ - Creating GPIOs ...\e[0m\n"
 gpio1 = Gpio.create(name: "Relais 1", gpio_number: 18, pin: 12, of_type: 'output')
@@ -75,6 +66,20 @@ Log.create(description: "CREATE: GPIO #{kwh5.name} (GPIO:#{kwh5.gpio_number}/PIN
 
 kwh6 = Gpio.create(name: "kWh6", gpio_number: 26, pin: 37, of_type: 'input')
 Log.create(description: "CREATE: GPIO #{kwh6.name} (GPIO:#{kwh6.gpio_number}/PIN:#{kwh6.pin}")
+
+puts "\e[32m✔ - Creating Setpoints ...\e[0m\n"
+
+gpios = [gpio1, gpio2, gpio3, gpio4, gpio5, gpio6]
+
+(1..6).each do |index|
+  Setpoint.find_or_create_by(name: "Setpoint #{index}") do |setpoint|
+    setpoint.name = "Setpoint #{index}"
+    setpoint.value = -20.0
+    setpoint.gpio = gpios[index - 1]
+    Log.create(description: "CREATE: Setpoint #{setpoint.name} with value #{setpoint.value} &deg;C", value: setpoint.value)
+
+  end
+end
 
 puts "\e[32m✔ - Creating Meters ...\e[0m\n"
 
