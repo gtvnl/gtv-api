@@ -4,9 +4,10 @@ require 'rpi_gpio'
 class Relais
   class << self
 
-      RPi::GPIO.set_warnings(false)
-      RPi::GPIO.set_numbering :board
+    @@pins = Gpio.where(of_type: 'output')
 
+    RPi::GPIO.set_warnings(false)
+    RPi::GPIO.set_numbering :board
 
     def on(pin_number)
       pin = Gpio.find_by(pin: pin_number)
