@@ -43,6 +43,7 @@ GEM
     bcrypt (3.1.11)
     builder (3.2.2)
     byebug (9.0.6)
+    choice (0.2.0)
     chronic (0.10.2)
     coderay (1.1.1)
     concurrent-ruby (1.0.2)
@@ -96,6 +97,11 @@ GEM
     rails-dom-testing (2.0.1)
       activesupport (>= 4.2.0, < 6.0)
       nokogiri (~> 1.6.0)
+    rails-erd (1.5.0)
+      activerecord (>= 3.2)
+      activesupport (>= 3.2)
+      choice (~> 0.2.0)
+      ruby-graphviz (~> 1.2)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
     railties (5.0.0.1)
@@ -109,6 +115,7 @@ GEM
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     rpi_gpio (0.3.2)
+    ruby-graphviz (1.2.2)
     simple_command (0.0.9)
     slop (3.6.0)
     spring (2.0.0)
@@ -151,6 +158,7 @@ DEPENDENCIES
   rack-attack
   rack-cors
   rails (= 5.0.0.1)
+  rails-erd
   rpi_gpio
   simple_command
   spring

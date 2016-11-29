@@ -61,6 +61,7 @@ ActiveRecord::Schema.define(version: 20161129080726) do
     t.float    "value",      limit: 24
     t.datetime "created_at",            null: false
     t.datetime "updated_at",            null: false
+    t.integer  "pin"
     t.integer  "gpio_id"
     t.index ["gpio_id"], name: "index_setpoints_on_gpio_id", using: :btree
   end
