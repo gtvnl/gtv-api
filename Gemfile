@@ -6,6 +6,7 @@ gem 'mysql2'
 gem 'rack-attack'
 gem 'thin'
 gem 'whenever', :require => false
+gem 'awesome_print'
 # Raspberry specific
 gem 'rpi_gpio', :require => false
 
