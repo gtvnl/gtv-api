@@ -5,23 +5,22 @@ class Relais
   class << self
 
     @@pins = Gpio.where(of_type: 'output')
+    @@setup =  Gpio.where(is_on: true)
 
-    def initialize
-      Log.create(description: "INITIALISE REAIS")
-    end
 
     def setup
-      RPi::GPIO.set_warnings(false)
-      RPi::GPIO.set_numbering :board
+      if @@setup > 0
+        RPi::GPIO.set_warnings(false)
+        RPi::GPIO.set_numbering :board
 
-      @@pins.each do |pin|
-        RPi::GPIO.setup pin.pin, :as => :output
+        @@pins.each do |pin|
+          RPi::GPIO.setup pin.pin, :as => :output
+        end
       end
     end
 
     def on(pin_number)
-      RPi::GPIO.set_warnings(false)
-      RPi::GPIO.set_numbering :board
+      setup
 
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
@@ -43,8 +42,7 @@ class Relais
     end
 
     def off(pin_number)
-      RPi::GPIO.set_warnings(false)
-      RPi::GPIO.set_numbering :board
+      setup
 
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
@@ -67,8 +65,7 @@ class Relais
     end
 
     def all_on
-      RPi::GPIO.set_warnings(false)
-      RPi::GPIO.set_numbering :board
+      setup
 
       @@pins.each do |pin|
         on(pin.pin)
@@ -76,9 +73,8 @@ class Relais
     end
 
     def all_off
-      RPi::GPIO.set_warnings(false)
-      RPi::GPIO.set_numbering :board
-
+      setup
+      
       @@pins.each do |pin|
         off(pin.pin)
       end
