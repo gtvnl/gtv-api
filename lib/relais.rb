@@ -6,15 +6,13 @@ class Relais
 
     @@pins = Gpio.where(of_type: 'output')
 
-    def setup(quiet: false)
+    def setup
       RPi::GPIO.set_warnings(false)
       RPi::GPIO.set_numbering :board
 
       @@pins.each do |pin|
         RPi::GPIO.setup pin.pin, :as => :output
-        if quiet == false
-          Log.create(description: "Initialised #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number}) as OUTPUT")
-        end
+
       end
 
     end
@@ -23,7 +21,7 @@ class Relais
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
         RPi::GPIO.set_low pin.pin
-        pin.end_time = Time.now
+        pin.start_time = Time.now
         pin.save
         Log.create(description: "Switched ON #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number})")
       else
