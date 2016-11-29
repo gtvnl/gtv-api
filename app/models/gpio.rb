@@ -7,6 +7,6 @@ class Gpio < ApplicationRecord
   end
 
   def operating_minutes
-    return operating_seconds.to_f / 3600
+    return operating_seconds.to_f / 60
   end
 end
