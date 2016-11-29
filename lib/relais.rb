@@ -16,6 +16,7 @@ class Relais
         @@pins.each do |pin|
           RPi::GPIO.setup pin.pin, :as => :output
         end
+      end
     end
 
     def on(pin_number)
