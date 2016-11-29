@@ -5,11 +5,9 @@ class Relais
   class << self
 
     @@pins = Gpio.where(of_type: 'output')
-    @@setup =  Gpio.where(is_on: true).size
-
 
     def setup
-      if @@setup == 0
+      if Gpio.where(is_on: true).size == 0
         RPi::GPIO.set_warnings(false)
         RPi::GPIO.set_numbering :board
         Log.create(description: "Initialising GPIOs ...")
