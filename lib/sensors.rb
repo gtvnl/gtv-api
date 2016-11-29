@@ -26,11 +26,18 @@ class Sensors
 
           values.merge!("#{sensor}": temp)
 
-        end
+        ends2/
       return values
     end
 
     def read_one(sensor)
+      address = ""
+      if sensor.is_a? Sensor
+        address = sensor.address
+      elsif sensor.is_a? String
+        address = sensor
+      end
+
       puts "Reading sensor #{sensor}\n"
       path = "/sys/bus/w1/devices"
 
