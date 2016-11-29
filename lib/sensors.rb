@@ -31,26 +31,29 @@ class Sensors
     end
 
     def read_one(sensor)
+      sensors = read_all
+
       address = ""
       if sensor.is_a? Sensor
         address = sensor.address
       elsif sensor.is_a? String
         address = sensor
       end
+      if sensors.has_value?(address)
+        puts "Reading sensor #{address}\n"
+        path = "/sys/bus/w1/devices"
 
-      puts "Reading sensor #{sensor}\n"
-      path = "/sys/bus/w1/devices"
+        # Find all available sensors
+        sensors = Dir.entries(path)
 
-      # Find all available sensors
-      sensors = Dir.entries(path)
+        file = File.open("#{path}/#{address}/w1_slave", "rb")
+        contents = file.read
+        value = contents.split("t=")
+        temp = value[1].to_f / 1000
 
-      file = File.open("#{path}/#{sensor}/w1_slave", "rb")
-      contents = file.read
-      value = contents.split("t=")
-      temp = value[1].to_f / 1000
-
-      puts "Sensor #{sensor}: #{temp} DegrC\n"
-      return {"#{sensor}": temp}
+        puts "Sensor #{address}: #{temp} DegrC\n"
+        return {"#{address}": temp}
+      end
     end
 
     def update
