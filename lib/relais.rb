@@ -45,14 +45,16 @@ class Relais
     def all_on
       setup(quiet: true)
       @@pins.each do |pin|
-        on(pin.pin)
+        RPi::GPIO.set_low pin.pin
+        Log.create(description: "Switched ON #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number})")
       end
     end
 
     def all_off
       setup(quiet: true)
       @@pins.each do |pin|
-        off(pin.pin)
+        RPi::GPIO.set_high pin.pin
+        Log.create(description: "Switched OFF #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number})")
       end
     end
 
