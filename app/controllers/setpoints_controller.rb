@@ -5,14 +5,15 @@
 
     # GET /setpoints
     def index
-      @setpoints = Setpoint.all
-
-      render json: @setpoints, meta: default_meta
+      #@setpoints = Setpoint.all
+	render json: Setpoint.includes(:sensor, :gpio), include: 
+          ['sensor', 'gpio']
+      #render json: @setpoints, meta: default_meta
     end
 
     # GET /setpoints/1
     def show
-      render json: @setpoint, meta: default_meta
+      render json: @setpoint, include: ['sensor', 'gpio'], meta: default_meta
     end
 
 
