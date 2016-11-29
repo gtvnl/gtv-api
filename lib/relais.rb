@@ -5,28 +5,24 @@ class Relais
   class << self
 
     @@pins = Gpio.where(of_type: 'output')
-    @@setup_already_run = false
-    @@on_pins = []
 
     def initialize
-      setup
+      Log.create(description: "INITIALISE REAIS")
     end
 
     def setup
-      unless @@setup_already_run
-        @@setup_already_run = true
-        RPi::GPIO.set_warnings(false)
-        RPi::GPIO.set_numbering :board
+      RPi::GPIO.set_warnings(false)
+      RPi::GPIO.set_numbering :board
 
-        @@pins.each do |pin|
-          RPi::GPIO.setup pin.pin, :as => :output
-        end
-        Log.create(description: "INIT GPIO")
+      @@pins.each do |pin|
+        RPi::GPIO.setup pin.pin, :as => :output
       end
     end
 
     def on(pin_number)
-      setup
+      RPi::GPIO.set_warnings(false)
+      RPi::GPIO.set_numbering :board
+
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
         if !pin.is_on?
@@ -47,6 +43,9 @@ class Relais
     end
 
     def off(pin_number)
+      RPi::GPIO.set_warnings(false)
+      RPi::GPIO.set_numbering :board
+
       pin = Gpio.find_by(pin: pin_number)
       unless pin.nil?
         if pin.is_on?
@@ -68,13 +67,18 @@ class Relais
     end
 
     def all_on
-      setup
+      RPi::GPIO.set_warnings(false)
+      RPi::GPIO.set_numbering :board
+
       @@pins.each do |pin|
         on(pin.pin)
       end
     end
 
     def all_off
+      RPi::GPIO.set_warnings(false)
+      RPi::GPIO.set_numbering :board
+
       @@pins.each do |pin|
         off(pin.pin)
       end

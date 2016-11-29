@@ -12,8 +12,6 @@ class Setpoints
 
   def check(setpoint)
 
-    Relais.setup
-
     if !setpoint.is_a? Setpoint
       puts "Invalid input. Use a setpoint"
     else
