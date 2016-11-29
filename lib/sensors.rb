@@ -26,7 +26,7 @@ class Sensors
 
           values.merge!("#{sensor}": temp)
 
-        ends2/
+        end
       return values
     end
 
