@@ -8,12 +8,8 @@ class ChartController < ApplicationController
       @logs = Log.where(sensor: sensor.name)
 
       @logs.each do |log|
-        newHash = {
-          sensor: log.sensor
-          value: log.value
-          date: log.created_at
-        }
-        hash.merge!(newHash)
+puts log.value
+
       end
 
     end
