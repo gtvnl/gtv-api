@@ -2,6 +2,13 @@
 class Sensors
   class << self
 
+    def initialize
+      puts "Usage:\n"
+      puts "Sensors.read_all - Read all sensors\n"
+      puts "Sensors.read_one(sensor) - Read on specific sensor\n"
+      puts ""
+    end
+
     def read_all
       puts "Searching ...\n"
 
