@@ -27,7 +27,7 @@ class Sensors
       return values
     rescue
       return nil
-
+    end
     end
 
     def read_one(sensor)
