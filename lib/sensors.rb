@@ -15,19 +15,19 @@ class Sensors
       sensors.delete("w1_bus_master1")
 
       values = {}
-
+      begin
         sensors.each do |sensor|
-
-
           file = File.open("#{path}/#{sensor}/w1_slave", "rb")
           contents = file.read
           value = contents.split("t=")
           temp = value[1].to_f / 1000
 
           values.merge!("#{sensor}": temp)
-
         end
       return values
+    rescue
+      return nil
+
     end
 
     def read_one(sensor)
