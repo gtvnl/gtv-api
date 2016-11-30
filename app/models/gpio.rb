@@ -1,4 +1,5 @@
 class Gpio < ApplicationRecord
+  enum of_type: [ :input, :output ]
 
   has_one :setpoint
 
