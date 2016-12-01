@@ -9,6 +9,6 @@ class ExportMailer < ApplicationMailer
 
     Log.create(description: "Email sent: #{@user.email}, subject: #{@title}")
 
-    attachments['log.csv'] = File.read('/log.csv')
+    attachments['log.csv'] = File.read('log.csv')
   end
 end
