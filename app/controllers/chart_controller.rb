@@ -1,24 +1,15 @@
 class ChartController < ApplicationController
   def index
-    hash = Hash.new
+    @sensor1 = ["Sensor 1"];
+    @sensor2 = ["Sensor 2"];
 
-    @sensors = Sensor.all
-
-    @sensors.each do |sensor|
-      @logs = Log.where(sensor: sensor.name)
-
-      @logs.each do |log|
-        newHash = {
-          "#{log.sensor}": {
-          value: log.value,
-          date: log.created_at
-        }
-        }
-        hash.merge!(newHash)
-      end
-
+    Log.where.(sensor: Sensor.first) do |sensor|
+      @sensor1.push(sensor.value)
     end
-    puts hash
-    render json: hash
+    Log.where.(sensor: Sensor.second) do |sensor|
+      @sensor2.push(sensor.value)
+    end
+
+    return [@sensor1, @sensor2]
   end
 end
