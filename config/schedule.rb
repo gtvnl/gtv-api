@@ -18,7 +18,7 @@
 # end
 
 # Learn more: http://github.com/javan/whenever
-job_type :runner,  "cd :path && /home/pi/.rbenv/shims/bundle bin/rails runner -e :environment ':task' :output"
+job_type :runner,  "cd :path && /home/pi/.rbenv/shims/bundle exec bin/rails runner -e :environment ':task' :output"
 
 every 1.day, :at => '12:00 am' do
   runner "DailyExportJob.perform_now"
