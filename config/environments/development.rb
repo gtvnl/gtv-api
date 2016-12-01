@@ -1,3 +1,4 @@
+
 Rails.application.configure do
 config.action_mailer.delivery_method = :smtp
 # SMTP settings for gmail

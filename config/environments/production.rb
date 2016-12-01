@@ -1,3 +1,5 @@
+Rails.application.routes.default_url_options[:host] = 'hsi.dcgs.nl'
+
 Rails.application.configure do
 
 config.action_mailer.delivery_method = :smtp

@@ -30,19 +30,15 @@ class Setpoints
             if current_temp <= max_diff
               Log.create(description: "CRITICAL TEMPERATURE detected: #{current_temp} on #{setpoint.name}.")
               title = "CRITICAL TEMPERATURE detected: #{current_temp} on #{setpoint.name}."
-              body = "Sensor: #{setpoint.sensor.name}\n
-                      Relais: #{setpoint.gpio.name}\n
-                      Current Temperature: #{current_temp}\n
-                      Setpoint Temperature: #{min_temp}\n
-                      Critical Temperature: #{max_diff}"
+              body = "Sensor: #{setpoint.sensor.name}\nRelais: #{setpoint.gpio.name}\nCurrent Temperature: #{current_temp}\nSetpoint Temperature: #{min_temp}\nCritical Temperature: #{max_diff}"
 
-              ErrorMailer.error_mail(title, body).deliver
-            else
+              ErrorMailer.error_email(title, body).deliver
+            end
               Log.create(description: "Low TEMPERATURE detected: #{current_temp} on #{setpoint.name}.")
               Relais.on(relais)
-            end
+            
           elsif current_temp > min_temp
-            Log.create(description: "Temperature RECOVERRED: #{current_temp} on #{setpoint.name}.")
+            Log.create(description: "Temperature RECOVERED: #{current_temp} on #{setpoint.name}.")
             Relais.off(relais)
           end
         end

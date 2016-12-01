@@ -219,7 +219,7 @@ DEPENDENCIES
   rack-cors
   rails (= 5.0.0.1)
   rails-erd
-  rails_admin (~> 1.0)
+  rails_admin
   rpi_gpio
   simple_command
   spring

@@ -1,5 +1,8 @@
 RailsAdmin.config do |config|
+  config.main_app_name = ["Asperge Portal"]
   config.parent_controller = '::RailsAdminCustomController'
+
+
   ### Popular gems integration
 
   ## == Devise ==
@@ -26,13 +29,27 @@ RailsAdmin.config do |config|
   config.actions do
     dashboard                     # mandatory
     index                         # mandatory
-    new
+    #new
     export
-    bulk_delete
+    #bulk_delete
     show
     edit
-    delete
-    show_in_app
+    #delete
+    #show_in_app
+
+  config.model 'Setpoint' do
+      exclude_fields :id, :created_at, :updated_at
+  end
+
+  config.model 'Gpio' do
+      exclude_fields :id, :created_at, :updated_at
+  end
+
+  config.model 'Sensor' do
+      exclude_fields :id, :created_at
+  end
+
+
 
     ## With an audit adapter, you can add:
     # history_index

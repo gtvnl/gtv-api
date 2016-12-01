@@ -6,7 +6,7 @@ class ErrorMailer < ApplicationMailer
     mail(to: @user.email, subject: 'Sample Email')
   end
 
-  def error_mail(title, body)
+  def error_email(title, body)
     @message = message
     @user = User.first
     mail(to: @user.email, subject: title)

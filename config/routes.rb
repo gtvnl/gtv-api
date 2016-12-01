@@ -1,11 +1,10 @@
 Rails.application.routes.draw do
 
 
-  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   resources :meters
   resources :gpios
-  resources :items
   resources :sensors
   resources :setpoints
   resources :users
