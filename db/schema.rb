@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161130114120) do
+ActiveRecord::Schema.define(version: 20161201105140) do
 
   create_table "entity_storage", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "key",        limit: 191,   null: false
@@ -70,11 +70,12 @@ ActiveRecord::Schema.define(version: 20161130114120) do
 
   create_table "setpoints", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "name"
-    t.float    "value",      limit: 24
-    t.datetime "created_at",            null: false
-    t.datetime "updated_at",            null: false
+    t.float    "value",               limit: 24
+    t.datetime "created_at",                                   null: false
+    t.datetime "updated_at",                                   null: false
     t.integer  "sensor_id"
     t.integer  "gpio_id"
+    t.float    "max_temp_difference", limit: 24, default: 0.0
     t.index ["gpio_id"], name: "index_setpoints_on_gpio_id", using: :btree
     t.index ["sensor_id"], name: "index_setpoints_on_sensor_id", using: :btree
   end

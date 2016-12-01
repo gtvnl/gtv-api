@@ -9,6 +9,8 @@ gem 'whenever', :require => false
 gem 'awesome_print'
 gem 'active_model_serializers'
 gem 'time_difference'
+gem 'rails_admin', '~> 1.0'
+gem 'figaro'
 
 # Raspberry specific
 gem 'rpi_gpio', :require => false
