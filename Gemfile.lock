@@ -201,7 +201,6 @@ GEM
     representable (2.3.0)
       uber (~> 0.0.7)
     retriable (2.1.0)
-    rpi_gpio (0.3.2)
     ruby-graphviz (1.2.2)
     sass (3.4.22)
     sass-rails (5.0.6)
@@ -266,7 +265,6 @@ DEPENDENCIES
   rails (= 5.0.0.1)
   rails-erd
   rails_admin
-  rpi_gpio
   simple_command
   spring
   spring-watcher-listen (~> 2.0.0)

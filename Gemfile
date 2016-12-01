@@ -13,7 +13,7 @@ gem 'rails_admin'
 gem 'figaro'
 gem 'google_drive'
 # Raspberry specific
-gem 'rpi_gpio', :require => false
+#gem 'rpi_gpio', :require => false
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
