@@ -38,7 +38,7 @@ class Setpoints
               Relais.on(relais)
             
           elsif current_temp > min_temp
-            Log.create(description: "Temperature RECOVERED: #{current_temp} on #{setpoint.name}.")
+            Log.create(description: "All OK: #{current_temp} on #{setpoint.name}.")
             Relais.off(relais)
           end
         end

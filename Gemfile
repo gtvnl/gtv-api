@@ -11,7 +11,7 @@ gem 'active_model_serializers'
 gem 'time_difference'
 gem 'rails_admin'
 gem 'figaro'
-
+gem 'google_drive'
 # Raspberry specific
 gem 'rpi_gpio', :require => false
 
