@@ -1,14 +1,24 @@
 class ChartController < ApplicationController
   def index
 
-    values = []
-    @logs = Log.where(sensor: "Sensor 2")
+    @total = []
+    sensor0_values = []
+    sensor2_values = []
 
-    @logs.each do |log|
-      values << log.value
+    @sensor0 = Log.where(sensor: "Sensor 0")
+    @sensor2 = Log.where(sensor: "Sensor 2")
+
+    @sensor0.each do |log|
+      sensor0_values.push(log.value)
     end
 
-    render json: @values, meta: default_meta
+    @sensor2.each do |log|
+      sensor0_values.push(log.value)
+    end
+
+    @total.push(sensor0)
+    @total.push(sensor2)
+    render json: @total, meta: default_meta
 
   end
 end
