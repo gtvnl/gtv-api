@@ -15,26 +15,27 @@ class ChartController < ApplicationController
     @sa6 = ["Sensor 6"];
 
     Log.where(sensor: @sensor1) do |sensor|
-      @sa1.push(sensor.value)
+      @sa1 << sensor.value
     end
     Log.where(sensor: @sensor2) do |sensor|
-      @sa2.push(sensor.value)
+      @sa2 << sensor.value
     end
     Log.where(sensor: @sensor3) do |sensor|
-      @sa3.push(sensor.value)
+      @sa3 << sensor.value
     end
     Log.where(sensor: @sensor4) do |sensor|
-      @sa4.push(sensor.value)
+      @sa4 << sensor.value
     end
     Log.where(sensor: @sensor5) do |sensor|
-      @sa5.push(sensor.value)
+      @sa5 << sensor.value
     end
     Log.where(sensor: @sensor6) do |sensor|
-      @sa6.push(sensor.value)
+      @sa6 << sensor.value
     end
 
 
     @total = [@sa1, @sa2, @sa3, @sa4, @sa5, @sa6]
+
     render json: @total, meta: default_meta
 
   end
