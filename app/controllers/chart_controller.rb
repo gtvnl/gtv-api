@@ -34,6 +34,8 @@ class ChartController < ApplicationController
     end
 
 
-    return [@sa1, @sa2, @sa3, @sa4, @sa5, @sa6]
+    @total = [@sa1, @sa2, @sa3, @sa4, @sa5, @sa6]
+    render json: @total, meta: default_meta
+
   end
 end
