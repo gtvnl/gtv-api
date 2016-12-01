@@ -1,15 +1,39 @@
 class ChartController < ApplicationController
   def index
-    @sensor1 = ["Sensor 1"];
-    @sensor2 = ["Sensor 2"];
+    @sensor1 = Sensor.find_by(id: 1)
+    @sensor2 = Sensor.find_by(id: 2)
+    @sensor3 = Sensor.find_by(id: 3)
+    @sensor4 = Sensor.find_by(id: 4)
+    @sensor5 = Sensor.find_by(id: 5)
+    @sensor6 = Sensor.find_by(id: 6)
 
-    Log.where.(sensor: Sensor.first) do |sensor|
-      @sensor1.push(sensor.value)
+    @sa1 = ["Sensor 1"];
+    @sa2 = ["Sensor 2"];
+    @sa3 = ["Sensor 3"];
+    @sa4 = ["Sensor 4"];
+    @sa5 = ["Sensor 5"];
+    @sa6 = ["Sensor 6"];
+
+    Log.where(sensor: @sensor1) do |sensor|
+      @sa1.push(sensor.value)
     end
-    Log.where.(sensor: Sensor.second) do |sensor|
-      @sensor2.push(sensor.value)
+    Log.where(sensor: @sensor2) do |sensor|
+      @sa2.push(sensor.value)
+    end
+    Log.where(sensor: @sensor3) do |sensor|
+      @sa3.push(sensor.value)
+    end
+    Log.where(sensor: @sensor4) do |sensor|
+      @sa4.push(sensor.value)
+    end
+    Log.where(sensor: @sensor5) do |sensor|
+      @sa5.push(sensor.value)
+    end
+    Log.where(sensor: @sensor6) do |sensor|
+      @sa6.push(sensor.value)
     end
 
-    return [@sensor1, @sensor2]
+
+    return [@sa1, @sa2, @sa3, @sa4, @sa5, @sa6]
   end
 end
