@@ -5,4 +5,13 @@ class ErrorMailer < ApplicationMailer
     @user = User.first
     mail(to: @user.email, subject: 'Sample Email')
   end
+
+  def error_mail(title, body)
+    @message = message
+    @user = User.first
+    mail(to: @user.email, subject: title)
+
+    Log.create(description: "Email sent: #{@user.email}, subject: #{title}")
+
+  end
 end
