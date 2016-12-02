@@ -13,7 +13,7 @@ class Inputs
         RPi::GPIO.set_numbering :board
         RPi::GPIO.setup @gpio.pin, :as => :input
 
-        if RPi::GPIO.high? @gpio.pin.nil?
+        if RPi::GPIO.high? @gpio.pin
           Log.create(description: "POWER SUPPLY INTERRUPTION DETECTED.")
           CheckPowerSupplyMailer.check_power_supply("POWER SUPPLY INTERRUPTION DETECTED #{Time.now}","Please take actions ASAP").deliver
         end
