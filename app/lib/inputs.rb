@@ -6,14 +6,14 @@ class Inputs
   class << self
 
 
-    def check_power
+    def check_power_supply
       @gpio = Gpio.find_by(name: "Check Power Supply")
 
       unless @gpio.pin.nil?
         RPi::GPIO.set_numbering :board
         RPi::GPIO.setup @gpio.pin, :as => :input
 
-        if RPi::GPIO.high?
+        if RPi::GPIO.high? @gpio.pin.nil?
           Log.create(description: "POWER SUPPLY INTERRUPTION DETECTED.")
           CheckPowerSupplyMailer.check_power_supply("POWER SUPPLY INTERRUPTION DETECTED #{Time.now}","Please take actions ASAP").deliver
         end
