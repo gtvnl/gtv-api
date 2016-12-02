@@ -11,7 +11,7 @@ class Inputs
 
       unless @gpio.pin.nil?
         RPi::GPIO.set_numbering :board
-        RPi::GPIO.setup @gpio.pin, :as => :input
+        RPi::GPIO.setup @gpio.pin, :as => :input, :pull => :up
 
         if RPi::GPIO.high? @gpio.pin
           @gpio.is_on = false
