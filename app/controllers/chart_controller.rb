@@ -18,6 +18,7 @@ class ChartController < ApplicationController
 
     @total.push(sensor0)
     @total.push(sensor2)
+    
     render json: @total, meta: default_meta
 
   end

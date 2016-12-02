@@ -22,7 +22,7 @@ class Setpoints
         else
           # Assume we have valid data
           relais = setpoint.gpio.pin
-          current_temp = Sensors.read_one(setpoint.sensor)[setpoint.sensor.address]
+          current_temp = Sensors.read_one(setpoint.sensor)
           min_temp = setpoint.value
           max_diff = setpoint.value - setpoint.max_temp_difference
 
@@ -36,7 +36,7 @@ class Setpoints
             end
               Log.create(description: "Low TEMPERATURE detected: #{current_temp} on #{setpoint.name}.")
               Relais.on(relais)
-            
+
           elsif current_temp > min_temp
             Log.create(description: "All OK: #{current_temp} on #{setpoint.name}.")
             Relais.off(relais)
