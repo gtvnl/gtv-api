@@ -22,9 +22,9 @@ class Setpoints
         else
           # Assume we have valid data
           relais = setpoint.gpio.pin
-          current_temp = Sensors.read_one(setpoint.sensor).to_f
-          min_temp = setpoint.value.to_f
-          max_diff = setpoint.value.to_f - setpoint.max_temp_difference.to_f
+          current_temp = Sensors.read_one(setpoint.sensor)["#{setpoint.sensor.address}"]
+          min_temp = setpoint.value
+          max_diff = setpoint.value - setpoint.max_temp_difference
 
           if current_temp < min_temp
             if current_temp <= max_diff
