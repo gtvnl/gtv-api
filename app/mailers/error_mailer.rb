@@ -3,7 +3,7 @@ class ErrorMailer < ApplicationMailer
 
 
   def error_email(title, body)
-    @message = message
+    @message = body
     @user = User.first
     mail(to: @user.email, subject: title)
 

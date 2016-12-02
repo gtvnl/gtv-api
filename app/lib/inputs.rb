@@ -5,11 +5,27 @@ require 'rpi_gpio'
 class Inputs
   class << self
 
+
+    def check_power_supply
+      @gpio = Gpio.find_by(name: "Check Power Supply")
+
+      unless @gpio.pin.nil?
+        RPi::GPIO.set_numbering :board
+        RPi::GPIO.setup @gpio.pin, :as => :input
+
+        if RPi::GPIO.high?
+          Log.create(description: "POWER SUPPLY INTERRUPTION DETECTED.")
+          CheckPowerSupplyMailer.check_power_supply("POWER SUPPLY INTERRUPTION DETECTED #{Time.now}","Please take actions ASAP").deliver
+        end
+      end
+
+    end
+
     @@meters = Meter.all
 
     def poll(pin)
       RPi::GPIO.set_numbering :board
-      RPi::GPIO.setup pin, :as => :input
+      RPi::GPIO.setup 11, :as => :input
 
       begin
           if RPi::GPIO.high? pin

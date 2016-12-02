@@ -7,6 +7,7 @@ end
 
 every 5.minutes do
   runner "UpdateSensorsJob.perform_now"
+  runner "CheckPowerSupplyJob.perform_now"
 end
 
 every 1.minute do
