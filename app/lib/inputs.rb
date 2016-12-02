@@ -6,7 +6,7 @@ class Inputs
   class << self
 
 
-    def check_power_supply
+    def check_power
       @gpio = Gpio.find_by(name: "Check Power Supply")
 
       unless @gpio.pin.nil?
