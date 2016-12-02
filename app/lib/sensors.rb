@@ -2,13 +2,6 @@
 class Sensors
   class << self
 
-    def initialize
-      puts "Usage:\n"
-      puts "Sensors.read_all - Read all sensors\n"
-      puts "Sensors.read_one(sensor) - Read on specific sensor\n"
-      puts ""
-    end
-
     def read_all
       puts "Searching ...\n"
 
@@ -71,11 +64,11 @@ class Sensors
         Sensor.find_or_create_by(address: sensor) do |obj|
           puts "Found new sensor ..."
 
-          obj.name = "Sensor #{index}"
+          obj.name = "Sensor #{Time.now}"
           obj.address = sensor
           obj.value = value
           obj.save
-          Log.create(description: "CREATE: Sensor #{index} [#{sensor}] with value #{value} &deg;C", value: value, sensor: obj.name)
+          Log.create(description: "CREATE: Sensor #{sensor} [#{address}]with value #{value} &deg;C", value: value, sensor: obj.name)
 
         end
         sensor = Sensor.find_by(address: sensor)
