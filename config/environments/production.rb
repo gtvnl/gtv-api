@@ -1,7 +1,7 @@
 Rails.application.routes.default_url_options[:host] = 'hsi.dcgs.nl'
 
 Rails.application.configure do
-config.logger = RemoteSyslogLogger.new('localhost', 514)
+config.logger = RemoteSyslogLogger.new('logs.papertrailapp.com', 30174)
 
 config.action_mailer.delivery_method = :smtp
 # SMTP settings for gmail
