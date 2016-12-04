@@ -3,4 +3,3 @@ require_relative 'application'
 
 # Initialize the Rails application.
 Rails.application.initialize!
-config.logger = RemoteSyslogLogger.new('localhost', 514)
