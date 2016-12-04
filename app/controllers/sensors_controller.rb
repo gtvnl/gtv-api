@@ -47,6 +47,8 @@ class SensorsController < ApplicationController
     Log.create(description: "DELETE: Sensor #{@sensor.name} [#{@sensor.address}] with value #{@sensor.value} &deg;C", value: @sensor.value, sensor: @sensor.name)
 
     @sensor.destroy
+    redirect_to :back
+
   end
 
   private

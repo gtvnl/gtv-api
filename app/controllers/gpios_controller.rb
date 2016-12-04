@@ -43,6 +43,7 @@ class GpiosController < ApplicationController
   def destroy
     Log.create(description: "DELETE: GPIO #{@gpio.name} (GPIO:#{@gpio.gpio_number}/PIN:#{@gpio.pin}")
     @gpio.destroy
+    redirect_to :back
   end
 
   private

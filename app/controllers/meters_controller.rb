@@ -36,6 +36,8 @@ class MetersController < ApplicationController
   # DELETE /meters/1
   def destroy
     @meter.destroy
+    redirect_to :back
+
   end
 
   private

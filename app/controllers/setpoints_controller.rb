@@ -48,6 +48,8 @@
       Log.create(description: "DELETE: Setpoint #{@setpoint.name} with value #{@setpoint.value} &deg;C", value: @setpoint.value)
 
       @setpoint.destroy
+      redirect_to :back
+
     end
 
     private

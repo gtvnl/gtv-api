@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
 
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+
   resources :meters
   resources :gpios
   resources :sensors
@@ -10,10 +11,10 @@ Rails.application.routes.draw do
   resources :users
   resources :logs
 
-  get 'chart', to: 'chart#index'
+  get 'charts', to: 'charts#index'
 
 
   post 'authenticate', to: 'authentication#authenticate'
-  root to: 'home#index'
+  root to: 'charts#index'
 
 end

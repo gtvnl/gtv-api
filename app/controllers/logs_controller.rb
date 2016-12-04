@@ -39,6 +39,8 @@ class LogsController < ApplicationController
     Log.create(description: "DELETE: Log #{log.description}")
 
     @log.destroy
+    redirect_to :back
+
   end
 
   private

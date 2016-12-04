@@ -46,6 +46,8 @@ class UsersController < ApplicationController
     Log.create(description: "DELETE: User #{@user.name} [#{@user.email}]")
 
     @user.destroy
+    redirect_to :back
+
   end
 
   private
