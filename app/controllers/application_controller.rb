@@ -18,6 +18,5 @@ class ApplicationController < ActionController::API
     }
   end
 
-  redirect_to root_path
 
 end
