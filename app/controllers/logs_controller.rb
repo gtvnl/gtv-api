@@ -3,11 +3,13 @@ class LogsController < ApplicationController
   before_action :set_log, only: [:show, :update, :destroy]
 
   def sensor_2a
-    render json: Log.where(sensor: "2a").pluck(:created_at, :value).map{|log| { log[0] => log[1] } }.to_json
+    result = Log.where(sensor: "2a").inject({}){|h,e| h.merge(e.created_at => e.value) }
+    render json: [{name: 'Sensor 2a', data: result}]
   end
 
   def sensor_2b
-    render json: Log.where(sensor: "2b").pluck(:created_at, :value).map{|log| { log[0] => log[1] } }.to_json
+    result = Log.where(sensor: "2b").inject({}){|h,e| h.merge(e.created_at => e.value) }
+    render json: [{name: 'Sensor 2b', data: result}]
   end
 
   # GET /logs

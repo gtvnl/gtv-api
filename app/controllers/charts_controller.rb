@@ -12,7 +12,6 @@ class ChartsController < ApplicationController
 
   def index
 
-
     render "charts/index"
 
   end

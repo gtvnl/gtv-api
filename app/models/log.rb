@@ -4,6 +4,10 @@ class Log < ApplicationRecord
 
   validates :description, presence: true
 
+  def self.as_chart
+    
+  end
+
 def self.as_csv
   CSV.generate do |csv|
     csv << column_names
