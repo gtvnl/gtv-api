@@ -6,8 +6,7 @@ class LogsController < ApplicationController
     @dates = Log.where(sensor: "2a").pluck(:created_at)
     @values = Log.where(sensor: "2a").pluck(:value)
 
-    
-
+  
     render json: Log.where(sensor: "2a").pluck(:value)
   end
 
