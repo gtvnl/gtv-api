@@ -17,4 +17,6 @@ Rails.application.routes.draw do
   post 'authenticate', to: 'authentication#authenticate'
   root to: 'charts#index'
 
+
 end
+
