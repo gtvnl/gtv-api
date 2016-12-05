@@ -1,5 +1,7 @@
 require 'csv'
 class Log < ApplicationRecord
+  default_scope { order(updated_at: :desc) }
+  
   validates :description, presence: true
 
 def self.as_csv
