@@ -1,4 +1,7 @@
 <div class="charts">
 
-  <%= line_chart [ sensor_2a_path, sensor_2b_path ], xtitle: "Time", ytitle: "Temperature", refresh: 60 %>
+  <%= line_chart [
+    {name: "Sensor 2A", data: sensor_2a_path},
+    {name: "Sensor 2B", data: sensor_2b_path}
+  ] %>
 </div>
