@@ -8,13 +8,7 @@ class ChartsController < ApplicationController
 
   layout 'chart'
 
-  def sensor_2a
-    render json: Log.where(sensor: "2a").pluck(:value)
-  end
 
-  def sensor_2b
-    render json: Log.where(sensor: "2b").pluck(:value)
-  end
 
   def index
 

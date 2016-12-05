@@ -2,6 +2,14 @@ class LogsController < ApplicationController
   before_action :authenticate_request, except: [:index, :show]
   before_action :set_log, only: [:show, :update, :destroy]
 
+  def sensor_2a
+    render json: Log.where(sensor: "2a").pluck(:value)
+  end
+
+  def sensor_2b
+    render json: Log.where(sensor: "2b").pluck(:value)
+  end
+
   # GET /logs
   def index
     @logs = Log.all
