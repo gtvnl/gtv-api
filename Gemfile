@@ -15,6 +15,7 @@ gem 'google_drive'
 gem 'chartkick'
 gem 'groupdate'
 gem 'hightop'
+gem 'remote_syslog_logger'
 
 # gem 'therubyracer', '0.12'
 # gem 'less-rails' #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
