@@ -7,7 +7,7 @@ class Log < ApplicationRecord
 def make_hash
   h = Hash.new
   Log.where(sensor: "2b").pluck_h(:created_at, :value).each do |item|
-    h."#{item.created_at}" = item.value
+    h.["#{item.created_at}"] = item.value
   end
 
   return h
