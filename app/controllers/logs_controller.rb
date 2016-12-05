@@ -1,5 +1,5 @@
 class LogsController < ApplicationController
-  before_action :authenticate_request, except: [:index, :show]
+  before_action :authenticate_request, except: [:index, :show, :sensor_2a, :sensor_2b]
   before_action :set_log, only: [:show, :update, :destroy]
 
   def sensor_2a
