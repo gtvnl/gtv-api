@@ -1,118 +1,1942 @@
 CreatedAt,Description,Sensor,Value
-2016-12-01 12:22:39 UTC,CREATE: Sensor 0 [28-000007c5b9e2] with value 23.375 &deg;C,Sensor 0,23.375
-2016-12-01 12:22:40 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 23.375 &deg;C,Sensor 0,23.375
-2016-12-01 12:22:40 UTC,CREATE: Sensor 1 [28-000007c6de00] with value 23.312 &deg;C,Sensor 1,23.312
-2016-12-01 12:22:40 UTC,UPDATE: Sensor Sensor 1 [28-000007c6de00] with value 23.312 &deg;C,Sensor 1,23.312
-2016-12-01 12:22:40 UTC,CREATE: Sensor 2 [28-0000075e972f] with value 23.937 &deg;C,Sensor 2,23.937
-2016-12-01 12:22:40 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 23.937 &deg;C,Sensor 2,23.937
-2016-12-01 12:25:26 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 23.312 &deg;C,Sensor 0,23.312
-2016-12-01 12:25:26 UTC,UPDATE: Sensor Sensor 1 [28-000007c6de00] with value 23.187 &deg;C,Sensor 1,23.187
-2016-12-01 12:25:26 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 23.937 &deg;C,Sensor 2,23.937
-2016-12-01 12:26:59 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 23.312 &deg;C,Sensor 0,23.312
-2016-12-01 12:26:59 UTC,UPDATE: Sensor Sensor 1 [28-000007c6de00] with value 23.187 &deg;C,Sensor 1,23.187
-2016-12-01 12:26:59 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 23.937 &deg;C,Sensor 2,23.937
-2016-12-01 12:30:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 23.312 &deg;C,Sensor 0,23.312
-2016-12-01 12:30:25 UTC,UPDATE: Sensor Sensor 1 [28-000007c6de00] with value 23.187 &deg;C,Sensor 1,23.187
-2016-12-01 12:30:26 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 24.0 &deg;C,Sensor 2,24.0
-2016-12-01 12:45:26 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 23.437 &deg;C,Sensor 0,23.437
-2016-12-01 12:45:26 UTC,UPDATE: Sensor Sensor 1 [28-000007c6de00] with value 23.312 &deg;C,Sensor 1,23.312
-2016-12-01 12:45:26 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 24.125 &deg;C,Sensor 2,24.125
-2016-12-01 12:50:27 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 23.5 &deg;C,Sensor 0,23.5
-2016-12-01 12:50:27 UTC,UPDATE: Sensor Sensor 1 [28-000007c6de00] with value 23.375 &deg;C,Sensor 1,23.375
-2016-12-01 12:50:27 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 24.125 &deg;C,Sensor 2,24.125
-2016-12-01 12:55:26 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 23.5 &deg;C,Sensor 0,23.5
-2016-12-01 12:55:26 UTC,UPDATE: Sensor Sensor 1 [28-000007c6de00] with value 23.375 &deg;C,Sensor 1,23.375
-2016-12-01 12:55:26 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 24.125 &deg;C,Sensor 2,24.125
-2016-12-01 13:05:26 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 23.437 &deg;C,Sensor 0,23.437
-2016-12-01 13:05:26 UTC,UPDATE: Sensor Sensor 1 [28-000007c6de00] with value 23.375 &deg;C,Sensor 1,23.375
-2016-12-01 13:05:26 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 24.125 &deg;C,Sensor 2,24.125
-2016-12-01 13:10:26 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 23.562 &deg;C,Sensor 0,23.562
-2016-12-01 13:10:26 UTC,UPDATE: Sensor Sensor 1 [28-000007c6de00] with value 35.812 &deg;C,Sensor 1,35.812
-2016-12-01 13:10:26 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 24.125 &deg;C,Sensor 2,24.125
-2016-12-01 13:20:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 23.937 &deg;C,Sensor 0,23.937
-2016-12-01 13:20:25 UTC,UPDATE: Sensor Sensor 1 [28-000007c6de00] with value 64.687 &deg;C,Sensor 1,64.687
-2016-12-01 13:20:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 24.312 &deg;C,Sensor 2,24.312
-2016-12-01 13:25:26 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 23.625 &deg;C,Sensor 0,23.625
-2016-12-01 13:25:26 UTC,UPDATE: Sensor Sensor 1 [28-000007c6de00] with value 34.937 &deg;C,Sensor 1,34.937
-2016-12-01 13:25:26 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 24.25 &deg;C,Sensor 2,24.25
-2016-12-01 13:30:26 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 23.625 &deg;C,Sensor 0,23.625
-2016-12-01 13:30:26 UTC,UPDATE: Sensor Sensor 1 [28-000007c6de00] with value 38.375 &deg;C,Sensor 1,38.375
-2016-12-01 13:30:26 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 24.25 &deg;C,Sensor 2,24.25
-2016-12-01 13:35:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 24.562 &deg;C,Sensor 0,24.562
-2016-12-01 13:35:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 23.5 &deg;C,Sensor 2,23.5
-2016-12-01 13:40:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 22.937 &deg;C,Sensor 0,22.937
-2016-12-01 13:40:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 23.0 &deg;C,Sensor 2,23.0
-2016-12-01 14:05:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 21.687 &deg;C,Sensor 0,21.687
-2016-12-01 14:05:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 22.187 &deg;C,Sensor 2,22.187
-2016-12-01 14:10:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 21.375 &deg;C,Sensor 0,21.375
-2016-12-01 14:10:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 22.125 &deg;C,Sensor 2,22.125
-2016-12-01 14:15:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 21.125 &deg;C,Sensor 0,21.125
-2016-12-01 14:15:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 22.125 &deg;C,Sensor 2,22.125
-2016-12-01 14:20:24 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 21.125 &deg;C,Sensor 0,21.125
-2016-12-01 14:20:24 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 22.312 &deg;C,Sensor 2,22.312
-2016-12-01 14:25:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 21.125 &deg;C,Sensor 0,21.125
-2016-12-01 14:25:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 22.375 &deg;C,Sensor 2,22.375
-2016-12-01 14:30:24 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 21.187 &deg;C,Sensor 0,21.187
-2016-12-01 14:30:24 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 22.375 &deg;C,Sensor 2,22.375
-2016-12-01 14:45:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 21.5 &deg;C,Sensor 0,21.5
-2016-12-01 14:45:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 21.937 &deg;C,Sensor 2,21.937
-2016-12-01 14:50:59 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 21.75 &deg;C,Sensor 0,21.75
-2016-12-01 14:50:59 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 22.062 &deg;C,Sensor 2,22.062
-2016-12-01 14:55:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 21.562 &deg;C,Sensor 0,21.562
-2016-12-01 14:55:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 22.062 &deg;C,Sensor 2,22.062
-2016-12-01 15:05:48 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 21.812 &deg;C,Sensor 0,21.812
-2016-12-01 15:05:48 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 22.062 &deg;C,Sensor 2,22.062
-2016-12-01 15:10:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 21.625 &deg;C,Sensor 0,21.625
-2016-12-01 15:10:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 21.875 &deg;C,Sensor 2,21.875
-2016-12-01 15:15:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 21.437 &deg;C,Sensor 0,21.437
-2016-12-01 15:15:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 21.875 &deg;C,Sensor 2,21.875
-2016-12-01 15:20:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 21.25 &deg;C,Sensor 0,21.25
-2016-12-01 15:20:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 21.75 &deg;C,Sensor 2,21.75
-2016-12-01 15:25:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 21.312 &deg;C,Sensor 0,21.312
-2016-12-01 15:25:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 21.75 &deg;C,Sensor 2,21.75
-2016-12-01 15:30:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 21.375 &deg;C,Sensor 0,21.375
-2016-12-01 15:30:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 21.812 &deg;C,Sensor 2,21.812
-2016-12-01 15:35:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 21.25 &deg;C,Sensor 0,21.25
-2016-12-01 15:35:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 21.812 &deg;C,Sensor 2,21.812
-2016-12-01 15:40:24 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 21.125 &deg;C,Sensor 0,21.125
-2016-12-01 15:40:24 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 21.75 &deg;C,Sensor 2,21.75
-2016-12-01 15:45:26 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 20.937 &deg;C,Sensor 0,20.937
-2016-12-01 15:45:26 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 21.5 &deg;C,Sensor 2,21.5
-2016-12-01 15:50:24 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 20.75 &deg;C,Sensor 0,20.75
-2016-12-01 15:50:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 21.25 &deg;C,Sensor 2,21.25
-2016-12-01 15:55:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 20.562 &deg;C,Sensor 0,20.562
-2016-12-01 15:55:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 21.125 &deg;C,Sensor 2,21.125
-2016-12-01 16:00:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 20.375 &deg;C,Sensor 0,20.375
-2016-12-01 16:00:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 21.0 &deg;C,Sensor 2,21.0
-2016-12-01 16:05:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 20.25 &deg;C,Sensor 0,20.25
-2016-12-01 16:05:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 20.875 &deg;C,Sensor 2,20.875
-2016-12-01 16:10:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 20.062 &deg;C,Sensor 0,20.062
-2016-12-01 16:10:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 20.75 &deg;C,Sensor 2,20.75
-2016-12-01 16:15:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 19.937 &deg;C,Sensor 0,19.937
-2016-12-01 16:15:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 20.562 &deg;C,Sensor 2,20.562
-2016-12-01 16:20:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 19.75 &deg;C,Sensor 0,19.75
-2016-12-01 16:20:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 20.312 &deg;C,Sensor 2,20.312
-2016-12-01 16:25:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 19.562 &deg;C,Sensor 0,19.562
-2016-12-01 16:25:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 20.062 &deg;C,Sensor 2,20.062
-2016-12-01 16:30:24 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 19.375 &deg;C,Sensor 0,19.375
-2016-12-01 16:30:24 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 19.875 &deg;C,Sensor 2,19.875
-2016-12-01 16:35:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 19.25 &deg;C,Sensor 0,19.25
-2016-12-01 16:35:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 19.75 &deg;C,Sensor 2,19.75
-2016-12-01 16:40:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 19.125 &deg;C,Sensor 0,19.125
-2016-12-01 16:40:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 19.625 &deg;C,Sensor 2,19.625
-2016-12-01 16:45:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 18.937 &deg;C,Sensor 0,18.937
-2016-12-01 16:45:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 19.5 &deg;C,Sensor 2,19.5
-2016-12-01 16:50:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 18.875 &deg;C,Sensor 0,18.875
-2016-12-01 16:50:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 19.437 &deg;C,Sensor 2,19.437
-2016-12-01 16:55:24 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 18.75 &deg;C,Sensor 0,18.75
-2016-12-01 16:55:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 19.312 &deg;C,Sensor 2,19.312
-2016-12-01 17:00:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 18.625 &deg;C,Sensor 0,18.625
-2016-12-01 17:00:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 19.25 &deg;C,Sensor 2,19.25
-2016-12-01 17:05:24 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 18.562 &deg;C,Sensor 0,18.562
-2016-12-01 17:05:24 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 19.187 &deg;C,Sensor 2,19.187
-2016-12-01 17:10:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 18.437 &deg;C,Sensor 0,18.437
-2016-12-01 17:10:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 19.062 &deg;C,Sensor 2,19.062
-2016-12-01 17:15:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 18.375 &deg;C,Sensor 0,18.375
-2016-12-01 17:15:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 18.937 &deg;C,Sensor 2,18.937
-2016-12-01 17:20:25 UTC,UPDATE: Sensor Sensor 0 [28-000007c5b9e2] with value 18.312 &deg;C,Sensor 0,18.312
-2016-12-01 17:20:25 UTC,UPDATE: Sensor Sensor 2 [28-0000075e972f] with value 18.812 &deg;C,Sensor 2,18.812
+2016-12-03 23:01:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:02:34 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:03:34 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:04:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:05:34 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:05:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.687 &deg;C,2a,4.687
+2016-12-03 23:05:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.312 &deg;C,2b,3.312
+2016-12-03 23:06:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:07:34 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:08:34 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:09:34 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:10:33 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.687 &deg;C,2a,4.687
+2016-12-03 23:10:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.312 &deg;C,2b,3.312
+2016-12-03 23:10:35 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:11:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:12:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:13:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:14:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:15:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.687 &deg;C,2a,4.687
+2016-12-03 23:15:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.312 &deg;C,2b,3.312
+2016-12-03 23:15:36 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:16:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:17:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:18:32 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-03 23:19:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:20:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.687 &deg;C,2a,4.687
+2016-12-03 23:20:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.312 &deg;C,2b,3.312
+2016-12-03 23:20:35 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:21:34 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:22:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:23:32 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:24:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:25:34 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:25:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.687 &deg;C,2a,4.687
+2016-12-03 23:25:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.312 &deg;C,2b,3.312
+2016-12-03 23:26:32 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:27:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:28:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:29:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-03 23:30:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.687 &deg;C,2a,4.687
+2016-12-03 23:30:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.25 &deg;C,2b,3.25
+2016-12-03 23:30:36 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:31:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-03 23:32:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-03 23:33:32 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:34:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-03 23:35:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.687 &deg;C,2a,4.687
+2016-12-03 23:35:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.312 &deg;C,2b,3.312
+2016-12-03 23:35:35 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:36:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:37:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-03 23:38:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:39:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:40:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.687 &deg;C,2a,4.687
+2016-12-03 23:40:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.312 &deg;C,2b,3.312
+2016-12-03 23:40:36 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-03 23:41:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:42:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-03 23:43:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:44:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-03 23:45:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.687 &deg;C,2a,4.687
+2016-12-03 23:45:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.312 &deg;C,2b,3.312
+2016-12-03 23:45:35 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:46:34 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:47:36 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:48:34 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:49:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-03 23:50:33 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.687 &deg;C,2a,4.687
+2016-12-03 23:50:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.25 &deg;C,2b,3.25
+2016-12-03 23:50:35 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:51:32 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-03 23:52:32 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:53:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-03 23:54:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:55:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.687 &deg;C,2a,4.687
+2016-12-03 23:55:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.25 &deg;C,2b,3.25
+2016-12-03 23:55:35 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-03 23:56:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-03 23:57:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:58:34 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-03 23:59:34 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-04 00:00:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.687 &deg;C,2a,4.687
+2016-12-04 00:00:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.25 &deg;C,2b,3.25
+2016-12-04 00:00:35 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:01:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:02:36 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-04 00:03:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:04:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:05:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.687 &deg;C,2a,4.687
+2016-12-04 00:05:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.25 &deg;C,2b,3.25
+2016-12-04 00:05:36 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:06:33 UTC,All OK: 3.312 on Setpoint 2abc.,,
+2016-12-04 00:07:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:08:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:09:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:10:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 00:10:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.25 &deg;C,2b,3.25
+2016-12-04 00:10:35 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:11:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:12:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:13:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:14:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:15:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:15:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.687 &deg;C,2a,4.687
+2016-12-04 00:15:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.25 &deg;C,2b,3.25
+2016-12-04 00:16:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:17:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:18:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:19:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:20:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.687 &deg;C,2a,4.687
+2016-12-04 00:20:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.25 &deg;C,2b,3.25
+2016-12-04 00:20:35 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:21:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:22:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:23:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:24:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:25:33 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.687 &deg;C,2a,4.687
+2016-12-04 00:25:33 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.25 &deg;C,2b,3.25
+2016-12-04 00:25:35 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:26:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:27:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:28:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:29:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:30:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 00:30:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.25 &deg;C,2b,3.25
+2016-12-04 00:30:35 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:31:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:32:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:33:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:34:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:35:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 00:35:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.187 &deg;C,2b,3.187
+2016-12-04 00:35:35 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:36:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:37:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:38:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:39:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:40:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 00:40:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.25 &deg;C,2b,3.25
+2016-12-04 00:40:35 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 00:41:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:42:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:43:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:44:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:45:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.687 &deg;C,2a,4.687
+2016-12-04 00:45:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.25 &deg;C,2b,3.25
+2016-12-04 00:45:35 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:46:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:47:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:48:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:49:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:50:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 00:50:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.25 &deg;C,2b,3.25
+2016-12-04 00:50:35 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:51:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:52:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:53:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:54:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:55:36 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 00:55:36 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.25 &deg;C,2b,3.25
+2016-12-04 00:55:36 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:56:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:57:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 00:58:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 00:59:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 01:00:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 01:00:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.25 &deg;C,2b,3.25
+2016-12-04 01:00:35 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 01:01:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:02:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 01:03:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:04:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 01:05:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 01:05:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.25 &deg;C,2b,3.25
+2016-12-04 01:05:35 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 01:06:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:07:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 01:08:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 01:09:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 01:10:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 01:10:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.187 &deg;C,2b,3.187
+2016-12-04 01:10:36 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:11:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:12:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:13:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:14:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:15:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 01:15:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.187 &deg;C,2b,3.187
+2016-12-04 01:15:36 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:16:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:17:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 01:18:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:19:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 01:20:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 01:20:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.187 &deg;C,2b,3.187
+2016-12-04 01:20:35 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 01:21:33 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 01:22:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:23:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:24:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:25:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 01:25:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.187 &deg;C,2b,3.187
+2016-12-04 01:25:36 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 01:26:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:27:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:28:34 UTC,All OK: 3.25 on Setpoint 2abc.,,
+2016-12-04 01:29:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:30:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 01:30:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.187 &deg;C,2b,3.187
+2016-12-04 01:30:36 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:31:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:32:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:33:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:34:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:35:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 01:35:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.187 &deg;C,2b,3.187
+2016-12-04 01:35:35 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:36:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:37:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:38:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:39:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:40:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 01:40:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.187 &deg;C,2b,3.187
+2016-12-04 01:40:36 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:41:36 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:42:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:43:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:44:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:45:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 01:45:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.187 &deg;C,2b,3.187
+2016-12-04 01:45:35 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:46:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:47:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:48:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:49:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:50:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 01:50:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.187 &deg;C,2b,3.187
+2016-12-04 01:50:35 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:51:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:52:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:53:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:54:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:55:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 01:55:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.187 &deg;C,2b,3.187
+2016-12-04 01:55:35 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:56:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:57:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:58:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 01:59:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:00:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 02:00:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.187 &deg;C,2b,3.187
+2016-12-04 02:00:35 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:01:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:02:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:03:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:04:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:05:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 02:05:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.187 &deg;C,2b,3.187
+2016-12-04 02:05:35 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:06:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:07:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:08:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:09:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:10:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 02:10:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.187 &deg;C,2b,3.187
+2016-12-04 02:10:35 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:11:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:12:41 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:13:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:14:35 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:15:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 02:15:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.187 &deg;C,2b,3.187
+2016-12-04 02:15:35 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:16:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:17:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:18:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:19:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:20:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 02:20:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.187 &deg;C,2b,3.187
+2016-12-04 02:20:35 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:21:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:22:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:23:32 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:24:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:25:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 02:25:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.125 &deg;C,2b,3.125
+2016-12-04 02:25:37 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:26:35 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 02:27:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:28:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 02:29:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:30:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 02:30:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.125 &deg;C,2b,3.125
+2016-12-04 02:30:36 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 02:31:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:32:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 02:33:32 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 02:34:32 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 02:35:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 02:35:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.125 &deg;C,2b,3.125
+2016-12-04 02:35:35 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:36:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:37:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:38:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:39:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:40:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 02:40:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.125 &deg;C,2b,3.125
+2016-12-04 02:40:35 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 02:41:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:42:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 02:43:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:44:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:45:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 02:45:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.125 &deg;C,2b,3.125
+2016-12-04 02:45:35 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:46:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:47:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 02:48:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 02:49:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 02:50:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 02:50:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.187 &deg;C,2b,3.187
+2016-12-04 02:50:36 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 02:51:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:52:34 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:53:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 02:54:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 02:55:36 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 02:55:36 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.125 &deg;C,2b,3.125
+2016-12-04 02:55:36 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:56:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 02:57:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 02:58:35 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 02:59:33 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 03:00:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.625 &deg;C,2a,4.625
+2016-12-04 03:00:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.125 &deg;C,2b,3.125
+2016-12-04 03:00:36 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:01:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:02:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:03:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:04:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:05:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 03:05:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.125 &deg;C,2b,3.125
+2016-12-04 03:05:35 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:06:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:07:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:08:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:09:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:10:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 03:10:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.125 &deg;C,2b,3.125
+2016-12-04 03:10:36 UTC,All OK: 3.187 on Setpoint 2abc.,,
+2016-12-04 03:11:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:12:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:13:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:14:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:15:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 03:15:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.125 &deg;C,2b,3.125
+2016-12-04 03:15:36 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:16:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:17:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:18:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:19:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:20:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 03:20:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.125 &deg;C,2b,3.125
+2016-12-04 03:20:36 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:21:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:22:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:23:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:24:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:25:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 03:25:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.125 &deg;C,2b,3.125
+2016-12-04 03:25:36 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:26:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:27:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:28:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:29:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:30:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 03:30:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.125 &deg;C,2b,3.125
+2016-12-04 03:30:35 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:31:35 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:32:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:33:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:34:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:35:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 03:35:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.125 &deg;C,2b,3.125
+2016-12-04 03:35:37 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:36:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:37:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:38:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:39:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:40:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 03:40:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.125 &deg;C,2b,3.125
+2016-12-04 03:40:36 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:41:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:42:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 03:43:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:44:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:45:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 03:45:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 03:45:36 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:46:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:47:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:48:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:49:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:50:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 03:50:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 03:50:35 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 03:51:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:52:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:53:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:54:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:55:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 03:55:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.125 &deg;C,2b,3.125
+2016-12-04 03:55:36 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 03:56:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:57:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 03:58:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 03:59:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 04:00:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 04:00:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 04:00:35 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 04:01:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 04:02:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 04:03:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 04:04:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 04:05:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 04:05:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 04:05:36 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:06:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 04:07:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 04:08:34 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 04:09:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:10:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 04:10:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 04:10:36 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:11:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 04:12:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 04:13:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:14:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 04:15:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 04:15:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 04:15:37 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:16:36 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 04:17:35 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:18:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:19:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:20:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 04:20:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 04:20:36 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 04:21:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:22:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:23:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 04:24:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:25:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 04:25:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 04:25:36 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:26:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:27:33 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 04:28:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:29:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:30:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 04:30:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 04:30:36 UTC,All OK: 3.125 on Setpoint 2abc.,,
+2016-12-04 04:31:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:32:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:33:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:34:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:35:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 04:35:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 04:35:35 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:36:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:37:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:38:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:39:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:40:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 04:40:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 04:40:36 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:41:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:42:36 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:43:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:44:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:45:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 04:45:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 04:45:35 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:46:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:47:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:48:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:49:32 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:50:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 04:50:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 04:50:35 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:51:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:52:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:53:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:54:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:55:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 04:55:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 04:55:35 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:56:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:57:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:58:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 04:59:32 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:00:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.562 &deg;C,2a,4.562
+2016-12-04 05:00:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 05:00:37 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:01:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:02:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:03:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:04:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:05:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 05:05:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 05:05:35 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:06:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:07:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:08:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:09:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:10:35 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:10:38 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 05:10:38 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 05:11:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:12:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:13:35 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:14:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:15:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 05:15:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 05:15:35 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:16:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:17:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:18:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:19:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:20:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 05:20:36 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 05:20:36 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:21:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:22:35 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:23:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:24:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:25:36 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 05:25:36 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 05:25:36 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:26:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:27:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:28:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:29:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:30:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 05:30:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 05:30:37 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:31:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:32:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:33:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 05:34:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 05:35:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 05:35:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 05:35:35 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:36:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 05:37:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:38:32 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:39:32 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 05:40:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 05:40:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 05:40:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:41:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 05:42:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 05:43:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:44:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:45:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 05:45:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 05:45:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:46:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:47:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:48:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:49:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:50:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 05:50:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 05:50:36 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 05:51:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 05:52:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 05:53:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:54:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 05:55:35 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:55:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 05:55:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 05:56:35 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 05:57:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 05:58:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 05:59:32 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:00:33 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 06:00:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 06:00:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:01:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 06:02:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:03:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:04:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:05:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 06:05:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 06:05:35 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:06:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:07:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:08:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:09:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:10:34 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 06:10:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 06:10:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.062 &deg;C,2b,3.062
+2016-12-04 06:11:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:12:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:13:33 UTC,All OK: 3.062 on Setpoint 2abc.,,
+2016-12-04 06:14:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:15:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 06:15:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 06:15:36 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:16:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:17:35 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:18:37 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:19:35 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:20:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 06:20:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 06:20:36 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:21:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:22:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:23:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:24:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:25:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 06:25:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 06:25:36 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:26:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:27:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:28:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:29:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:30:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.437 &deg;C,2a,4.437
+2016-12-04 06:30:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 06:30:35 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:31:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:32:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:33:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:34:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:35:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.437 &deg;C,2a,4.437
+2016-12-04 06:35:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 06:35:35 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:36:35 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:37:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:38:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:39:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:40:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 06:40:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 06:40:36 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:41:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:42:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:43:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:44:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:45:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 06:45:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 06:45:36 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 06:46:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:47:35 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:48:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:49:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:50:35 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:50:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 06:50:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 06:51:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:52:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:53:35 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:54:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:55:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.437 &deg;C,2a,4.437
+2016-12-04 06:55:36 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.937 &deg;C,2b,2.937
+2016-12-04 06:55:36 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:56:35 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:57:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:58:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 06:59:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:00:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.437 &deg;C,2a,4.437
+2016-12-04 07:00:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 07:00:36 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:01:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:02:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:03:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:04:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:05:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.5 &deg;C,2a,4.5
+2016-12-04 07:05:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.937 &deg;C,2b,2.937
+2016-12-04 07:05:37 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:06:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:07:34 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 07:08:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:09:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:10:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.437 &deg;C,2a,4.437
+2016-12-04 07:10:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 07:10:35 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:11:33 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:12:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:13:33 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 07:14:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:15:36 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.437 &deg;C,2a,4.437
+2016-12-04 07:15:36 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 3.0 &deg;C,2b,3.0
+2016-12-04 07:15:37 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:16:36 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:17:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:18:34 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:19:33 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 07:20:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.437 &deg;C,2a,4.437
+2016-12-04 07:20:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.937 &deg;C,2b,2.937
+2016-12-04 07:20:36 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:21:34 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 07:22:33 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 07:23:33 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 07:24:33 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 07:25:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.437 &deg;C,2a,4.437
+2016-12-04 07:25:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.937 &deg;C,2b,2.937
+2016-12-04 07:25:35 UTC,All OK: 3.0 on Setpoint 2abc.,,
+2016-12-04 07:26:33 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 07:27:33 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 07:28:33 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:12:37 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:13:36 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:14:35 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:15:37 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.437 &deg;C,2a,4.437
+2016-12-04 08:15:37 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.937 &deg;C,2b,2.937
+2016-12-04 08:15:39 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:16:38 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:17:35 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:18:35 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:19:34 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:20:35 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.437 &deg;C,2a,4.437
+2016-12-04 08:20:35 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 08:20:36 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:21:35 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:22:34 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:23:36 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:24:35 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:25:34 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.437 &deg;C,2a,4.437
+2016-12-04 08:25:34 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.937 &deg;C,2b,2.937
+2016-12-04 08:25:37 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:26:34 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:27:36 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:28:38 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:29:38 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:30:41 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:30:42 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.437 &deg;C,2a,4.437
+2016-12-04 08:30:42 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.937 &deg;C,2b,2.937
+2016-12-04 08:31:39 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:32:43 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:33:39 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:34:38 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:35:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.437 &deg;C,2a,4.437
+2016-12-04 08:35:41 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 08:35:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.937 &deg;C,2b,2.937
+2016-12-04 08:36:39 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:37:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 08:38:40 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:39:39 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:40:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 08:40:40 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:40:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 08:41:37 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:43:38 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:44:39 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:45:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.437 &deg;C,2a,4.437
+2016-12-04 08:45:39 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 08:45:41 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:46:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 08:47:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 08:48:38 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:49:38 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 08:50:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 08:50:41 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 08:50:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 08:59:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:00:41 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 09:00:42 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 09:00:43 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 09:01:39 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 09:02:38 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 09:03:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:04:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:05:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 09:05:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 09:05:41 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:06:40 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 09:07:39 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 09:08:38 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 09:09:37 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:10:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 09:10:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 09:10:41 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:11:39 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 09:12:37 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:13:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:14:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:15:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 09:15:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 09:15:42 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:16:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:17:38 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 09:18:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:19:39 UTC,All OK: 2.937 on Setpoint 2abc.,,
+2016-12-04 09:20:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 09:20:40 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:20:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 09:21:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:22:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:23:37 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:24:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:25:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 09:25:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 09:25:41 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:26:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:27:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:28:40 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:29:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:30:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:30:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 09:30:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 09:31:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:32:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:33:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:34:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:35:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 09:35:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 09:35:41 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:36:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:37:40 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:38:37 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:39:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:40:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 09:40:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 09:40:42 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:41:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:42:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:43:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 09:44:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:45:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 09:45:40 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:45:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 09:46:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:47:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:48:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:49:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:50:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 09:50:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 09:50:41 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:51:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:52:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:53:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:54:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:55:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 09:55:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 09:55:41 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:56:40 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:57:37 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:58:37 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 09:59:37 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:00:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 10:00:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 10:00:41 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:01:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:02:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:03:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:04:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:05:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 10:05:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 10:05:40 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:06:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:07:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:08:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:09:37 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:10:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 10:10:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 10:10:41 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:11:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:12:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:13:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:14:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:15:42 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 10:15:42 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.812 &deg;C,2b,2.812
+2016-12-04 10:15:44 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:16:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:17:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:18:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:19:44 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:20:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 10:20:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.812 &deg;C,2b,2.812
+2016-12-04 10:20:41 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:21:40 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:22:40 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:23:37 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:24:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:25:42 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 10:25:43 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.812 &deg;C,2b,2.812
+2016-12-04 10:25:43 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:26:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:27:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:28:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:29:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:30:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 10:30:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 10:30:41 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:31:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:32:37 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:33:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:34:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:35:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 10:35:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 10:35:41 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:36:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:37:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:38:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:39:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:40:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 10:40:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.875 &deg;C,2b,2.875
+2016-12-04 10:40:41 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:41:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:42:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:43:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:44:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:45:42 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 10:45:42 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:45:43 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.812 &deg;C,2b,2.812
+2016-12-04 10:46:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:47:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:48:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:49:39 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:50:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 10:50:42 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.812 &deg;C,2b,2.812
+2016-12-04 10:50:42 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:51:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:52:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:53:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:54:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:55:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 10:55:40 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:55:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.812 &deg;C,2b,2.812
+2016-12-04 10:56:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:57:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 10:58:38 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 10:59:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:00:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 11:00:40 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 11:00:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.812 &deg;C,2b,2.812
+2016-12-04 11:01:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:02:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:03:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:04:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:05:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 11:05:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.812 &deg;C,2b,2.812
+2016-12-04 11:05:40 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:06:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:07:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:08:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:09:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:10:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.375 &deg;C,2a,4.375
+2016-12-04 11:10:40 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:10:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.812 &deg;C,2b,2.812
+2016-12-04 11:11:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:12:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:13:40 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:14:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:15:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 11:15:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.812 &deg;C,2b,2.812
+2016-12-04 11:15:40 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:16:37 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:17:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:18:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:19:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:20:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 11:20:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.812 &deg;C,2b,2.812
+2016-12-04 11:20:42 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 11:21:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:22:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:23:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:24:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:25:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 11:25:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 11:25:41 UTC,All OK: 2.875 on Setpoint 2abc.,,
+2016-12-04 11:26:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:27:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:28:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:29:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:30:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 11:30:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.812 &deg;C,2b,2.812
+2016-12-04 11:30:41 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:31:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:32:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:33:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:34:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:35:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 11:35:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.812 &deg;C,2b,2.812
+2016-12-04 11:35:42 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:36:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:37:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:38:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:39:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:40:38 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 11:40:39 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.812 &deg;C,2b,2.812
+2016-12-04 11:40:40 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:41:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:42:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:43:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:44:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:45:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 11:45:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.812 &deg;C,2b,2.812
+2016-12-04 11:45:43 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:46:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:47:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:48:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:49:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:50:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 11:50:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 11:50:55 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:51:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:52:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:53:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:54:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:55:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 11:55:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 11:55:40 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:56:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:57:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:58:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 11:59:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:00:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 12:00:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.812 &deg;C,2b,2.812
+2016-12-04 12:00:41 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:01:37 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:02:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:03:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:04:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:05:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 12:05:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 12:05:41 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:06:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:07:40 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:08:41 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:09:40 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:10:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 12:10:41 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:10:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 12:11:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:12:37 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:13:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:14:37 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:15:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 12:15:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.812 &deg;C,2b,2.812
+2016-12-04 12:15:41 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:16:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:17:40 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:18:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:19:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:20:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 12:20:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 12:20:40 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:21:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:22:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:23:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:24:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:25:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 12:25:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 12:25:41 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:26:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:27:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:28:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:29:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:30:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 12:30:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 12:30:40 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:31:37 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:32:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:33:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:34:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:35:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 12:35:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 12:35:40 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:36:37 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:37:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:38:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:39:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:40:43 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 12:40:44 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 12:40:46 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:41:37 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:42:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:43:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:44:40 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:45:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 12:45:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 12:45:42 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:46:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:47:39 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:48:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:49:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:50:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 12:50:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 12:50:40 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:51:37 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:52:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:53:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:54:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:55:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 12:55:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 12:55:41 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:56:40 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:57:38 UTC,All OK: 2.812 on Setpoint 2abc.,,
+2016-12-04 12:58:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 12:59:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:00:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 13:00:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 13:00:41 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:01:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:02:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:03:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:04:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:05:41 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:05:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 13:05:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 13:06:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:07:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:08:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:09:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:10:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 13:10:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 13:10:41 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:11:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:12:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:13:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:14:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:15:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.312 &deg;C,2a,4.312
+2016-12-04 13:15:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 13:15:40 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:16:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:17:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 13:18:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:19:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:20:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 13:20:40 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:20:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 13:21:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:22:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:23:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:24:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:25:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 13:25:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 13:25:42 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:26:37 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:27:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:28:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:29:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:30:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 13:30:40 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:30:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 13:31:37 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:32:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:33:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:34:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:35:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 13:35:40 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:35:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 13:36:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:37:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:38:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:39:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:40:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 13:40:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 13:40:41 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:41:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:42:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:43:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:44:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:45:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 13:45:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 13:45:41 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:46:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:47:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:48:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:49:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:50:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 13:50:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.75 &deg;C,2b,2.75
+2016-12-04 13:50:41 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:51:40 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:52:41 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:53:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:54:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:55:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 13:55:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 13:55:41 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 13:56:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 13:57:41 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 13:58:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 13:59:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 14:00:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 14:00:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 14:00:41 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 14:01:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 14:02:40 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 14:03:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 14:04:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 14:05:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 14:05:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 14:05:40 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 14:06:38 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 14:07:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 14:08:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:09:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 14:10:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 14:10:40 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:10:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 14:11:37 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:12:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 14:13:40 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 14:14:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:15:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 14:15:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 14:15:42 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 14:16:39 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 14:17:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:18:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:19:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:20:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 14:20:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 14:20:41 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:21:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:23:12 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:23:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:24:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:25:40 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:25:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 14:25:42 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 14:26:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:28:35 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:28:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:29:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:30:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 14:30:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 14:30:42 UTC,All OK: 2.75 on Setpoint 2abc.,,
+2016-12-04 14:31:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:32:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:33:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:34:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:35:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 14:35:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 14:35:41 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:36:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:37:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:38:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:39:37 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:40:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 14:40:39 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 14:40:40 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:41:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:42:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:43:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:44:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:45:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 14:45:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 14:45:41 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:46:40 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:47:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:48:37 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:49:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:50:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 14:50:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 14:50:41 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:51:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:52:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:53:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:54:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:55:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 14:55:40 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:55:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 14:56:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:57:37 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:58:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 14:59:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:00:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 15:00:41 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:00:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 15:01:40 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:02:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:03:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:04:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:05:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 15:05:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 15:05:42 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:06:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:07:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:08:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:09:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:10:40 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:10:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 15:10:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 15:11:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:12:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:13:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:14:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:15:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 15:15:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 15:15:41 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:16:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:17:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:18:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:19:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:20:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 15:20:40 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:20:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 15:21:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:22:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:23:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:24:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:25:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 15:25:41 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:25:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 15:26:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:27:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:28:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:29:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:30:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 15:30:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 15:30:41 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:31:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:32:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:33:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:34:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:35:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 15:35:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 15:35:40 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:36:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:37:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:38:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:39:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:40:40 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:40:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.25 &deg;C,2a,4.25
+2016-12-04 15:40:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 15:41:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:42:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:43:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:45:16 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 15:45:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 15:45:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 15:45:42 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:46:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:47:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:48:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:49:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:50:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 15:50:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 15:50:41 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:51:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:52:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:53:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:54:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:55:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 15:55:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 15:55:42 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:56:40 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:57:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:58:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 15:59:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:00:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 16:00:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.687 &deg;C,2b,2.687
+2016-12-04 16:00:41 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:01:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:02:41 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:03:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:04:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:05:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 16:05:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 16:05:41 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:06:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:07:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:08:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:09:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:10:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 16:10:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 16:10:41 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:11:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:12:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:13:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:14:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:15:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 16:15:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 16:15:41 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:16:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:17:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:18:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:19:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:20:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 16:20:40 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:20:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 16:21:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:22:40 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:23:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:24:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:25:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 16:25:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 16:25:41 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:26:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:27:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:28:37 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:29:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:30:40 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:30:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 16:30:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 16:31:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:32:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:33:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:34:37 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:35:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 16:35:39 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:35:39 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 16:36:37 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:37:37 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:38:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:39:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:40:38 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 16:40:39 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 16:40:40 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:41:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:42:38 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:43:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:44:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:45:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 16:45:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 16:45:41 UTC,All OK: 2.687 on Setpoint 2abc.,,
+2016-12-04 16:46:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:47:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:48:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:49:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:50:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 16:50:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 16:50:40 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:51:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:52:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:53:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:54:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:55:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 16:55:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 16:55:40 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:56:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:57:37 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:58:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 16:59:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:00:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 17:00:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 17:00:41 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:01:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:02:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:03:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:04:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:05:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 17:05:40 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:05:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 17:06:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:07:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:08:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:09:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:10:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 17:10:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 17:10:41 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:11:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:12:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:13:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:14:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:15:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 17:15:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 17:15:40 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:16:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:17:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:18:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:19:37 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:20:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 17:20:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 17:20:40 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:21:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:22:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:23:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:24:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:25:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 17:25:41 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:25:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 17:26:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:27:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:28:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:29:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:30:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 17:30:41 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:30:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 17:31:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:32:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:33:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:34:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:35:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 17:35:40 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:35:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 17:36:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:37:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:38:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:39:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:40:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.187 &deg;C,2a,4.187
+2016-12-04 17:40:39 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 17:40:40 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:41:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:42:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:43:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:44:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:45:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 17:45:40 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:45:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 17:46:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:47:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:48:40 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:49:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:50:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 17:50:41 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:50:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 17:51:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:52:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:53:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:54:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:55:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 17:55:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 17:55:41 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 17:56:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:57:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:58:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 17:59:37 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:00:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 18:00:40 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:00:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 18:01:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:02:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:03:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:04:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:05:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 18:05:39 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 18:05:40 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:06:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:07:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:08:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:09:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:10:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 18:10:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 18:10:40 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:11:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:12:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:13:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:14:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:15:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 18:15:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.625 &deg;C,2b,2.625
+2016-12-04 18:15:41 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:16:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:17:37 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:18:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:19:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:20:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 18:20:42 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 18:20:42 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:21:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:22:37 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:23:37 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:24:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:25:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 18:25:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 18:25:41 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:26:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:27:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:28:37 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:29:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:30:41 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:30:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 18:30:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 18:31:37 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:32:37 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:33:37 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:34:37 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:35:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 18:35:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:35:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 18:36:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:37:37 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:38:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:39:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:40:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 18:40:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:40:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 18:41:37 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:42:37 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:43:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:44:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:45:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 18:45:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 18:45:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:46:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:47:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:48:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:49:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:50:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 18:50:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 18:50:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:51:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:52:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:53:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:54:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 18:55:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 18:55:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 18:55:41 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:56:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:57:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:58:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 18:59:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:00:42 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 19:00:43 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 19:00:43 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:01:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:02:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:03:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:04:39 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 19:05:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 19:05:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 19:05:41 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:06:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:07:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:08:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:09:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:10:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 19:10:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 19:10:41 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 19:11:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:12:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:13:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:14:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:15:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 19:15:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 19:15:41 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:16:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:17:37 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:18:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:19:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:20:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 19:20:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:20:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 19:21:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:22:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:23:37 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:24:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:25:38 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 19:25:39 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 19:25:40 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 19:26:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:27:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:28:38 UTC,All OK: 2.625 on Setpoint 2abc.,,
+2016-12-04 19:29:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:30:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 19:30:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 19:30:41 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:31:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:32:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:33:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:34:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:35:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:35:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 19:35:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 19:36:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:37:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:38:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:39:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:40:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 19:40:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:40:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 19:41:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:42:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:43:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:44:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:45:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 19:45:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 19:45:42 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:46:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:47:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:48:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:49:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:50:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 19:50:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 19:50:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:51:37 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:52:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:53:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:54:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:55:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:55:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 19:55:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 19:56:37 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:57:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:58:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 19:59:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:00:38 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 20:00:39 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 20:00:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:01:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:02:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:03:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:04:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:05:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 20:05:39 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 20:05:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:06:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:07:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:08:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:09:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:10:41 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:10:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 20:10:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 20:11:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:12:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:13:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:14:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:15:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 20:15:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 20:15:41 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:16:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:17:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:18:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:19:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:20:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 20:20:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 20:20:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:21:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:22:37 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:23:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:24:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:25:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 20:25:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 20:25:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:26:37 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:27:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:28:37 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:29:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:30:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 20:30:41 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:30:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 20:31:37 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:32:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:33:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:34:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:35:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:35:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.125 &deg;C,2a,4.125
+2016-12-04 20:35:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 20:36:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:37:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:38:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:39:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:40:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 20:40:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 20:40:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:41:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:42:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:43:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:44:37 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:45:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 20:45:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 20:45:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:46:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:47:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:48:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:49:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:50:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 20:50:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 20:50:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:51:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:52:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:53:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:54:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:55:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 20:55:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 20:55:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:56:37 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:57:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:58:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 20:59:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:00:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 21:00:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 21:00:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:01:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:02:39 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:03:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:04:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:05:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 21:05:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 21:05:40 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:06:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:07:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:08:37 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:09:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:10:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 21:10:39 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 21:10:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:11:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:12:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:13:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:14:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:15:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 21:15:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 21:15:41 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:16:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:17:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:18:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:19:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:20:41 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:20:45 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 21:20:45 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 21:21:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:22:39 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:23:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:24:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:25:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 21:25:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 21:25:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:26:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:27:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:28:37 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:29:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:30:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 21:30:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 21:30:41 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:31:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:32:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:33:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:34:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:35:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 21:35:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 21:35:41 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:36:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:37:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:38:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:39:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:40:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 21:40:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.562 &deg;C,2b,2.562
+2016-12-04 21:40:41 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:41:39 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:42:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:43:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:44:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:45:38 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 21:45:39 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 21:45:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:46:40 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:47:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:48:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:49:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 21:50:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 21:50:41 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:50:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 21:51:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:52:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:53:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:54:46 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:55:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 21:55:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 21:55:41 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:56:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:57:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:58:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 21:59:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:00:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 22:00:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 22:00:40 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:01:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 22:02:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:03:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 22:04:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:05:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 22:05:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 22:05:41 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:06:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:07:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:08:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:09:39 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:10:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 22:10:40 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 22:10:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 22:11:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:12:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:13:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:14:38 UTC,All OK: 2.562 on Setpoint 2abc.,,
+2016-12-04 22:15:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 22:15:40 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:15:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 22:16:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:17:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:18:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:19:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:20:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.0 &deg;C,2a,4.0
+2016-12-04 22:20:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 22:20:41 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:21:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:22:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:23:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:24:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:25:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.0 &deg;C,2a,4.0
+2016-12-04 22:25:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 22:25:42 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:26:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:27:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:28:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:29:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:30:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 22:30:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 22:30:41 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:31:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:32:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:33:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:34:39 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:35:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 22:35:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 22:35:40 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:36:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:37:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:38:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:39:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:40:41 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 22:40:41 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:40:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 22:41:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:42:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:43:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:44:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:45:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 22:45:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 22:45:40 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:46:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:47:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:48:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:49:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:50:39 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.062 &deg;C,2a,4.062
+2016-12-04 22:50:40 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 22:50:40 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:51:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:52:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:53:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:54:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:55:40 UTC,UPDATE: Sensor 2a [28-000007830995] with value 4.0 &deg;C,2a,4.0
+2016-12-04 22:55:41 UTC,UPDATE: Sensor 2b [28-0000075d6e6a] with value 2.5 &deg;C,2b,2.5
+2016-12-04 22:55:42 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:56:39 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:57:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:58:38 UTC,All OK: 2.5 on Setpoint 2abc.,,
+2016-12-04 22:59:37 UTC,All OK: 2.5 on Setpoint 2abc.,,
