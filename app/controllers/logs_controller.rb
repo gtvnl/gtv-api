@@ -3,15 +3,11 @@ class LogsController < ApplicationController
   before_action :set_log, only: [:show, :update, :destroy]
 
   def sensor_2a
-    @dates = Log.where(sensor: "2a").pluck(:created_at)
-    @values = Log.where(sensor: "2a").pluck(:value)
-
-  
-    render json: Log.where(sensor: "2a").pluck(:value)
+    render json: Log.where(sensor: "2a").pluck(:created_at, :value).map{|log| { log[0] => log[1] } }.to_json
   end
 
   def sensor_2b
-    render json: Log.where(sensor: "2b").pluck(:value)
+    render json: Log.where(sensor: "2b").pluck(:created_at, :value).map{|log| { log[0] => log[1] } }.to_json
   end
 
   # GET /logs

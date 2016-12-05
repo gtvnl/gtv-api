@@ -4,16 +4,6 @@ class Log < ApplicationRecord
 
   validates :description, presence: true
 
-def make_hash
-  h = Hash.new
-  Log.where(sensor: "2b").pluck_h(:created_at, :value).each do |item|
-    # puts { item.created_at => item.value }
-  end
-
-  return h
-
-end
-
 def self.as_csv
   CSV.generate do |csv|
     csv << column_names
