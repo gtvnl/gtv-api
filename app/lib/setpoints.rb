@@ -35,7 +35,7 @@ class Setpoints
           current_temp = Sensors.read_one(setpoint.sensor)["#{setpoint.sensor.address}"]
           desired_temp = setpoint.value
           min_temp = setpoint.value - setpoint.max_temp_difference
-
+          max_temp = setpoint_value + setpoint.max_temp_difference
 
           if current_temp < desired_temp
 
@@ -55,9 +55,9 @@ class Setpoints
             # Turn off heating ribbons
             # TEMP ACQUIRED EMAIL
             Relais.off(relais)
+
             Log.create(description: "DESIRED TEMPERATURE ACQUIRED: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
-            ApplicationMailer.send_email("DESIRED TEMPERATURE ACQUIRED: #{current_temp} on #{setpoint.name}.")
-          elsif current_temp > desired_temp
+          elsif current_temp > max_temp
             # TEMP CRITICAL HIGH EMAIL
             Relais.off(relais)
             send_email(setpoint, current_temp, desired_temp, min_temp, "HIGH")
