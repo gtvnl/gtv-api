@@ -15,6 +15,8 @@ gem 'groupdate'
 gem 'hightop'
 gem 'remote_syslog_logger'
 gem 'twitter-bootstrap-rails'
+gem 'newrelic_rpm'
+
 # Raspberry specific
 gem 'rpi_gpio', :require => false
 
