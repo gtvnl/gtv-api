@@ -41,6 +41,7 @@ class Setpoints
 
             if current_temp <= min_temp
               # TEMP CRITICAL LOW EMAIL
+              Relais.on(relais)
               send_email(setpoint, current_temp, desired_temp, min_temp, "LOW")
               Log.create(description: "CRITICALLY LOW TEMPERATURE detected: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
 
@@ -53,9 +54,9 @@ class Setpoints
           elsif current_temp = desired_temp
             # Turn off heating ribbons
             # TEMP ACQUIRED EMAIL
+            Relais.off(relais)
             Log.create(description: "DESIRED TEMPERATURE ACQUIRED: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
             ApplicationMailer.send_email("DESIRED TEMPERATURE ACQUIRED: #{current_temp} on #{setpoint.name}.")
-            Relais.off(relais)
           elsif current_temp > desired_temp
             # TEMP CRITICAL HIGH EMAIL
             Relais.off(relais)
