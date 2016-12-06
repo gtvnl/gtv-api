@@ -49,6 +49,11 @@ RailsAdmin.config do |config|
       exclude_fields :id, :created_at
   end
 
+  config.model 'Log' do
+      exclude_fields :id, :updated_at
+  end
+
+
 
 
     ## With an audit adapter, you can add:
