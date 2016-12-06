@@ -42,7 +42,7 @@ RailsAdmin.config do |config|
   end
 
   config.model 'Gpio' do
-      exclude_fields :id, :created_at, :updated_at
+      exclude_fields :id, :created_at, :updated_at, :pin, :gpio_number
   end
 
   config.model 'Sensor' do
