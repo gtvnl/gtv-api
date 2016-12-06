@@ -36,8 +36,25 @@ class ChartsController < ApplicationController
     @sensor_6c = Log.where(sensor: "6c").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at => e.value) }
 
     @data = [
+  {name: "Sensor 1a", data: @sensor_1a},
+  {name: "Sensor 1b", data: @sensor_1b},
+  {name: "Sensor 1c", data: @sensor_1c},
   {name: "Sensor 2a", data: @sensor_2a},
-  {name: "Sensor 2b", data: @sensor_2b}
+  {name: "Sensor 2b", data: @sensor_2b},
+  {name: "Sensor 2c", data: @sensor_2c},
+  {name: "Sensor 3a", data: @sensor_3a},
+  {name: "Sensor 3b", data: @sensor_3b},
+  {name: "Sensor 3c", data: @sensor_3c},
+  {name: "Sensor 4a", data: @sensor_4a},
+  {name: "Sensor 4b", data: @sensor_4b},
+  {name: "Sensor 4c", data: @sensor_4c},
+  {name: "Sensor 5a", data: @sensor_5a},
+  {name: "Sensor 5b", data: @sensor_5b},
+  {name: "Sensor 5c", data: @sensor_5c},
+  {name: "Sensor 6a", data: @sensor_6a},
+  {name: "Sensor 6b", data: @sensor_6b},
+  {name: "Sensor 6c", data: @sensor_6c}
+
 ]
     render "charts/index"
 
