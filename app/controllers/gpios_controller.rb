@@ -31,6 +31,13 @@ class GpiosController < ApplicationController
   # PATCH/PUT /gpios/1
   def update
     if @gpio.update(gpio_params)
+      # Turn relais on / off with manual update
+      if @gpio.is_on
+        Relais.on(@gpio.pin)
+      else
+        Relais.off(@gpio.pin)
+      end
+
       Log.create(description: "UPDATE: GPIO #{@gpio.name} (GPIO:#{@gpio.gpio_number}/PIN:#{@gpio.pin}")
       render json: @gpio
     else
