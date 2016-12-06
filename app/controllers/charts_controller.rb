@@ -37,6 +37,7 @@ class ChartsController < ApplicationController
     @sensor_6b = Log.where(sensor: "6b").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at => e.value) }
     @sensor_6c = Log.where(sensor: "6c").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at => e.value) }
 
+    @setpoint2 = Log.where.not(setpoint_value: nil).where("description like ?", "%Setpoint 2%").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at => e.setpoint_value) }
 
 
     @data = [
@@ -47,6 +48,7 @@ class ChartsController < ApplicationController
       {name: "Sensor 2a", data: @sensor_2a},
       {name: "Sensor 2b", data: @sensor_2b},
       {name: "Sensor 2c", data: @sensor_2c},
+      {name: "Setpoint 2", data: @setpoint2},
 
       {name: "Sensor 3a", data: @sensor_3a},
       {name: "Sensor 3b", data: @sensor_3b},
