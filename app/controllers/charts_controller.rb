@@ -22,7 +22,7 @@ class ChartsController < ApplicationController
       discrete: true,
       library: {
         title: {text: "Last 24 hours", x: -20},
-
+        zoomType: 'x',
         yAxis: {
             title: {
                 text: 'Temperatures'
@@ -30,12 +30,16 @@ class ChartsController < ApplicationController
             plotLines: [{
                 value: @setpoint1,
                 color: 'green',
+                dashStyle: 'shortdash',
+                width: 2,
                 label: {
                     text: 'Setpoint 1'
                 }
             }, {
                 value: @setpoint2,
                 color: 'red',
+                dashStyle: 'shortdash',
+                width: 2,
                 label: {
                     text: 'Setpoint 2'
                 }
