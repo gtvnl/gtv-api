@@ -4,6 +4,7 @@ class Setpoints
     def send_email(setpoint, current_temp, desired_temp, min_temp, highlow)
 
       Log.create(description: "CRITICAL TEMPERATURE detected: #{current_temp} on #{setpoint.name}.")
+
       title = "CRITICALLY #{highlow} TEMPERATURE detected: #{current_temp} on #{setpoint.name}."
       body = "Sensor: #{setpoint.sensor.name}\nCurrent Temperature: #{current_temp}\nSetpoint Temperature: #{desired_temp}\nCritical Temperature: #{min_temp}"
 
@@ -37,47 +38,27 @@ class Setpoints
           min_temp = setpoint.value - setpoint.max_temp_difference
 
 
-
-
           if current_temp < desired_temp
 
             if current_temp <= min_temp
-              // TEMP CRITICAL LOW EMAIL
+              # TEMP CRITICAL LOW EMAIL
               send_email(setpoint, current_temp, desired_temp, min_temp, "LOW")
             else
-              // Turn on heating ribbons
-              Log.create(description: "Low TEMPERATURE detected: #{current_temp} on #{setpoint.name}.")
+              # Turn on heating ribbons
               Relais.on(relais)
+              Log.create(description: "Low TEMPERATURE detected: #{current_temp} on #{setpoint.name}.")
             end
 
           elsif current_temp = desired_temp
-            // Turn off heating ribbons
-            // TEMP ACQUIRED EMAIL
+            # Turn off heating ribbons
+            # TEMP ACQUIRED EMAIL
             Log.create(description: "DESIRED TEMPERATURE ACQUIRED: #{current_temp} on #{setpoint.name}.")
+            ApplicationMailer.send_email("DESIRED TEMPERATURE ACQUIRED: #{current_temp} on #{setpoint.name}.")
             Relais.off(relais)
-          elseif current_temp > desired_temp
-            // TEMPCRITICAL HIGH EMAIL
+          elsif current_temp > desired_temp
+            # TEMP CRITICAL HIGH EMAIL
             Relais.off(relais)
             send_email(setpoint, current_temp, desired_temp, min_temp, "HIGH")
-          end
-
-
-
-
-            if current_temp <= min_temp
-
-              Log.create(description: "CRITICAL TEMPERATURE detected: #{current_temp} on #{setpoint.name}.")
-              title = "CRITICAL TEMPERATURE detected: #{current_temp} on #{setpoint.name}."
-              body = "Sensor: #{setpoint.sensor.name}\nRelais: #{setpoint.gpio.name}\nCurrent Temperature: #{current_temp}\nSetpoint Temperature: #{required_temp}\nCritical Temperature: #{min_temp}"
-
-              ErrorMailer.error_email(title, body).deliver
-            end
-              Log.create(description: "Low TEMPERATURE detected: #{current_temp} on #{setpoint.name}.")
-              Relais.on(relais)
-
-          elsif current_temp > required_temp
-            Log.create(description: "All OK: #{current_temp} on #{setpoint.name}.")
-            Relais.off(relais)
           end
         end
       end
