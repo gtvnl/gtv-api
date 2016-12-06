@@ -11,6 +11,13 @@ class ChartsController < ApplicationController
 
 
   def index
+    @setpoint1 = Setpoint.find_by(name: "Setpoint 1").value
+    @setpoint2 = Setpoint.find_by(name: "Setpoint 2").value
+    @setpoint3 = Setpoint.find_by(name: "Setpoint 3").value
+    @setpoint4 = Setpoint.find_by(name: "Setpoint 4").value
+    @setpoint5 = Setpoint.find_by(name: "Setpoint 5").value
+    @setpoint6 = Setpoint.find_by(name: "Setpoint 6").value
+
     @basic_opts = {
       discrete: true,
       library: {
@@ -21,20 +28,16 @@ class ChartsController < ApplicationController
                 text: 'Temperatures'
             },
             plotLines: [{
-                value: 1,
+                value: @setpoint1,
                 color: 'green',
-                dashStyle: 'shortdash',
-                width: 2,
                 label: {
-                    text: 'Last quarter minimum'
+                    text: 'Setpoint 1'
                 }
             }, {
-                value: 2,
+                value: @setpoint2,
                 color: 'red',
-                dashStyle: 'shortdash',
-                width: 2,
                 label: {
-                    text: 'Last quarter maximum'
+                    text: 'Setpoint 2'
                 }
             }]
         },
@@ -72,12 +75,7 @@ class ChartsController < ApplicationController
     @sensor_6b = Log.where(sensor: "6b").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at => e.value) }
     @sensor_6c = Log.where(sensor: "6c").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at => e.value) }
 
-    @setpoint1 = Setpoint.find_by(name: "Setpoint 1").value
-    @setpoint2 = Setpoint.find_by(name: "Setpoint 2").value
-    @setpoint3 = Setpoint.find_by(name: "Setpoint 3").value
-    @setpoint4 = Setpoint.find_by(name: "Setpoint 4").value
-    @setpoint5 = Setpoint.find_by(name: "Setpoint 5").value
-    @setpoint6 = Setpoint.find_by(name: "Setpoint 6").value
+
 
     @data = [
       {name: "Sensor 1a", data: @sensor_1a},
