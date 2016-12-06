@@ -35,7 +35,7 @@ class Setpoints
           current_temp = Sensors.read_one(setpoint.sensor)["#{setpoint.sensor.address}"]
           desired_temp = setpoint.value
           min_temp = setpoint.value - setpoint.max_temp_difference
-          max_temp = setpoint_value + setpoint.max_temp_difference
+          max_temp = setpoint.value + setpoint.max_temp_difference
 
           if current_temp < desired_temp
 
