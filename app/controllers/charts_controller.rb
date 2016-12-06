@@ -11,49 +11,7 @@ class ChartsController < ApplicationController
 
 
   def index
-    @setpoint1 = Setpoint.find_by(name: "Setpoint 1").value
-    @setpoint2 = Setpoint.find_by(name: "Setpoint 2").value
-    @setpoint3 = Setpoint.find_by(name: "Setpoint 3").value
-    @setpoint4 = Setpoint.find_by(name: "Setpoint 4").value
-    @setpoint5 = Setpoint.find_by(name: "Setpoint 5").value
-    @setpoint6 = Setpoint.find_by(name: "Setpoint 6").value
 
-    @basic_opts = {
-      discrete: true,
-      library: {
-        title: {text: "Last 24 hours", x: -20},
-        zoomType: 'x',
-        yAxis: {
-            title: {
-                text: 'Temperatures'
-            },
-            plotLines: [{
-                value: @setpoint1,
-                color: 'green',
-                dashStyle: 'shortdash',
-                width: 2,
-                label: {
-                    text: 'Setpoint 1'
-                }
-            }, {
-                value: @setpoint2,
-                color: 'red',
-                dashStyle: 'shortdash',
-                width: 2,
-                label: {
-                    text: 'Setpoint 2'
-                }
-            }]
-        },
-
-        tooltip: {
-          valueSuffix: 'degrees Celcius'
-        },
-        credits: {
-          enabled: false
-        }
-      }
-    }
 
     @sensor_1a = Log.where(sensor: "1a").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at => e.value) }
     @sensor_1b = Log.where(sensor: "1b").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at => e.value) }

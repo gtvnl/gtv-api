@@ -3,7 +3,6 @@ class Setpoints
 
     def send_email(setpoint, current_temp, desired_temp, min_temp, highlow)
 
-      Log.create(description: "CRITICAL TEMPERATURE detected: #{current_temp} on #{setpoint.name}.")
 
       title = "CRITICALLY #{highlow} TEMPERATURE detected: #{current_temp} on #{setpoint.name}."
       body = "Sensor: #{setpoint.sensor.name}\nCurrent Temperature: #{current_temp}\nSetpoint Temperature: #{desired_temp}\nCritical Temperature: #{min_temp}"
@@ -43,22 +42,26 @@ class Setpoints
             if current_temp <= min_temp
               # TEMP CRITICAL LOW EMAIL
               send_email(setpoint, current_temp, desired_temp, min_temp, "LOW")
+              Log.create(description: "CRITICALLY LOW TEMPERATURE detected: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
+
             else
               # Turn on heating ribbons
               Relais.on(relais)
-              Log.create(description: "Low TEMPERATURE detected: #{current_temp} on #{setpoint.name}.")
+              Log.create(description: "Low TEMPERATURE detected: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
             end
 
           elsif current_temp = desired_temp
             # Turn off heating ribbons
             # TEMP ACQUIRED EMAIL
-            Log.create(description: "DESIRED TEMPERATURE ACQUIRED: #{current_temp} on #{setpoint.name}.")
+            Log.create(description: "DESIRED TEMPERATURE ACQUIRED: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
             ApplicationMailer.send_email("DESIRED TEMPERATURE ACQUIRED: #{current_temp} on #{setpoint.name}.")
             Relais.off(relais)
           elsif current_temp > desired_temp
             # TEMP CRITICAL HIGH EMAIL
             Relais.off(relais)
             send_email(setpoint, current_temp, desired_temp, min_temp, "HIGH")
+            Log.create(description: "CRITICALLY HIGH TEMPERATURE detected: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
+
           end
         end
       end

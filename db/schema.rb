@@ -10,37 +10,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161201112818) do
-
-  create_table "entity_storage", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
-    t.string   "key",        limit: 191,   null: false
-    t.binary   "value",      limit: 65535
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.index ["created_at"], name: "created_at", using: :btree
-    t.index ["key"], name: "key", using: :btree
-    t.index ["updated_at"], name: "updated_at", using: :btree
-  end
+ActiveRecord::Schema.define(version: 20161206085821) do
 
   create_table "gpios", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "name"
+    t.integer  "pin"
     t.integer  "gpio_number"
     t.integer  "of_type"
     t.datetime "created_at",                        null: false
     t.datetime "updated_at",                        null: false
-    t.bigint   "operating_seconds", default: 0
+    t.bigint   "operating_seconds"
     t.datetime "start_time"
     t.datetime "end_time"
     t.boolean  "is_on",             default: false
-    t.integer  "pin"
   end
 
   create_table "logs", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "description"
-    t.float    "value",       limit: 24
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
+    t.float    "value",          limit: 24
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
     t.string   "sensor"
+    t.float    "setpoint_value", limit: 24
   end
 
   create_table "meters", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
@@ -66,6 +57,7 @@ ActiveRecord::Schema.define(version: 20161201112818) do
     t.float    "value",               limit: 24
     t.datetime "created_at",                                   null: false
     t.datetime "updated_at",                                   null: false
+    t.integer  "pin"
     t.integer  "sensor_id"
     t.integer  "gpio_id"
     t.float    "max_temp_difference", limit: 24, default: 0.0
