@@ -34,7 +34,7 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
 
-          <li class="<%= 'active' if params[:controller] == 'overview' && params[:action] == 'index' %>">
+          <li class="<%= 'active' if params[:controller] == 'charts' && params[:action] == 'index' %>">
             <%= link_to "Home", root_path %>
           </li>
 
@@ -54,6 +54,8 @@
         <ul class="nav navbar-nav navbar-right">
           <li><%= link_to "Admin", rails_admin_path, :target => "_blank" %></li>
           <li><%= link_to "System Logs", "https://papertrailapp.com/systems/569003403/events", :target => "_blank" %></li>
+          <li><%= link_to "New Relic Logs", "https://rpm.newrelic.com/accounts/1497434/applications/29270411", :target => "_blank" %></li>
+
         </ul>
       </div><!--/.nav-collapse -->
     </div>
@@ -72,7 +74,7 @@
   </div>
 
   <%= yield :charts_js %> <%# Rails %>
-  
+
 <footer>
 </footer>
 </body>
