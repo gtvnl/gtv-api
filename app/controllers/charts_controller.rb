@@ -11,6 +11,43 @@ class ChartsController < ApplicationController
 
 
   def index
+    @basic_opts = {
+      discrete: true,
+      library: {
+        title: {text: "Last 24 hours", x: -20},
+
+        yAxis: {
+            title: {
+                text: 'Temperatures'
+            },
+            plotLines: [{
+                value: 1,
+                color: 'green',
+                dashStyle: 'shortdash',
+                width: 2,
+                label: {
+                    text: 'Last quarter minimum'
+                }
+            }, {
+                value: 2,
+                color: 'red',
+                dashStyle: 'shortdash',
+                width: 2,
+                label: {
+                    text: 'Last quarter maximum'
+                }
+            }]
+        },
+
+        tooltip: {
+          valueSuffix: 'degrees Celcius'
+        },
+        credits: {
+          enabled: false
+        }
+      }
+    }
+
     @sensor_1a = Log.where(sensor: "1a").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at => e.value) }
     @sensor_1b = Log.where(sensor: "1b").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at => e.value) }
     @sensor_1c = Log.where(sensor: "1c").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at => e.value) }
@@ -71,4 +108,8 @@ class ChartsController < ApplicationController
     render "charts/index"
 
   end
+
+
+
+
 end
