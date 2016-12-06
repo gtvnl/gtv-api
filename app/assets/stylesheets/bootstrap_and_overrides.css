@@ -9,3 +9,9 @@
   .main-container {
     margin: 60px 25px 60px 25px;
   }
+
+  .charts {
+    display: block;
+    margin: auto;
+    width: 40%;
+  }
