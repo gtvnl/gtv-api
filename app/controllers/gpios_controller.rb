@@ -61,6 +61,6 @@ class GpiosController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def gpio_params
-      params.require(:gpio).permit(:name, :gpio_number, :pin, :of_type)
+      params.require(:gpio).permit(:name, :gpio_number, :pin, :of_type, :operating_seconds, :start_time, :end_time, :is_on)
     end
 end
