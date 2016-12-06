@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.0.1'
 gem 'mysql2'
 gem 'rack-attack'
@@ -11,14 +10,10 @@ gem 'active_model_serializers'
 gem 'time_difference'
 gem 'rails_admin'
 gem 'figaro'
-gem 'google_drive'
 gem 'chartkick'
 gem 'groupdate'
 gem 'hightop'
 gem 'remote_syslog_logger'
-gem 'pluck_to_hash'
-# gem 'therubyracer', '0.12'
-# gem 'less-rails' #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem 'twitter-bootstrap-rails'
 # Raspberry specific
 gem 'rpi_gpio', :require => false
