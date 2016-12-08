@@ -38,8 +38,8 @@ class Temp
 
       array.each do |value|
 
-        name = sensor.split(":")[0]
-        temp = sensor.split(":")[1].to_f
+        name = value.split(":")[0]
+        temp = value.split(":")[1].to_f
 
         h = {"#{s}":  t}
 
