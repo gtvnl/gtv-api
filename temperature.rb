@@ -20,10 +20,11 @@ begin
 
     name = i.split(": ")[0]
     temp = i.split(": ")[1].to_f
+
     set << {"#{name}": temp}
     puts "[#{set.count}]#{name}: #{temp}"
   end
-end while hash.count < sensors
+end while set.count < sensors
 
 puts hash
 
