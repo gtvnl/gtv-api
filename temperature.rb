@@ -14,24 +14,11 @@ sensorNames = ["1a","1b","1c","2a","2b","2c","3a","3b","3c","4a","4b","4c","5a",
 
 
 begin
-  i = sp.gets.chomp unless sp.gets.nil?
+  i = sp.gets.chomp
 
-  sensorNames.each do |sensorName|
+  puts i
 
-    if i.include? "Sensor #{sensorName}"
-      sensorNames.delete(sensorName)
-
-      name = i.split(": ")[0]
-      temp = i.split(": ")[1].to_f
-
-      puts "[#{sensorName}/#{sensorNames.count}]#{name}: #{temp}"
-    else
-      puts i
-    end
-  end
-
-
-end while (sensorNames.count != 0)
+end while i.nl?
 
 
 sp.close
