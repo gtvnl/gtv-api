@@ -29,12 +29,10 @@ while startCount < 2 && endCount < 2
 
     end
   end
-
-
 end
+
 
 sp.close
 
 result = /START>{3}(.*?)\<{3}EOF/.match(serialString)
 puts result
-end
