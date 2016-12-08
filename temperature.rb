@@ -17,12 +17,14 @@ begin
   i = sp.gets.chomp unless sp.gets.nil?
 
   sensorNames.each do |sensorName|
+
     if i.include? "Sensor #{sensorName}"
+      sensorNames.delete(sensorName)
 
       name = i.split(": ")[0]
       temp = i.split(": ")[1].to_f
 
-      puts "[#{sensorName}]#{name}: #{temp}"
+      puts "[#{sensorName}/#{sensorNames.count}]#{name}: #{temp}"
     end
   end
 
