@@ -1,5 +1,4 @@
 require "serialport"
-require "set"
 
 port_str = "/dev/ttyACM0"  #may be different for you
 baud_rate = 9600
