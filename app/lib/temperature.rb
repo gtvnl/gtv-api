@@ -41,7 +41,7 @@ class Temp
         name = value.split(":")[0]
         temp = value.split(":")[1].to_f
 
-        h = {"#{name}":  temp}
+        h["#{name}"] = temp
 
       end
       return h
