@@ -28,6 +28,8 @@ begin
     end
   end
 
+  puts i
+
 end while (sensorNames.count != 0)
 
 
