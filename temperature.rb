@@ -6,10 +6,8 @@ data_bits = 8
 stop_bits = 1
 parity = SerialPort::NONE
 
-sp = SerialPort.new(port_str, baud_rate, data_bits, stop_bits, parity)
-sp.close
-sp = SerialPort.new(port_str, baud_rate, data_bits, stop_bits, parity)
 
+sp = SerialPort.new(port_str, baud_rate, data_bits, stop_bits, parity)
 
 sensors = 20
 count = 0
@@ -23,5 +21,7 @@ hash = Hash.new
         hash[name] = temp
       end
    end while count < sensors
+
 puts hash
+
 sp.close
