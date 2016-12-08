@@ -1,7 +1,7 @@
 require "serialport"
 
 port_str = "/dev/ttyACM0"  #may be different for you
-baud_rate = 9600
+baud_rate = 115200
 data_bits = 8
 stop_bits = 1
 parity = SerialPort::NONE
@@ -15,16 +15,16 @@ startCount = 0
 endCount = 0
 serialString = ""
 
-while endCount < 2
+while startCount < 2 && endCount < 2
 
-  i = sp.gets&.chomp!
+  i = sp.gets.chomp
 
   unless i.nil?
     serialString << i
-    if i.include? "START>>>"
+    if i.include? "START"
       startCount += 1
 
-    elsif i.include? "<<<EOF"
+    elsif i.include? "EOF"
       endCount += 1
 
     end
@@ -33,6 +33,8 @@ while endCount < 2
 
 end
 
-puts serialString
-
 sp.close
+
+result = /START>{3}(.*?)\<{3}EOF/.match(serialString)
+puts result
+end
