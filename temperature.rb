@@ -24,7 +24,7 @@ while endCount < 2
     if i.include? "START>>>"
       startCount += 1
 
-    elsif i.incude? "<<<EOF"
+    elsif i.include? "<<<EOF"
       endCount += 1
 
     end
