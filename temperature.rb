@@ -28,7 +28,6 @@ while endCount < 2
       endCount += 1
 
     end
-  end
 
 end
 
