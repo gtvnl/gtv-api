@@ -15,17 +15,18 @@ startCount = 0
 endCount = 0
 serialString = ""
 
-while (startCount == 2 && endCount == 2)
+while endCount < 2
 
-  i = sp.gets
-puts i
-  unless i.nil?
+  i = sp.gets&.chomp!
+
+  serialString << i
+
     if i.include? "START>>>"
       startCount += 1
-      serialString = serialString + i
+
     elsif i.incude? "<<<EOF"
       endCount += 1
-      serialString = serialString + i
+
     end
   end
 
