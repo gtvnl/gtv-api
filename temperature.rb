@@ -20,8 +20,7 @@ begin
     name = i.split(": ")[0]
     temp = i.split(": ")[1].to_f
     hash[name] = temp
-    puts name
-    puts temp
+    puts "[#{hash.count}]#{name}: #{temp}"
   end
 end while hash.count < sensors
 
