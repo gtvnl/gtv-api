@@ -13,14 +13,14 @@ sensors = 20
 count = 0
 
 hash = Hash.new
-   begin  begin
-      i = sp.gets.chomp unless sp.gets.nil?
-      if i.include? "Sensor"
-        name = i.split(": ")[0]
-        temp = i.split(": ")[1].to_f
-        hash[name] = temp
-      end
-   end while count < sensors
+begin
+  i = sp.gets.chomp unless sp.gets.nil?
+  if i.include? "Sensor"
+    name = i.split(": ")[0]
+    temp = i.split(": ")[1].to_f
+    hash[name] = temp
+  end
+end while count < sensors
 
 puts hash
 
