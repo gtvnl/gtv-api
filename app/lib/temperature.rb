@@ -43,10 +43,8 @@ class Temp
 
         h = {"#{name}":  temp}
 
-        puts h
-
       end
-
+      return h
     end
   end
 end
