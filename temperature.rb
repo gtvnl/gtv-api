@@ -21,7 +21,6 @@ while endCount < 2
 
   unless i.nil?
     serialString << i
-  end
     if i.include? "START>>>"
       startCount += 1
 
@@ -29,6 +28,8 @@ while endCount < 2
       endCount += 1
 
     end
+  end
+
 
 end
 
