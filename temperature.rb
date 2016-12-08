@@ -10,22 +10,23 @@ parity = SerialPort::NONE
 
 sp = SerialPort.new(port_str, baud_rate, data_bits, stop_bits, parity)
 
-sensors = 12
-count = 0
+sensorNames = ["1a","1b","1c","2a","2b","2c","3a","3b","3c","4a","4b","4c","5a","5b","5c","6a","6b","6c"]
 
-set = Set.new
+
 begin
   i = sp.gets.chomp unless sp.gets.nil?
-  if i.include? "Sensor"
 
-    name = i.split(": ")[0]
-    temp = i.split(": ")[1].to_f
+  sensorNames.each do |sensorName|
+    if i.include? "Sensor #{sensorName}"
 
-    set << {"#{name}": temp}
-    puts "[#{set.count}]#{name}: #{temp}"
+      name = i.split(": ")[0]
+      temp = i.split(": ")[1].to_f
+
+      puts "[#{set.count}]#{name}: #{temp}"
+    end
   end
-end while set.count < sensors
 
-puts hash
+end while (sensorNames.count != 0)
+
 
 sp.close
