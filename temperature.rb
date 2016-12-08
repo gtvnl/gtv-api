@@ -18,7 +18,7 @@ serialString = ""
 while (startCount == 2 && endCount == 2)
 
   i = sp.gets
-
+puts i
   unless i.nil?
     if i.include? "START>>>"
       startCount += 1
