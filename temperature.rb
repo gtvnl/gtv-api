@@ -25,10 +25,11 @@ begin
       temp = i.split(": ")[1].to_f
 
       puts "[#{sensorName}/#{sensorNames.count}]#{name}: #{temp}"
+    else
+      puts i
     end
   end
 
-  puts i
 
 end while (sensorNames.count != 0)
 
