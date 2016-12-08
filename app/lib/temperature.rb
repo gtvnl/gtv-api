@@ -41,10 +41,14 @@ class Temp
         name = value.split(":")[0]
         temp = value.split(":")[1].to_f
 
-        h["#{name}"] = temp
+        unless name.include? "EOF"
+          h["#{name}"] = temp
+        end
 
       end
+
       return h
+      
     end
   end
 end
