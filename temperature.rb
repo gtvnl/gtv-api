@@ -19,8 +19,9 @@ while endCount < 2
 
   i = sp.gets&.chomp!
 
-  serialString << i
-
+  unless i.nil?
+    serialString << i
+  end
     if i.include? "START>>>"
       startCount += 1
 
