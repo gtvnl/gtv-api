@@ -22,7 +22,7 @@ begin
       name = i.split(": ")[0]
       temp = i.split(": ")[1].to_f
 
-      puts "[#{set.count}]#{name}: #{temp}"
+      puts "[#{sensorName}]#{name}: #{temp}"
     end
   end
 
