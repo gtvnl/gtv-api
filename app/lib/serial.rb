@@ -1,5 +1,6 @@
 require "serialport"
-class Temp
+
+class Serial
   class << self
 
     def read
@@ -48,7 +49,7 @@ class Temp
       end
 
       return h.sort.to_h
-      
+
     end
   end
 end
