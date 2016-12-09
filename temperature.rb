@@ -20,7 +20,9 @@ while startCount < 2 && endCount < 2
   i = sp.gets.chomp
 
   unless i.nil?
+
     serialString << i
+
     if i.include? "START"
       startCount += 1
 
@@ -35,4 +37,5 @@ end
 sp.close
 
 result = /START>{3}(.*?)\<{3}EOF/.match(serialString)
+
 puts result
