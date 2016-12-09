@@ -20,7 +20,7 @@ class Serial
 
     while eofCount < 5
 
-      i = sp.gets.chomp
+      i = sp.gets&.chomp
 
       unless i.nil?
         serialString << i
