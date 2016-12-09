@@ -47,7 +47,7 @@ class Temp
 
       end
 
-      return h
+      return h.sort.to_h
       
     end
   end
