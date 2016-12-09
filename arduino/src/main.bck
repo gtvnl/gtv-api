@@ -1,9 +1,7 @@
 #include<OneWire.h>
 #include<DallasTemperature.h>
-#include <PrintEx.h>
 
-using namespace ios;
-
+// Data wire is plugged into digital pin2
 
 OneWire gpio1a(2);  // Sensor 1a
 OneWire gpio1b(3);  // Sensor 1b
@@ -62,7 +60,7 @@ DallasTemperature sensorBuiten(&gpioBuiten);
 
 void setup(void)
 {
- Serial.begin(9600);
+ Serial.begin(115200);
  sensor1a.begin();
  sensor1b.begin();
  sensor1c.begin();
@@ -150,30 +148,73 @@ void loop()
  float sensorBinnenTemp = sensorBinnen.getTempCByIndex(0);
  float sensorBuitenTemp = sensorBuiten.getTempCByIndex(0);
 
-delay(2000);
+  Serial.print("1a:");
+  Serial.print(sensor1aTemp);
+  Serial.print(",");
+  Serial.print("1b:");
+  Serial.print(sensor1bTemp);
+  Serial.print(",");
+  Serial.print("1c:");
+  Serial.print(sensor1cTemp);
+  Serial.print(",");
 
-   Serial << "1a:" << precision(2) << sensor1aTemp << ","
-          << "1b:" << precision(2) << sensor1bTemp << ","	  
- 	  << "1c:" << precision(2) << sensor1cTemp << ","
-	  << "2a:" << precision(2) << sensor2aTemp << ","
-	  << "2b:" << precision(2) << sensor2bTemp << ","
-	  << "2c:" << precision(2) << sensor2cTemp << ","
-	  << "3a:" << precision(2) << sensor3aTemp << ","
-	  << "3b:" << precision(2) << sensor3bTemp << ","
-	  << "3c:" << precision(2) << sensor3cTemp << ","
-	  << "4a:" << precision(2) << sensor4aTemp << ","
-	  << "4b:" << precision(2) << sensor4bTemp << ","
-	  << "4c:" << precision(2) << sensor4cTemp << ","
-	  << "5a:" << precision(2) << sensor5aTemp << ","
-	  << "5b:" << precision(2) << sensor5bTemp << ","
-	  << "5c:" << precision(2) << sensor5cTemp << ","
- 	  << "6a:" << precision(2) << sensor6aTemp << ","
-	  << "6b:" << precision(2) << sensor6bTemp << ","
-	  << "6c:" << precision(2) << sensor6cTemp << ","
-	  << "Binnen:" << precision(2) << sensorBinnenTemp << ","
-	  << "Buiten:" << precision(2) << sensorBuitenTemp << ",EOF"
+  Serial.print("2a:");
+  Serial.print(sensor2aTemp);
+  Serial.print(",");
+  Serial.print("2b:");
+  Serial.print(sensor2bTemp);
+  Serial.print(",");
+  Serial.print("2c:");
+  Serial.print(sensor2cTemp);
+  Serial.print(",");
 
-;
+  Serial.print("3a:");
+  Serial.print(sensor3aTemp);
+  Serial.print(",");
+  Serial.print("3b:");
+  Serial.print(sensor3bTemp);
+  Serial.print(",");
+  Serial.print("3c:");
+  Serial.print(sensor3cTemp);
+  Serial.print(",");
 
+  Serial.print("4a:");
+  Serial.print(sensor4aTemp);
+  Serial.print(",");
+  Serial.print("4b:");
+  Serial.print(sensor4bTemp);
+  Serial.print(",");
+  Serial.print("4c:");
+  Serial.print(sensor4cTemp);
+  Serial.print(",");
+
+  Serial.print("5a:");
+  Serial.print(sensor5aTemp);
+  Serial.print(",");
+  Serial.print("5b:");
+  Serial.print(sensor5bTemp);
+  Serial.print(",");
+  Serial.print("5c:");
+  Serial.print(sensor5cTemp);
+  Serial.print(",");
+
+  Serial.print("6a:");
+  Serial.print(sensor6aTemp);
+  Serial.print(",");
+  Serial.print("6b:");
+  Serial.print(sensor6bTemp);
+  Serial.print(",");
+  Serial.print("6c:");
+  Serial.print(sensor6cTemp);
+  Serial.print(",");
+
+  Serial.print("Binnen:");
+  Serial.print(sensorBinnenTemp);
+  Serial.print(",");
+  Serial.print("Buiten:");
+  Serial.print(sensorBuitenTemp);
+  Serial.print(",");
+
+  Serial.println("EOF");
 
 }

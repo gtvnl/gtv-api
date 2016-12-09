@@ -1,39 +1,20 @@
-require "serialport"
+require 'rubyserial'
 
 class Serial
   class << self
 
     def read
 
-    port_str = "/dev/ttyACM0"  #may be different for you
-    baud_rate = 115200
-    data_bits = 8
-    stop_bits = 1
-    parity = SerialPort::NONE
+    serialport = Serial.new '/dev/ttyACM0'
+    sleep(2);
+
+    serialString = serialport.read(250);
+    sleep(2);
+
     h = Hash.new
-    sp = SerialPort.open(port_str, baud_rate, data_bits, stop_bits, parity)
 
     sensorNames = ["1a","1b","1c","2a","2b","2c","3a","3b","3c","4a","4b","4c","5a","5b","5c","6a","6b","6c","Binnen","Buiten"]
 
-    eofCount = 0
-    serialString = ""
-
-    while eofCount < 5
-
-      i = sp.gets&.chomp
-
-      unless i.nil?
-        serialString << i
-        if i.include? "EOF"
-          eofCount += 1
-
-        end
-      end
-    end
-
-    sp.close
-
-    #result = /START>{3}(.*?)\<{3}EOF/.match(serialString)
 
     array = serialString.split(",")
 
@@ -47,7 +28,7 @@ class Serial
         end
 
       end
-
+      puts serialString
       return h.sort.to_h
 
     end
