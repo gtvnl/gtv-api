@@ -33,7 +33,7 @@ class Setpoints
           # Assume we have valid data
           relais = setpoint.gpio.pin
 
-          current_temp = Temp.read["#{setpoint.sensor[:name]}"]
+          current_temp = Serial.read["#{setpoint.sensor[:name]}"]
           desired_temp = setpoint.value
           min_temp = setpoint.value - setpoint.max_temp_difference
           max_temp = setpoint.value + setpoint.max_temp_difference
