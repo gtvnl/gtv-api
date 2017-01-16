@@ -14,9 +14,10 @@ sio = io.TextIOWrapper(
     encoding='ascii', newline='\r', line_buffering=True
 )
 
+if ser.isOpen():
+    sio.readline()
 with open(outfile,'w') as f: #appends to existing file
     while ser.isOpen():
-      sio.readline()
       datastring = sio.readline()
       print(datastring)
       #\t is tab; \n is line separator
