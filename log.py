@@ -16,7 +16,9 @@ sio = io.TextIOWrapper(
 
 with open(outfile,'w') as f: #appends to existing file
     while ser.isOpen():
-      sio.readline()
+    #   sio.readline()
+      ser.flushInput() #flush input buffer, discarding all its contents
+      ser.flushOutput()
       datastring = sio.readline()
       print(datastring)
       #\t is tab; \n is line separator
