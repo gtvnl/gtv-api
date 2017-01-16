@@ -8,7 +8,8 @@ class Sensors
       name = s.name
 
         unless s.nil?
-          s.update(value: value)
+          s.value = value
+          s.save
           Log.create(description: "UPDATE: Sensor #{name} with value #{value} &deg;C", value: value, sensor: name)
 
         end
