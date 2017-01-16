@@ -20,11 +20,11 @@
       @setpoint = Setpoint.new(setpoint_params)
 
       if @setpoint.save
-        Log.create(description: "CREATE: Setpoint #{@setpoint.name} with value #{@setpoint.value} &deg;C", value: @setpoint.value)
+        Log.create(description: "CREATE: Setpoint #{@setpoint.name} with value #{@setpoint.value} °C", value: @setpoint.value)
 
         render json: @setpoint, status: :created
       else
-        Log.create(description: "ERROR: Creating Setpoint #{@setpoint.name} with value #{@setpoint.value} &deg;C [#{@setpoint.errors}]")
+        Log.create(description: "ERROR: Creating Setpoint #{@setpoint.name} with value #{@setpoint.value} °C [#{@setpoint.errors}]")
 
         render json: @setpoint.errors, status: :unprocessable_entity
       end
@@ -33,11 +33,11 @@
     # PATCH/PUT /setpoints/1
     def update
       if @setpoint.update(setpoint_params)
-        Log.create(description: "UPDATE: Setpoint #{@setpoint.name} with value #{@setpoint.value} &deg;C", value: @setpoint.value)
+        Log.create(description: "UPDATE: Setpoint #{@setpoint.name} with value #{@setpoint.value} °C", value: @setpoint.value)
 
         render json: @setpoint
       else
-        Log.create(description: "ERROR: Updating Setpoint #{@setpoint.name} with value #{@setpoint.value} &deg;C [#{@setpoint.errors}]")
+        Log.create(description: "ERROR: Updating Setpoint #{@setpoint.name} with value #{@setpoint.value} °C [#{@setpoint.errors}]")
 
         render json: @setpoint.errors, status: :unprocessable_entity
       end
@@ -45,7 +45,7 @@
 
     # DELETE /setpoints/1
     def destroy
-      Log.create(description: "DELETE: Setpoint #{@setpoint.name} with value #{@setpoint.value} &deg;C", value: @setpoint.value)
+      Log.create(description: "DELETE: Setpoint #{@setpoint.name} with value #{@setpoint.value} °C", value: @setpoint.value)
 
       @setpoint.destroy
       redirect_to :back

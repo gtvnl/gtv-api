@@ -76,7 +76,7 @@ gpios = [gpio1, gpio2, gpio3, gpio4, gpio5, gpio6]
     setpoint.name = "Setpoint #{index}"
     setpoint.value = -20.0
     setpoint.gpio = gpios[index - 1]
-    Log.create(description: "CREATE: Setpoint #{setpoint.name} with value #{setpoint.value} &deg;C", value: setpoint.value)
+    Log.create(description: "CREATE: Setpoint #{setpoint.name} with value #{setpoint.value} °C", value: setpoint.value)
 
   end
 end
