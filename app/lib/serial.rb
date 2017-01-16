@@ -25,7 +25,13 @@ class Serial
 
       end
       puts serialString
-      return h.sort.to_h
+
+      if h.keys.count == 20
+
+        return h.sort.to_h
+      else
+        read
+      end
 
     end
   end
