@@ -1,9 +1,6 @@
 class Sensors
   class << self
 
-
-
-
     def update
       Serial.read.each do |key,value|
 
