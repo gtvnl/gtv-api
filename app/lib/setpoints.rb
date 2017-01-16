@@ -44,12 +44,12 @@ class Setpoints
               # TEMP CRITICAL LOW EMAIL
               Relais.on(relais)
               send_email(setpoint, current_temp, desired_temp, min_temp, "LOW")
-              Log.create(description: "CRITICALLY LOW TEMPERATURE detected: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
+              Log.create(description: "CRITICALLY LOW TEMPERATURE detected: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value, sensor: setpoint.sensor)
 
             else
               # Turn on heating ribbons
               Relais.on(relais)
-              Log.create(description: "Low TEMPERATURE detected: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
+              Log.create(description: "Low TEMPERATURE detected: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value, sensor: setpoint.sensor)
             end
 
           elsif current_temp = desired_temp
@@ -57,12 +57,12 @@ class Setpoints
             # TEMP ACQUIRED EMAIL
             Relais.off(relais)
 
-            Log.create(description: "DESIRED TEMPERATURE ACQUIRED: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
+            Log.create(description: "DESIRED TEMPERATURE ACQUIRED: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value, sensor: setpoint.sensor)
           elsif current_temp > max_temp
             # TEMP CRITICAL HIGH EMAIL
             Relais.off(relais)
             send_email(setpoint, current_temp, desired_temp, min_temp, "HIGH")
-            Log.create(description: "CRITICALLY HIGH TEMPERATURE detected: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
+            Log.create(description: "CRITICALLY HIGH TEMPERATURE detected: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value, sensor: setpoint.sensor)
 
           end
         end
