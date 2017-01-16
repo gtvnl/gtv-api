@@ -12,7 +12,7 @@ ser = serial.Serial(
 
 
 
-with ser as pt, open(fname,fmode as outf:
+with ser as pt, open(fname,fmode) as outf:
    spb = io.TextIOWrapper(io.BufferedRWPair(pt,pt,1),
      encoding='ascii', errors='ignore', newline='\r',line_buffering=True)
    spb.readline()  # throw away first line; likely to start mid-sentence (incomplete)
