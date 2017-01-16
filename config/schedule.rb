@@ -11,7 +11,8 @@ every 5.minutes do
 end
 
 every 1.minute do
-  command "/home/pi/create_webserver_tunnel.sh 2>&1"
-  command "/home/pi/create_ssh_tunnel.sh 2>&1"
+  command "/home/pi/gtv-api/create_webserver_tunnel.sh 2>&1"
+  command "/home/pi/gtv-api/create_ssh_tunnel.sh 2>&1"
+  command "/usr/bin/python /home/pi/gtv-api/log.py"
   runner "CheckSetpointsJob.perform_now"
 end
