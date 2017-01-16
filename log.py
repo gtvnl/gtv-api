@@ -2,23 +2,24 @@
 from datetime import datetime
 import serial, io
 
-fname='/home/pi/gtv-api/temp.dat'
-fmode='w'
+outfile='/home/pi/gtv-api/temp.dat'
 
 ser = serial.Serial(
     port='/dev/ttyACM0',
     baudrate=9600,
 )
 
+sio = io.TextIOWrapper(
+    io.BufferedRWPair(ser, ser, 1),
+    encoding='ascii', newline='\r', line_buffering=True
+)
 
-
-with ser as pt, open(fname,fmode) as outf:
-   spb = io.TextIOWrapper(io.BufferedRWPair(pt,pt,1),
-     encoding='ascii', errors='ignore', newline='\r',line_buffering=True)
-   spb.readline()  # throw away first line; likely to start mid-sentence (incomplete)
-while ser.isOpen():
-    x = spb.readline() # read one line of text from serial port
-    print (x)   #echo line of text on-screen
-    outf.write(x)      #write line of text to file
-    outf.flush()       #make sure it actually gets written out
-    ser.close()
+with open(outfile,'w') as f: #appends to existing file
+    while ser.isOpen():
+      sio.readline()
+      datastring = sio.readline()
+      print(datastring)
+      #\t is tab; \n is line separator
+      f.write(datetime.utcnow().isoformat() + '\t' + datastring + '\n')
+      f.flush() #included to force the system to write to disk
+      ser.close()
