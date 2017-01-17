@@ -78,11 +78,19 @@ class ChartsController < ApplicationController
 
     ]
     render "charts/index"
-
-
-
   end
 
+def 12hrs
+end
+
+def 6hrs
+end
+
+def 3hrs
+end
+
+def 1hrs
+end
 
 
 
