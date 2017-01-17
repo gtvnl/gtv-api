@@ -13,11 +13,6 @@ Rails.application.routes.draw do
 
   get 'charts', to: 'charts#index'
 
-  get '12hrs', to: 'charts#12hrs'
-  get '6hrs', to: 'charts#6hrs'
-  get '3hrs', to: 'charts#3hrs'
-  get '1hr', to: 'charts#1hr'
-
   get 'sensor_2a', to: 'logs#sensor_2a'
   get 'sensor_2b', to: 'logs#sensor_2b'
 
