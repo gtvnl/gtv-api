@@ -77,8 +77,9 @@ class ChartsController < ApplicationController
       {name: "Setpoint 6", data: @setpoint6}
 
     ]
-
     render "charts/index"
+
+
 
   end
 
