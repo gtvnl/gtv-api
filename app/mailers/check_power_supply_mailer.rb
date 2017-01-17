@@ -7,7 +7,7 @@ class CheckPowerSupplyMailer < ApplicationMailer
      @user = User.first
      mail(to: @user.email, subject: title)
 
-     Log.create(description: "Email sent: #{@user.email}, subject: #{title}")
+    #  Log.create(description: "Email sent: #{@user.email}, subject: #{title}")
 
    end
 end
