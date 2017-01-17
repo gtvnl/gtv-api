@@ -53,15 +53,17 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><%= link_to "Admin", rails_admin_path, :target => "_blank" %></li>
-          <li><%= link_to "System Logs", "https://papertrailapp.com/systems/569003403/events", :target => "_blank" %></li>
-          <li><%= link_to "New Relic Logs", "https://rpm.newrelic.com/accounts/1497434/applications/29270411", :target => "_blank" %></li>
+
+          <li><%= link_to "Application Logs", "https://papertrailapp.com/systems/569003403/events", :target => "_blank" %></li>
+          <li><%= link_to "Performance Logs", "https://rpm.newrelic.com/accounts/1497434/applications/29270411", :target => "_blank" %></li>
 
         </ul>
       </div><!--/.nav-collapse -->
     </div>
   </nav>
 
-  <div class="container main-container">
+  <div class="container-fluid">
+
     <% flash.each do |name, msg| %>
       <%= content_tag :div, class: "alert alert-#{ name == :error ? "danger" : "success" } alert-dismissable", role: "alert" do %>
         <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -70,12 +72,9 @@
     <% end %>
 
       <%= yield %>
+      <%= yield :charts_js %> <%# Rails %>
 
   </div>
 
-  <%= yield :charts_js %> <%# Rails %>
-
-<footer>
-</footer>
 </body>
 </html>
