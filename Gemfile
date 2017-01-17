@@ -12,7 +12,7 @@ gem 'rails_admin'
 gem 'figaro'
 gem 'chartkick'
 gem 'remote_syslog_logger'
-gem 'twitter-bootstrap-rails', git: 'https://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'twitter-bootstrap-rails'
 gem 'newrelic_rpm'
 
 # Raspberry specific
