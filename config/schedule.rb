@@ -11,8 +11,11 @@ every 5.minutes do
   runner "CheckPowerSupplyJob.perform_now"
 end
 
-every 1.minute do
+every 2.minutes do
   command "/usr/bin/python /home/pi/gtv-api/log.py"
+end
+
+every 1.minute do
   command "/home/pi/gtv-api/create_webserver_tunnel.sh 2>&1"
   command "/home/pi/gtv-api/create_ssh_tunnel.sh 2>&1"
 end
