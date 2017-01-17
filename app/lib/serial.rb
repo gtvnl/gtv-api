@@ -1,5 +1,3 @@
-require 'rubyserial'
-
 class Serial
   class << self
 
@@ -26,12 +24,8 @@ class Serial
       end
       puts serialString
 
-      if h.keys.count == 20
 
         return h.sort.to_h
-      else
-        read
-      end
 
     end
   end
