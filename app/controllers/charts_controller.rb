@@ -89,7 +89,7 @@ end
 def 3hrs
 end
 
-def 1hrs
+def 1hr
 end
 
 
