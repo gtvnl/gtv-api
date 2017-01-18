@@ -10,8 +10,6 @@ class Serial
         else
           return false
         end
-      else
-        return false
       end
     end
 
