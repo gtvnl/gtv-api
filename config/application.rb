@@ -18,9 +18,11 @@ Bundler.require(*Rails.groups)
 module Gtv
   class Application < Rails::Application
 
-      config.middleware.use ActionDispatch::Flash
-      config.middleware.use Rack::MethodOverride
-      config.middleware.use ActionDispatch::Cookies
+    config.active_job.queue_adapter = :sidekiq
+
+    config.middleware.use ActionDispatch::Flash
+    config.middleware.use Rack::MethodOverride
+    config.middleware.use ActionDispatch::Cookies
 
     config.autoload_paths << Rails.root.join('lib')
     # Settings in config/environments/* take precedence over those specified here.
@@ -32,7 +34,9 @@ module Gtv
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
     config.middleware.use Rack::Attack
-config.time_zone = 'Amsterdam'
-config.active_record.default_timezone = :local
+
+    config.time_zone = 'Amsterdam'
+    config.active_record.default_timezone = :local
+    
   end
 end

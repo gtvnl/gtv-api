@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 from datetime import datetime
 import serial, io
+import time
 
 outfile='/home/pi/gtv-api/temp.dat'
 
@@ -16,7 +17,8 @@ sio = io.TextIOWrapper(
 
 with open(outfile,'w') as f: #appends to existing file
     while ser.isOpen():
-      sio.readline()
+      trash = sio.readline()
+      time.sleep(10)
       datastring = sio.readline()
       length = len(datastring.split(','))
       
