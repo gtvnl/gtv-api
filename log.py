@@ -15,16 +15,16 @@ sio = io.TextIOWrapper(
     encoding='ascii', newline='\r'
 )
 
-with open(outfile,'w') as f: #appends to existing file
-    while ser.isOpen():
+while ser.isOpen():
 
-      trash = sio.readline()
-      datastring = sio.readline()
-      length = len(datastring.split(','))
+  trash = sio.readline()
+  datastring = sio.readline()
+  length = len(datastring.split(','))
 
-      if length == 20:
-          print(datastring)
+  if length == 20:
+      print(datastring)
+        with open(outfile,'w') as f: #appends to existing file
           f.write(datetime.utcnow().isoformat() + '\t' + datastring + '\n')
           f.flush()
 
-      ser.close()
+  ser.close()
