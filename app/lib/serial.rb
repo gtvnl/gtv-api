@@ -26,7 +26,7 @@ class Serial
       if h.count == 20
         puts serialString
         return h.sort.to_h
-        File.delete(serialString) if File.exist?(serialString)
+        File.delete('temp.dat') if File.exist?('temp.dat')
 
       else
         puts "Incomplete data"
