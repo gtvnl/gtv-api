@@ -4,7 +4,7 @@ class Serial
     def last_read
       serialString = File.open('temp.dat', 'r') { |file| file.read }
       unless serialString.blank?
-        return serialString.split("\t")[0].to_time
+        return serialString.split("\t")[0].to_datetime
       end
     end
 

@@ -35,8 +35,7 @@ module Gtv
     config.api_only = true
     config.middleware.use Rack::Attack
 
-    config.time_zone = 'Amsterdam'
     config.active_record.default_timezone = :local
-    
+
   end
 end
