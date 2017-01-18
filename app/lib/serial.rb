@@ -1,10 +1,17 @@
 class Serial
   class << self
 
-    def last_read
+    def last_read_less_than_5_minutes_ago
       serialString = File.open('temp.dat', 'r') { |file| file.read }
       unless serialString.blank?
-        return serialString.split("\t")[0].to_datetime
+        time = serialString.split("\t")[0].to_datetime
+        if ((DateTime.now.utc - last_read) / 60) < 5.0
+          return true
+        else
+          return false
+        end
+      else
+        return false
       end
     end
 
