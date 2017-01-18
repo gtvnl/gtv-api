@@ -25,7 +25,7 @@ class Serial
 
         if h.count == 20
           puts serialString
-          File.delete(Rails.root + 'temp.dat') if File.exist?(Rails.root + 'temp.dat')
+          # File.delete(Rails.root + 'temp.dat') if File.exist?(Rails.root + 'temp.dat')
 
           return h.sort.to_h
 
