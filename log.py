@@ -17,11 +17,11 @@ sio = io.TextIOWrapper(
 
 with open(outfile,'w') as f: #appends to existing file
     while ser.isOpen():
+
       trash = sio.readline()
-      time.sleep(10)
       datastring = sio.readline()
       length = len(datastring.split(','))
-      
+
       if length == 20:
           print(datastring)
           f.write(datetime.utcnow().isoformat() + '\t' + datastring + '\n')
