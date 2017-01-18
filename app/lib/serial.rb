@@ -5,7 +5,7 @@ class Serial
       serialString = File.open('temp.dat', 'r') { |file| file.read }
       unless serialString.blank?
         time = serialString.split("\t")[0].to_datetime
-        if ((DateTime.now.utc - last_read) / 60) < 5.0
+        if ((DateTime.now.utc - time) / 60) < 5.0
           return true
         else
           return false
@@ -18,7 +18,7 @@ class Serial
     def read
 
     serialString = File.open('temp.dat', 'r') { |file| file.read }
-
+.
     unless serialString.blank?
       h = Hash.new
 
