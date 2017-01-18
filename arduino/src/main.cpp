@@ -150,10 +150,10 @@ void loop()
  float sensorBinnenTemp = sensorBinnen.getTempCByIndex(0);
  float sensorBuitenTemp = sensorBuiten.getTempCByIndex(0);
 
-delay(1000);
+// delay(1000);
 
    Serial << "1a:" << precision(2) << sensor1aTemp << ","
-          << "1b:" << precision(2) << sensor1bTemp << ","	  
+          << "1b:" << precision(2) << sensor1bTemp << ","
  	  << "1c:" << precision(2) << sensor1cTemp << ","
 	  << "2a:" << precision(2) << sensor2aTemp << ","
 	  << "2b:" << precision(2) << sensor2bTemp << ","
