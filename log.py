@@ -23,8 +23,8 @@ while ser.isOpen():
 
   if length == 20:
       print(datastring)
-        with open(outfile,'w') as f: #appends to existing file
-          f.write(datetime.utcnow().isoformat() + '\t' + datastring + '\n')
-          f.flush()
+      with open(outfile,'w') as f: #appends to existing file
+        f.write(datetime.utcnow().isoformat() + '\t' + datastring + '\n')
+        f.flush()
 
   ser.close()
