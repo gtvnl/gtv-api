@@ -22,10 +22,15 @@ class Serial
         end
 
       end
-      puts serialString
 
-
+      if h.count == 20
+        puts serialString
         return h.sort.to_h
+        File.delete(serialString) if File.exist?(serialString)
+
+      else
+        puts "Incomplete data"
+      end
 
     end
   end
