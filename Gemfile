@@ -14,7 +14,6 @@ gem 'chartkick'
 gem 'remote_syslog_logger'
 gem 'twitter-bootstrap-rails', git: 'https://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'newrelic_rpm'
-
 # Raspberry specific
 gem 'rpi_gpio', :require => false
 gem 'bcrypt', '~> 3.1.7'
@@ -26,15 +25,31 @@ gem 'sidekiq'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'guard-rake'
+  gem 'guard-spring'
+  gem 'faker'
+  gem 'factory_girl_rails'
+  gem 'spring-commands-rspec'
+  gem 'pry-rescue'
+  gem 'pry-stack_explorer'
 end
 
 group :development do
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'pry'
-  gem 'rails-erd'
 end
+
+group :test do
+  gem "simplecov"
+  gem "codeclimate-test-reporter", "~> 1.0.0"
+end
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
