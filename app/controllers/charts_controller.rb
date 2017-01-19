@@ -88,11 +88,11 @@ class ChartsController < ApplicationController
       {name: "Setpoint 5", data: @setpoint5, dashStyle: 'longdash'},
       {name: "Setpoint 6", data: @setpoint6, dashStyle: 'longdash'},
 
-      {name: "Relais 1", data: @relais1_on.merge(@relais1_off) }
-      {name: "Relais 2", data: @relais2_on.merge(@relais2_off) }
-      {name: "Relais 3", data: @relais3_on.merge(@relais3_off) }
-      {name: "Relais 4", data: @relais4_on.merge(@relais4_off) }
-      {name: "Relais 5", data: @relais5_on.merge(@relais5_off) }
+      {name: "Relais 1", data: @relais1_on.merge(@relais1_off) },
+      {name: "Relais 2", data: @relais2_on.merge(@relais2_off) },
+      {name: "Relais 3", data: @relais3_on.merge(@relais3_off) },
+      {name: "Relais 4", data: @relais4_on.merge(@relais4_off) },
+      {name: "Relais 5", data: @relais5_on.merge(@relais5_off) },
       {name: "Relais 6", data: @relais6_on.merge(@relais6_off) }
 
     ]
