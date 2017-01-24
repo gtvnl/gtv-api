@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  root to: 'charts#index_day'
 
   # config/routes.rb
   require "sidekiq/web"
@@ -30,6 +29,7 @@ Rails.application.routes.draw do
   get 'sensor_2b', to: 'logs#sensor_2b'
 
   post 'authenticate', to: 'authentication#authenticate'
+  root to: 'charts#index_day'
 
 
 end
