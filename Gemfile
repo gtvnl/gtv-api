@@ -21,6 +21,7 @@ gem 'jwt'
 gem 'simple_command'
 gem 'rack-cors'
 gem 'sidekiq'
+gem 'remote_syslog_logger'
 
 
 group :development, :test do
