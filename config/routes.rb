@@ -22,6 +22,7 @@ Rails.application.routes.draw do
   resources :users
   resources :logs
 
+  get 'charts', to: 'charts#index_day'
   get 'dag', to: 'charts#index_day'
   get 'week', to: 'charts#index_week'
 
