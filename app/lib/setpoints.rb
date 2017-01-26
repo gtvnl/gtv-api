@@ -39,31 +39,33 @@ class Setpoints
           max_temp = setpoint.value + setpoint.max_temp_difference
 
           if current_temp < desired_temp
+            Relais.on(relais)
 
-            if current_temp <= min_temp
-              # TEMP CRITICAL LOW EMAIL
-              Relais.on(relais)
+            if current_temp <= min_temp # TEMP CRITICAL LOW EMAIL
               send_email(setpoint, current_temp, desired_temp, min_temp, "LOW")
               Log.create(description: "CRITICALLY LOW TEMPERATURE detected: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
-
             else
-              # Turn on heating ribbons
-              Relais.on(relais)
               Log.create(description: "Low TEMPERATURE detected: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
             end
 
-          elsif current_temp > desired_temp
-            if current_temp >= max_temp
-              # TEMP CRITICAL HIGH EMAIL
-              Relais.off(relais)
+          elsif current_temp > desired_temp + 0.25
+            Relais.off(relais)
+
+            if current_temp >= max_temp # TEMP CRITICAL HIGH EMAIL
               send_email(setpoint, current_temp, desired_temp, min_temp, "HIGH")
               Log.create(description: "CRITICALLY HIGH TEMPERATURE detected: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
-            else
-            # Turn off heating ribbons
-            # TEMP ACQUIRED EMAIL
-            Relais.off(relais)
-            Log.create(description: "DESIRED TEMPERATURE ACQUIRED: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
+            else   # TEMP ACQUIRED EMAIL
+              Log.create(description: "DESIRED TEMPERATURE ACQUIRED: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
             end
+          else
+            #toggle
+            
+            if setpoint.gpio.is_on
+              Relais.off(relais)
+            else
+              Relais.on(relais)
+            end
+
           end
         end
       end
