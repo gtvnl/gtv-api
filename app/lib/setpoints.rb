@@ -73,4 +73,3 @@ class Setpoints
     end
 
   end
-end
