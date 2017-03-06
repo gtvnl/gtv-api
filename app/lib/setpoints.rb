@@ -48,7 +48,7 @@ class Setpoints
               Log.create(description: "Low TEMPERATURE detected: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
             end
 
-          elsif current_temp > desired_temp + 0.25
+          elsif current_temp > desired_temp  - 0.25
             Relais.off(relais)
 
             if current_temp >= max_temp # TEMP CRITICAL HIGH EMAIL
@@ -57,14 +57,15 @@ class Setpoints
             else   # TEMP ACQUIRED EMAIL
               Log.create(description: "DESIRED TEMPERATURE ACQUIRED: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
             end
-          else
-            #toggle
-            
-            if setpoint.gpio.is_on
-              Relais.off(relais)
-            else
-              Relais.on(relais)
-            end
+          end
+          # else
+          #   #toggle
+          #
+          #   if setpoint.gpio.is_on
+          #     Relais.off(relais)
+          #   else
+          #     Relais.on(relais)
+          #   end
 
           end
         end

@@ -31,10 +31,10 @@ class Serial
         end
 
         if h.count == 20
+
           puts serialString
 
           return h.sort.to_h
-
 
 
         else
