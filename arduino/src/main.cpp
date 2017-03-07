@@ -64,57 +64,57 @@ void setup(void)
 {
  Serial.begin(9600);
  sensor1a.begin();
- sensor1a.setResolution(12);
+ sensor1a.setResolution(10);
  sensor1b.begin();
- sensor1b.setResolution(12);
+ sensor1b.setResolution(10);
  sensor1c.begin();
- sensor1c.setResolution(12);
+ sensor1c.setResolution(10);
 
  sensor2a.begin();
- sensor2a.setResolution(12);
+ sensor2a.setResolution(10);
  sensor2b.begin();
- sensor2b.setResolution(12);
+ sensor2b.setResolution(10);
  sensor2c.begin();
- sensor2c.setResolution(12);
+ sensor2c.setResolution(10);
 
 
  sensor3a.begin();
- sensor3a.setResolution(12);
+ sensor3a.setResolution(10);
  sensor3b.begin();
- sensor3b.setResolution(12);
+ sensor3b.setResolution(10);
  sensor3c.begin();
- sensor3c.setResolution(12);
+ sensor3c.setResolution(10);
 
 
  sensor4a.begin();
- sensor4a.setResolution(12);
+ sensor4a.setResolution(10);
  sensor4b.begin();
- sensor4b.setResolution(12);
+ sensor4b.setResolution(10);
  sensor4c.begin();
- sensor4c.setResolution(12);
+ sensor4c.setResolution(10);
 
 
  sensor5a.begin();
- sensor5a.setResolution(12);
+ sensor5a.setResolution(10);
  sensor5b.begin();
- sensor5b.setResolution(12);
+ sensor5b.setResolution(10);
  sensor5c.begin();
- sensor5c.setResolution(12);
+ sensor5c.setResolution(10);
 
 
  sensor6a.begin();
- sensor6a.setResolution(12);
+ sensor6a.setResolution(10);
  sensor6b.begin();
- sensor6b.setResolution(12);
+ sensor6b.setResolution(10);
  sensor6c.begin();
- sensor6c.setResolution(12);
+ sensor6c.setResolution(10);
 
 
  sensorBinnen.begin();
- sensorBinnen.setResolution(12);
+ sensorBinnen.setResolution(10);
 
  sensorBuiten.begin();
- sensorBuiten.setResolution(12);
+ sensorBuiten.setResolution(10);
 
 
 }
