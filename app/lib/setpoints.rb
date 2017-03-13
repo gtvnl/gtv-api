@@ -34,11 +34,11 @@ class Setpoints
           relais = setpoint.gpio.pin
 
           current_temp = Serial.read["#{setpoint.sensor[:name]}"]
-          desired_temp = setpoint.value - 1
+          desired_temp = setpoint.value
           min_temp = setpoint.value - setpoint.max_temp_difference
           max_temp = setpoint.value + setpoint.max_temp_difference
 
-          if current_temp < desired_temp
+          if current_temp < (desired_temp - 1.0)
             Relais.on(relais)
 
             if current_temp <= min_temp # TEMP CRITICAL LOW EMAIL
