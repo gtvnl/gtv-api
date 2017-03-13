@@ -38,7 +38,7 @@ class Setpoints
           min_temp = setpoint.value - setpoint.max_temp_difference
           max_temp = setpoint.value + setpoint.max_temp_difference
 
-          if current_temp < (desired_temp - 1.0)
+          if current_temp < desired_temp
             Relais.on(relais)
 
             if current_temp <= min_temp # TEMP CRITICAL LOW EMAIL
@@ -48,7 +48,7 @@ class Setpoints
               Log.create(description: "Low TEMPERATURE detected: #{current_temp} on #{setpoint.name}.", setpoint_value: setpoint.value)
             end
 
-          elsif current_temp > desired_temp
+          elsif current_temp >= desired_temp
             Relais.off(relais)
 
             if current_temp >= max_temp # TEMP CRITICAL HIGH EMAIL
