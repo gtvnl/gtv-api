@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.0.0.1'
+gem 'rails'
 gem 'mysql2'
 gem 'rack-attack'
 gem 'thin'
@@ -16,7 +16,7 @@ gem 'twitter-bootstrap-rails', git: 'https://github.com/seyhunak/twitter-bootstr
 gem 'newrelic_rpm'
 # Raspberry specific
 gem 'rpi_gpio', :require => false
-gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt'
 gem 'jwt'
 gem 'simple_command'
 gem 'rack-cors'
@@ -40,9 +40,9 @@ group :development, :test do
 end
 
 group :development do
-  gem 'listen', '~> 3.0.5'
+  gem 'listen'
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'pry'
@@ -50,7 +50,7 @@ end
 
 group :test do
   gem "simplecov"
-  gem "codeclimate-test-reporter", "~> 1.0.0"
+  gem "codeclimate-test-reporter"
 end
 
 
