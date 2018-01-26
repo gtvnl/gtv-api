@@ -1,6 +1,6 @@
 #!/bin/bash
 createTunnel() {
-   /usr/bin/ssh -N -o ServerAliveInterval=60 -o ServerAliveCountMax=3 -o ExitOnForwardFailure=yes -R 8080:localhost:80 ramsy@crystalhost.nl -p 222
+   /usr/bin/ssh -N -o ServerAliveInterval=60 -o ServerAliveCountMax=3 -o ExitOnForwardFailure=yes -R 8080:localhost:80 ramsy@dcgs.nl -p 222
   if [[ $? -eq O ]]; then
     echo Tunnel created
   else

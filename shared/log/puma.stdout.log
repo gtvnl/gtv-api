@@ -1,0 +1,87 @@
+=== puma startup: 2018-01-25 14:34:59 +0100 ===
+[7022] * Starting control server on unix:///tmp/puma-status-1516887299674-7022
+[7022] - Gracefully shutting down workers...
+[7344] Early termination of worker
+[7348] Early termination of worker
+[7022] === puma shutdown: 2018-01-25 14:35:46 +0100 ===
+[7022] - Goodbye!
+=== puma startup: 2018-01-25 14:35:52 +0100 ===
+[7352] * Starting control server on unix:///tmp/puma-status-1516887352867-7352
+[7352] - Gracefully shutting down workers...
+[7494] Early termination of worker
+[7490] Early termination of worker
+[7352] === puma shutdown: 2018-01-25 14:36:49 +0100 ===
+[7352] - Goodbye!
+=== puma startup: 2018-01-25 14:44:33 +0100 ===
+[7990] * Starting control server on unix:///tmp/puma-status-1516887873930-7990
+[9539] Early termination of worker
+[7990] - Gracefully shutting down workers...
+[9535] Early termination of worker
+[7990] === puma shutdown: 2018-01-25 14:49:25 +0100 ===
+[7990] - Goodbye!
+=== puma startup: 2018-01-25 14:50:06 +0100 ===
+[9681] * Starting control server on unix:///tmp/puma-status-1516888206242-9681
+[9681] - Worker 0 (pid: 9942) booted, phase: 0
+[9681] - Worker 1 (pid: 9944) booted, phase: 0
+Started GET "/" for 192.168.10.122 at 2018-01-25 14:50:07 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (85.1ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by ChartsController#index_day as HTML
+  [1m[36mLog Load (228.8ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '1a' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:16' AND '2018-01-25 14:50:16') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (421.9ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '1b' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:16' AND '2018-01-25 14:50:16') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (330.5ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '1c' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:17' AND '2018-01-25 14:50:17') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (204.1ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '2a' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:17' AND '2018-01-25 14:50:17') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (13.4ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '2b' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:18' AND '2018-01-25 14:50:18') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (224.4ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '2c' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:18' AND '2018-01-25 14:50:18') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (258.7ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '3a' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:18' AND '2018-01-25 14:50:18') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (426.8ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '3b' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:18' AND '2018-01-25 14:50:18') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (321.7ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '3c' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:19' AND '2018-01-25 14:50:19') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (443.9ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '4a' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:19' AND '2018-01-25 14:50:19') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (211.1ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '4b' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:20' AND '2018-01-25 14:50:20') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (212.3ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '4c' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:20' AND '2018-01-25 14:50:20') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (283.9ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '5a' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:20' AND '2018-01-25 14:50:20') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (183.4ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '5b' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:21' AND '2018-01-25 14:50:21') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (142.3ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '5c' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:21' AND '2018-01-25 14:50:21') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (165.2ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '6a' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:21' AND '2018-01-25 14:50:21') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (92.2ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '6b' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:21' AND '2018-01-25 14:50:21') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (95.0ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`sensor` = '6c' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:21' AND '2018-01-25 14:50:21') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (88.9ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`description` = 'Switched ON Relais 1 (PIN:12/GPIO:18)' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:21' AND '2018-01-25 14:50:21') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (82.4ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`description` = 'Switched OFF Relais 1 (PIN:12/GPIO:18)' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:21' AND '2018-01-25 14:50:21') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (93.6ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`description` = 'Switched ON Relais 2 (PIN:16/GPIO:23)' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:22' AND '2018-01-25 14:50:22') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (94.0ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`description` = 'Switched OFF Relais 2 (PIN:16/GPIO:23)' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:22' AND '2018-01-25 14:50:22') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (93.6ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`description` = 'Switched ON Relais 3 (PIN:18/GPIO:24)' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:22' AND '2018-01-25 14:50:22') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (92.7ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`description` = 'Switched OFF Relais 3 (PIN:18/GPIO:24)' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:22' AND '2018-01-25 14:50:22') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (92.4ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`description` = 'Switched ON Relais 4 (PIN:22/GPIO:25)' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:22' AND '2018-01-25 14:50:22') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (293.3ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`description` = 'Switched OFF Relais 4 (PIN:22/GPIO:25)' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:22' AND '2018-01-25 14:50:22') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (266.8ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`description` = 'Switched ON Relais 5 (PIN:24/GPIO:8)' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:23' AND '2018-01-25 14:50:23') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (293.8ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`description` = 'Switched OFF Relais 5 (PIN:24/GPIO:8)' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:23' AND '2018-01-25 14:50:23') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (294.9ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`description` = 'Switched ON Relais 6 (PIN:26/GPIO:7)' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:23' AND '2018-01-25 14:50:23') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (94.5ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE `logs`.`description` = 'Switched OFF Relais 6 (PIN:26/GPIO:7)' AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:24' AND '2018-01-25 14:50:24') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (431.9ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE (`logs`.`setpoint_value` IS NOT NULL) AND (description like '%Setpoint 1%') AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:24' AND '2018-01-25 14:50:24') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (292.8ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE (`logs`.`setpoint_value` IS NOT NULL) AND (description like '%Setpoint 2%') AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:24' AND '2018-01-25 14:50:24') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (94.0ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE (`logs`.`setpoint_value` IS NOT NULL) AND (description like '%Setpoint 3%') AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:25' AND '2018-01-25 14:50:25') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (394.3ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE (`logs`.`setpoint_value` IS NOT NULL) AND (description like '%Setpoint 4%') AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:25' AND '2018-01-25 14:50:25') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (292.6ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE (`logs`.`setpoint_value` IS NOT NULL) AND (description like '%Setpoint 5%') AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:25' AND '2018-01-25 14:50:25') ORDER BY `logs`.`updated_at` DESC[0m
+  [1m[36mLog Load (93.9ms)[0m  [1m[34mSELECT `logs`.* FROM `logs` WHERE (`logs`.`setpoint_value` IS NOT NULL) AND (description like '%Setpoint 6%') AND (`logs`.`updated_at` BETWEEN '2018-01-24 14:50:26' AND '2018-01-25 14:50:26') ORDER BY `logs`.`updated_at` DESC[0m
+  Rendering charts/index.html.erb within layouts/chart
+  Rendered charts/index.html.erb within layouts/chart (31.9ms)
+Completed 200 OK in 10313ms (Views: 601.4ms | ActiveRecord: 7813.0ms)
+
+
+[9681] - Gracefully shutting down workers...
+[9681] === puma shutdown: 2018-01-25 14:50:36 +0100 ===
+[9681] - Goodbye!
+Exiting
+=== puma startup: 2018-01-25 14:51:14 +0100 ===
+[10229] * Starting control server on unix:///tmp/puma-status-1516888274559-10229
+[10229] - Gracefully shutting down workers...
+[10329] Early termination of worker
+[10325] Early termination of worker
+[10229] === puma shutdown: 2018-01-25 14:51:27 +0100 ===
+[10229] - Goodbye!
+=== puma startup: 2018-01-25 14:52:30 +0100 ===
+[10586] * Starting control server on unix:///tmp/puma-status-1516888350089-10586
+[10586] - Gracefully shutting down workers...
+[10876] Early termination of worker
+[10880] Early termination of worker
+[10586] === puma shutdown: 2018-01-25 14:53:36 +0100 ===
+[10586] - Goodbye!

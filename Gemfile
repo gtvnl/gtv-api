@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '5.0.0.1'
 gem 'mysql2'
 gem 'rack-attack'
-gem 'puma'
+gem 'thin'
 gem 'whenever', :require => false
 gem 'awesome_print'
 gem 'active_model_serializers'
