@@ -54,7 +54,9 @@ RailsAdmin.config do |config|
   end
 
 
-
+  my_action do
+    my_option :another_value
+  end
 
     ## With an audit adapter, you can add:
     # history_index
