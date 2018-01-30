@@ -1,4 +1,4 @@
-Rails.application.routes.default_url_options[:host] = 'hsi.dcgs.nl'
+Rails.application.routes.default_url_options[:host] = '192.168.10.189'
 
 Rails.application.configure do
 config.logger = RemoteSyslogLogger.new('logs.papertrailapp.com', 30174)
@@ -14,11 +14,11 @@ config.action_mailer.smtp_settings = {
 :enable_starttls_auto => true
 }
 
-config.cache_store = :redis_store, 'redis://localhost:6379/1'
-config.action_dispatch.rack_cache = {
-    metastore:   "redis://localhost:6379/1/metastore",
-    entitystore: "redis://localhost:6379/1/entitystore"
-}
+# config.cache_store = :redis_store, 'redis://localhost:6379/1'
+# config.action_dispatch.rack_cache = {
+#     metastore:   "redis://localhost:6379/1/metastore",
+#     entitystore: "redis://localhost:6379/1/entitystore"
+# }
 
 
   # Settings specified here will take precedence over those in config/application.rb.

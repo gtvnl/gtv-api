@@ -22,9 +22,9 @@ gem 'jwt'
 gem 'simple_command'
 gem 'rack-cors'
 gem 'sidekiq'
-gem "redis-store"
-gem 'redis-rails'
-gem "redis-rack-cache"
+# gem "redis-store"
+# gem 'redis-rails'
+# gem "redis-rack-cache"
 
 
 group :development, :test do
