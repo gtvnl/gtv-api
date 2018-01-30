@@ -53,11 +53,6 @@ RailsAdmin.config do |config|
       exclude_fields :id, :updated_at
   end
 
-
-  my_action do
-    my_option :another_value
-  end
-
     ## With an audit adapter, you can add:
     # history_index
     # history_show
