@@ -76,7 +76,4 @@ guard :rspec, cmd: "bundle exec rspec" do
   end
 end
 
-# Guardfile
-# guard :rake, task: 'factory_girl:lint' do
-#   watch(%r{^spec/factories/(.+)s.rb$}) { |m| "#{m[1]}" }
-# end
+

@@ -20,10 +20,10 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
   admin:
     actions:
       links:
-        menu: 'Links'
+        menu: 'AAN/UIT'
+        breadcrumb: 'AAN/UIT'
 
 
