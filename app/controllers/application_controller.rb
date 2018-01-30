@@ -1,5 +1,7 @@
 class ApplicationController < ActionController::API
   ###include ActionController::Serialization
+  protect_from_forgery prepend: true
+
 
   attr_reader :current_user
 
