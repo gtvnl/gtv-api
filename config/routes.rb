@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     # - See https://thisdata.com/blog/timing-attacks-against-string-comparison/
     # - Use & (do not use &&) so that it doesn't short circuit.
     # - Use digests to stop length information leaking
-    ActiveSupport::SecurityUtils.secure_compare(::Digest::SHA256.hexdigest(username), ::Digest::SHA256.hexdigest("admin")) &
+    ActiveSupport::SecurityUtils.secure_compare(::Digest::SHA256.hexdigest(username), ::Digest::SHA256.hexdigest("pi")) &
       ActiveSupport::SecurityUtils.secure_compare(::Digest::SHA256.hexdigest(password), ::Digest::SHA256.hexdigest("Raspberry1!"))
   end if Rails.env.production?
   mount Sidekiq::Web, at: "/sidekiq"
@@ -29,7 +29,9 @@ Rails.application.routes.draw do
   get 'sensor_2b', to: 'logs#sensor_2b'
 
   post 'authenticate', to: 'authentication#authenticate'
-  root to: 'charts#index_day'
+  
+  get :switch_relais, to: :switch_relais, controller: 'relais'
 
+  root to: rails_admin.dashboard_path
 
 end
