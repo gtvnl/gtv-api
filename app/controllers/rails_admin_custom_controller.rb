@@ -7,7 +7,7 @@ class RailsAdminCustomController < ApplicationController
   include ActionController::HttpAuthentication::Basic::ControllerMethods
   include ActionView::Layouts
 
-  before_filter :authenticate
+  before_action :authenticate
 
   def authenticate
     authenticate_or_request_with_http_basic('Administration') do |username, password|

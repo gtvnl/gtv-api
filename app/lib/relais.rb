@@ -39,9 +39,9 @@ class Relais
           RPi::GPIO.setup pin.pin, :as => :output, :initialize => :high
           pin.update_column(:is_on, false)
 
-          pin.end_time = Time.now
-          seconds_run = TimeDifference.between(pin.start_time, pin.end_time).in_seconds
-          pin.operating_seconds += seconds_run
+          #pin.end_time = Time.now
+          #seconds_run = TimeDifference.between(pin.start_time, pin.end_time).in_seconds || 0
+          #pin.operating_seconds += seconds_run
           pin.is_on = false
           pin.save
           Log.create(description: "Switched OFF #{pin.name} (PIN:#{pin.pin}/GPIO:#{pin.gpio_number})")
