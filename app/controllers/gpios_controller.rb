@@ -1,7 +1,10 @@
 class GpiosController < ApplicationController
   before_action :authenticate_request, except: [:index, :show]
   before_action :set_gpio, only: [:show, :update, :destroy]
-
+  
+  def switch_relais
+    binding.pry
+  end
   # GET /gpios
   def index
     @gpios = Gpio.all
