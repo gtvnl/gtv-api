@@ -34,7 +34,7 @@ group :development, :test do
   gem 'guard-rake'
   gem 'guard-spring'
   gem 'faker'
-  gem 'factory_girl_rails'
+  # gem 'factory_girl_rails'
   gem 'spring-commands-rspec'
   gem 'pry-rescue'
   gem 'pry-stack_explorer'
