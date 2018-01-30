@@ -1,3 +1,14 @@
+module RailsAdmin
+  module Config
+    module Actions
+      class Links < RailsAdmin::Config::Actions::Base
+        RailsAdmin::Config::Actions.register(self)
+      end
+    end
+  end
+end
+
+
 RailsAdmin.config do |config|
   config.main_app_name = ["Asperge Portal"]
   config.parent_controller = '::RailsAdminCustomController'
@@ -36,6 +47,7 @@ RailsAdmin.config do |config|
     edit
     # delete
     #show_in_app
+    links
 
   config.model 'Setpoint' do
       exclude_fields :id, :created_at, :updated_at
