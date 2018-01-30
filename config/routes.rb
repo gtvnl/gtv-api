@@ -29,8 +29,9 @@ Rails.application.routes.draw do
   get 'sensor_2b', to: 'logs#sensor_2b'
 
   post 'authenticate', to: 'authentication#authenticate'
-  
-  get :switch_relais, to: :switch_relais, controller: 'gpio'
+
+  get 'switch_relais', to: 'gpios#switch_relais'
+
 
   root to:  redirect('/admin')
 
