@@ -32,6 +32,6 @@ Rails.application.routes.draw do
   
   get :switch_relais, to: :switch_relais, controller: 'relais'
 
-  root to: rails_admin.dashboard_path
+  root to:  redirect('/admin')
 
 end
