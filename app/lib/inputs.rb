@@ -26,7 +26,7 @@ class Inputs
 
     end
 
-    @@meters = Meter.all
+    # @@meters = Meter.all
 
     def poll(pin)
       RPi::GPIO.set_numbering :board
@@ -44,18 +44,18 @@ class Inputs
 
     end
 
-    def start_polling
-      @@meters.each do |meter|
-        Thread.new do
-          poll(meter.pin)
-        end
-      end
+    # def start_polling
+    #   @@meters.each do |meter|
+    #     Thread.new do
+    #       poll(meter.pin)
+    #     end
+    #   end
 
-    end
+    # end
 
-    def stop_polling
+    # def stop_polling
 
-    end
+    # end
 
   end
 end
