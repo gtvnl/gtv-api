@@ -14,7 +14,7 @@ require "rails/test_unit/railtie"
 
 
 Bundler.require(*Rails.groups)
-
+ENV['RAILS_ADMIN_THEME'] = 'material'
 module Gtv
   class Application < Rails::Application
 
