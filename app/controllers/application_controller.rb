@@ -1,6 +1,6 @@
-class ApplicationController < ActionController::API
+class ApplicationController < ActionController::Base
   ###include ActionController::Serialization
-  protect_from_forgery prepend: true
+  protect_from_forgery prepend: true, with: :exception
 
 
   attr_reader :current_user
