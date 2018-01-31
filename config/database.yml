@@ -10,11 +10,11 @@ default: &default
 
 development:
   <<: *default
-  database: admin_api_development
+  database: admin_api_production
 
 test:
   <<: *default
-  database: admin_api_test
+  database: admin_api_production
 
 production:
   <<: *default

@@ -98,7 +98,7 @@ void setup(void)
 //  sensor5a.setResolution(10);
 //  sensor5b.begin();
 //  sensor5b.setResolution(10);
-//  sensor5c.begin();
+//  sensor5c.begin()
 //  sensor5c.setResolution(10);
 
 
