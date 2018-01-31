@@ -1,16 +1,20 @@
-<%= puts request.params[:format] %>
+
 console.log('switch')
 <% if request.params[:format] == "1" %>
 # document.getElementById('groep1').textContent = 'groep1 aan';
-console.log('groep 1')
+<%= puts 'groep 1' %>
 <% elsif request.params[:format] == "2" %>
 console.log('groep 2')
+<%= puts 'groep 2' %>
 <% elsif request.params[:format] == "3" %>
 console.log('groep 3')
+<%= puts 'groep 3' %>
 <% elsif request.params[:format] == "4" %>
 console.log('groep 4')
+<%= puts 'groep 4' %>
 <% else %>
 console.log('verlichting')
+<%= puts 'verlichting' %>
 <% end %>
 # document.getElementById('groep2').textContent = 'groep2 aan';
 # document.getElementById('groep3').textContent = 'groep3 aan';
