@@ -12,9 +12,9 @@ gem 'rails_admin'
 gem 'rails_admin_material'
 gem 'figaro'
 gem 'chartkick'
-gem 'remote_syslog_logger'
+# gem 'remote_syslog_logger'
 gem 'twitter-bootstrap-rails', git: 'https://github.com/seyhunak/twitter-bootstrap-rails.git'
-gem 'newrelic_rpm'
+# gem 'newrelic_rpm'
 # Raspberry specific
 gem 'rpi_gpio', :require => false
 gem 'bcrypt'
