@@ -26,13 +26,13 @@ class ChartsController < ApplicationController
     @sensor_4b = Log.where(sensor: "4b").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at.to_time.iso8601 => e.value) }
     @sensor_4c = Log.where(sensor: "4c").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at.to_time.iso8601 => e.value) }
 
-    @sensor_5a = Log.where(sensor: "5a").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at.to_time.iso8601 => e.value) }
-    @sensor_5b = Log.where(sensor: "5b").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at.to_time.iso8601 => e.value) }
-    @sensor_5c = Log.where(sensor: "5c").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at.to_time.iso8601 => e.value) }
+    # @sensor_5a = Log.where(sensor: "5a").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at.to_time.iso8601 => e.value) }
+    # @sensor_5b = Log.where(sensor: "5b").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at.to_time.iso8601 => e.value) }
+    # @sensor_5c = Log.where(sensor: "5c").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at.to_time.iso8601 => e.value) }
 
-    @sensor_6a = Log.where(sensor: "6a").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at.to_time.iso8601 => e.value) }
-    @sensor_6b = Log.where(sensor: "6b").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at.to_time.iso8601 => e.value) }
-    @sensor_6c = Log.where(sensor: "6c").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at.to_time.iso8601 => e.value) }
+    # @sensor_6a = Log.where(sensor: "6a").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at.to_time.iso8601 => e.value) }
+    # @sensor_6b = Log.where(sensor: "6b").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at.to_time.iso8601 => e.value) }
+    # @sensor_6c = Log.where(sensor: "6c").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at.to_time.iso8601 => e.value) }
 
     @relais1_on = Log.where(description: "Switched ON Relais 1 (PIN:12/GPIO:18)").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at.to_time.iso8601 => 1) }
     @relais1_off = Log.where(description: "Switched OFF Relais 1 (PIN:12/GPIO:18)").where(updated_at: (Time.now - 24.hours)..Time.now).inject({}){|h,e| h.merge(e.created_at.to_time.iso8601 => 0) }
@@ -73,13 +73,13 @@ class ChartsController < ApplicationController
       {name: "Sensor 4b", data: @sensor_4b},
       {name: "Sensor 4c", data: @sensor_4c},
 
-      {name: "Sensor 5a", data: @sensor_5a},
-      {name: "Sensor 5b", data: @sensor_5b},
-      {name: "Sensor 5c", data: @sensor_5c},
+      # {name: "Sensor 5a", data: @sensor_5a},
+      # {name: "Sensor 5b", data: @sensor_5b},
+      # {name: "Sensor 5c", data: @sensor_5c},
 
-      {name: "Sensor 6a", data: @sensor_6a},
-      {name: "Sensor 6b", data: @sensor_6b},
-      {name: "Sensor 6c", data: @sensor_6c},
+      # {name: "Sensor 6a", data: @sensor_6a},
+      # {name: "Sensor 6b", data: @sensor_6b},
+      # {name: "Sensor 6c", data: @sensor_6c},
 
       {name: "Setpoint 1", data: @setpoint1, dashStyle: 'longdash'},
       {name: "Setpoint 2", data: @setpoint2, dashStyle: 'longdash'},
@@ -165,13 +165,13 @@ class ChartsController < ApplicationController
       {name: "Sensor 4b", data: @sensor_4b},
       {name: "Sensor 4c", data: @sensor_4c},
 
-      {name: "Sensor 5a", data: @sensor_5a},
-      {name: "Sensor 5b", data: @sensor_5b},
-      {name: "Sensor 5c", data: @sensor_5c},
+      # {name: "Sensor 5a", data: @sensor_5a},
+      # {name: "Sensor 5b", data: @sensor_5b},
+      # {name: "Sensor 5c", data: @sensor_5c},
 
-      {name: "Sensor 6a", data: @sensor_6a},
-      {name: "Sensor 6b", data: @sensor_6b},
-      {name: "Sensor 6c", data: @sensor_6c},
+      # {name: "Sensor 6a", data: @sensor_6a},
+      # {name: "Sensor 6b", data: @sensor_6b},
+      # {name: "Sensor 6c", data: @sensor_6c},
 
       {name: "Setpoint 1", data: @setpoint1, dashStyle: 'longdash'},
       {name: "Setpoint 2", data: @setpoint2, dashStyle: 'longdash'},

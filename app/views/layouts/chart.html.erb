@@ -49,18 +49,9 @@
 
         </ul>
         <ul class="nav navbar-nav navbar-right">
+      <li><%= link_to "Instellingen", rails_admin_path, :target => "_blank" %></li>
 
-
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Administratie <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><%= link_to "Instellingen", rails_admin_path, :target => "_blank" %></li>
-              <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Logs</li>
-                  <li><%= link_to "Application Logs", "https://papertrailapp.com/systems/569003403/events", :target => "_blank" %></li>
-                  <li><%= link_to "Performance Logs", "https://rpm.newrelic.com/accounts/1497434/applications/29270411", :target => "_blank" %></li>
-            </ul>
-          </li>
+e
 
 
 
