@@ -25,6 +25,11 @@ gem 'sidekiq'
 # gem "redis-store"
 # gem 'redis-rails'
 # gem "redis-rack-cache"
+gem 'coffee-rails'
+gem 'jquery-rails'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'turbolinks'
 
 
 group :development, :test do
