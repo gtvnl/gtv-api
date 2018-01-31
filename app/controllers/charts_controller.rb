@@ -84,7 +84,7 @@ class ChartsController < ApplicationController
       {name: "Setpoint 1", data: @setpoint1, dashStyle: 'longdash'},
       {name: "Setpoint 2", data: @setpoint2, dashStyle: 'longdash'},
       {name: "Setpoint 3", data: @setpoint3, dashStyle: 'longdash'},
-      {name: "Setpoint 4", data: @setpoint4, dashStyle: 'longdash'}
+      {name: "Setpoint 4", data: @setpoint4, dashStyle: 'longdash'},
       # {name: "Setpoint 5", data: @setpoint5, dashStyle: 'longdash'},
       # {name: "Setpoint 6", data: @setpoint6, dashStyle: 'longdash'},
 
@@ -176,7 +176,7 @@ class ChartsController < ApplicationController
       {name: "Setpoint 1", data: @setpoint1, dashStyle: 'longdash'},
       {name: "Setpoint 2", data: @setpoint2, dashStyle: 'longdash'},
       {name: "Setpoint 3", data: @setpoint3, dashStyle: 'longdash'},
-      {name: "Setpoint 4", data: @setpoint4, dashStyle: 'longdash'}
+      {name: "Setpoint 4", data: @setpoint4, dashStyle: 'longdash'},.
       # {name: "Setpoint 5", data: @setpoint5, dashStyle: 'longdash'},
       # {name: "Setpoint 6", data: @setpoint6, dashStyle: 'longdash'},
 
