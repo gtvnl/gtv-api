@@ -8,13 +8,13 @@ console.log('switch')
 <% if gpio.is_on? %>
 console.log('groep 1 off')
 <%= puts 'groep 1 off' %>
-document.getElementById('groep1').classList.remove("btn-success");
-document.getElementById('groep1').classList.add("btn-info");
+document.getElementById('groep1').classList.remove("btn-info");
+document.getElementById('groep1').classList.add("btn-success");
 <% else %>
 console.log('groep 1 on')
 <%= puts 'groep 1 on' %>
-document.getElementById('groep1').classList.remove("btn-info");
-document.getElementById('groep1').classList.add("btn-success");
+document.getElementById('groep1').classList.remove("btn-success");
+document.getElementById('groep1').classList.add("btn-info");
 <% end %>
 
 
