@@ -1,27 +1,33 @@
 
 console.log('switch')
 <% if request.params[:format] == "1" %>
-document.getElementById('groep1').textContent = 'groep1 aan';
+document.getElementById('groep1').classList.remove("btn-info");
+document.getElementById('groep1').classList.add("btn-success");
+
 console.log('groep 1')
 <%= puts 'groep 1' %>
 
 <% elsif request.params[:format] == "2" %>
-document.getElementById('groep2').textContent = 'groep2 aan';
+document.getElementById('groep2').classList.remove("btn-info");
+document.getElementById('groep2').classList.add("btn-success");
 console.log('groep 2')
 <%= puts 'groep 2' %>
 
 <% elsif request.params[:format] == "3" %>
-document.getElementById('groep3').textContent = 'groep3 aan';
+document.getElementById('groep3').classList.remove("btn-info");
+document.getElementById('groep3').classList.add("btn-success");
 console.log('groep 3')
 <%= puts 'groep 3' %>
 
 <% elsif request.params[:format] == "4" %>
-document.getElementById('groep4').textContent = 'groep4 aan';
+document.getElementById('groep4').classList.remove("btn-info");
+document.getElementById('groep4').classList.add("btn-success");
 console.log('groep 4')
 <%= puts 'groep 4' %>
 
 <% else %>
-document.getElementById('verlichting').textContent = 'verlichting aan';
+document.getElementById('verlichting').classList.remove("btn-info");
+document.getElementById('verlichting').classList.add("btn-success");
 console.log('verlichting')
 <%= puts 'verlichting' %>
 
