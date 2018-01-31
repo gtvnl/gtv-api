@@ -13,6 +13,10 @@ Rails.application.routes.draw do
   end if Rails.env.production?
   mount Sidekiq::Web, at: "/sidekiq"
 
+  namespace :admin do
+   get 'switch', to: 'switch#switch'
+  end
+
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
   resources :gpios
@@ -30,7 +34,6 @@ Rails.application.routes.draw do
 
   post 'authenticate', to: 'authentication#authenticate'
 
-  get 'switch', to: 'switch#switch'
 
 
   root to:  redirect('/admin')
