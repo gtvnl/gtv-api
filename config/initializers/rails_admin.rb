@@ -66,7 +66,8 @@ RailsAdmin.config do |config|
   ## == Gravatar integration ==
   ## To disable Gravatar integration in Navigation Bar set to false
 #   config.show_gravatar true
-
+  config.excluded_models = ["Users"]
+  
   config.actions do
     dashboard                     # mandatory
     index                         # mandatory
@@ -79,6 +80,9 @@ RailsAdmin.config do |config|
     #show_in_app
     links
     graphs
+
+
+
 
   config.model 'Setpoint' do
       exclude_fields :id, :created_at, :updated_at
