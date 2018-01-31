@@ -15,7 +15,7 @@ class Serial
     unless serialString.blank? && !last_read
       h = Hash.new
 
-      sensorNames = ["1a","1b","1c","2a","2b","2c","3a","3b","3c","4a","4b","4c","5a","5b","5c","6a","6b","6c","Binnen","Buiten"]
+      sensorNames = ["1a","1b","1c","2a","2b","2c","3a","3b","3c","4a","4b","4c","Binnen","Buiten"]
 
       array = serialString.split("\t")[1].split("\r")[0].split(",")
 
@@ -29,8 +29,8 @@ class Serial
           end
 
         end
-
-        if h.count == 20
+        # Count the key/value pairs to check if we have complete data
+        if h.count == 14
 
           puts serialString
 
