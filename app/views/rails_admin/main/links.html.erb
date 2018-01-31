@@ -1,10 +1,1 @@
-<%= link_to 'Relais 1', switch_url(1), class: 'btn btn-info' %>
-<%= link_to 'Relais 2', switch_url(2), class: 'btn btn-info' %>
-<%= link_to 'Relais 3', switch_url(3), class: 'btn btn-info' %>
-<%= link_to 'Relais 4', switch_url(4), class: 'btn btn-info' %>
-<%= link_to 'Relais 5', switch_url(5), class: 'btn btn-info' %>
-<%= link_to 'Relais 6', switch_url(6), class: 'btn btn-info' %>
-<%= link_to 'Relais 7', switch_url(7), class: 'btn btn-info' %>
-<%= link_to 'Relais 8', switch_url(8), class: 'btn btn-info' %>
-<%= link_to 'Alles AAN', switch_url('all_on'), class: 'btn btn-warning' %>
-<%= link_to 'Alles UIT', switch_url('all_off'), class: 'btn btn-primary' %>
+<%= link_to 'Relais 1', controller: "switch", action: "switch", id: 1, class: 'btn btn-info' %>

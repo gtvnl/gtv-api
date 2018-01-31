@@ -30,6 +30,7 @@ gem 'jquery-rails'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'turbolinks'
+gem 'therubyracer'
 
 
 group :development, :test do
