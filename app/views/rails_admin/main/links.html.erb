@@ -6,11 +6,11 @@
 
 
 
-<%= link_to 'Groep 1', main_app.switch_path(1), remote: true, class: "btn #{relais1.is_on? ? btn-success : btn-info}", id: "groep1" %>
-<%= link_to 'Groep 2', main_app.switch_path(2), remote: true,  class: "btn #{relais2.is_on? ? btn-success : btn-info}", id: "groep2" %>
-<%= link_to 'Groep 3', main_app.switch_path(3), remote: true,  class: "btn #{relais3.is_on? ? btn-success : btn-info}", id: "groep3" %>
-<%= link_to 'Groep 4', main_app.switch_path(4), remote: true,  class: "btn #{relais4.is_on? ? btn-success : btn-info}", id: "groep4" %>
-<%= link_to 'Verlichting', main_app.switch_path(5), remote: true,  class: "btn #{relais5.is_on? ? .btn-success : btn-info}", id: "verlichting" %>
+<%= link_to 'Groep 1', main_app.switch_path(1), remote: true, class: "btn #{relais1.is_on? ? 'btn-success' : 'btn-info'}", id: "groep1" %>
+<%= link_to 'Groep 2', main_app.switch_path(2), remote: true,  class: "btn #{relais2.is_on? ? 'btn-success' : 'btn-info'}", id: "groep2" %>
+<%= link_to 'Groep 3', main_app.switch_path(3), remote: true,  class: "btn #{relais3.is_on? ? 'btn-success' : 'btn-info'}", id: "groep3" %>
+<%= link_to 'Groep 4', main_app.switch_path(4), remote: true,  class: "btn #{relais4.is_on? ? 'btn-success' : 'btn-info'}", id: "groep4" %>
+<%= link_to 'Verlichting', main_app.switch_path(5), remote: true,  class: "btn #{relais5.is_on? ? .'btn-success' : 'btn-info'}", id: "verlichting" %>
 
 <hr />
 <%= link_to 'Alles AAN', main_app.all_on_path, remote: true,  class: 'btn btn-warning', id: "all_on" %>
