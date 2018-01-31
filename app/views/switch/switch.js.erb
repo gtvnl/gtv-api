@@ -16,8 +16,6 @@ console.log('switch')
     document.getElementById('groep1').classList.remove("btn-success");
     document.getElementById('groep1').classList.add("btn-info");
   <% end %>
-<% end %>
-
 
 <% elsif request.params[:format] == "2" %>
   <% if gpio.is_on? %>
