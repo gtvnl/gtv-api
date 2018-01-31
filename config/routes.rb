@@ -13,9 +13,8 @@ Rails.application.routes.draw do
   end if Rails.env.production?
   mount Sidekiq::Web, at: "/sidekiq"
 
-  namespace :admin do
-   get 'switch', to: 'switch#switch'
-  end
+  match "/admin/all_on" => "switch#all_on" , :as => "all_on", :via => [:get]
+  match "/admin/all_off" => "switch#all_off" , :as => "all_off", :via => [:get]
 
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
