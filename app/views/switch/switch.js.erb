@@ -1,2 +1,16 @@
-#  document.getElementById('button_id').textContent = 'Goodbye!';
-<% binding.pry %>
+<% if request.params[:format] == "1" %>
+# document.getElementById('groep1').textContent = 'groep1 aan';
+puts 'groep1'
+<% elsif request.params[:format] == "2" %>
+puts 'groep2'
+<% elsif request.params[:format] == "3" %>
+puts 'groep3'
+<% elsif request.params[:format] == "4" %>
+puts 'groep4'
+<% else %>
+puts 'verlichting'
+<% end %>
+# document.getElementById('groep2').textContent = 'groep2 aan';
+# document.getElementById('groep3').textContent = 'groep3 aan';
+# document.getElementById('groep4').textContent = 'groep4 aan';
+# document.getElementById('verlichting').textContent = 'verlichting aan';
