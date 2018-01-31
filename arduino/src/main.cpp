@@ -21,13 +21,13 @@ OneWire gpio4a(11); // Sensor 4a
 OneWire gpio4b(12); // Sensor 4b
 OneWire gpio4c(13); // Sensor 4c
 
-OneWire gpio5a(14); // Sensor 5a
-OneWire gpio5b(15); // Sensor 5b
-OneWire gpio5c(16); // Sensor 5c
+// OneWire gpio5a(14); // Sensor 5a
+// OneWire gpio5b(15); // Sensor 5b
+// OneWire gpio5c(16); // Sensor 5c
 
-OneWire gpio6a(17); // Sensor 6a
-OneWire gpio6b(18); // Sensor 6b
-OneWire gpio6c(19); // Sensor 6c
+// OneWire gpio6a(17); // Sensor 6a
+// OneWire gpio6b(18); // Sensor 6b
+// OneWire gpio6c(19); // Sensor 6c
 
 OneWire gpioBinnen(20); // Sensor Binnen
 OneWire gpioBuiten(21); // Sensor Buiten
@@ -48,13 +48,13 @@ DallasTemperature sensor4a(&gpio4a);
 DallasTemperature sensor4b(&gpio4b);
 DallasTemperature sensor4c(&gpio4c);
 
-DallasTemperature sensor5a(&gpio5a);
-DallasTemperature sensor5b(&gpio5b);
-DallasTemperature sensor5c(&gpio5c);
+// DallasTemperature sensor5a(&gpio5a);
+// DallasTemperature sensor5b(&gpio5b);
+// DallasTemperature sensor5c(&gpio5c);
 
-DallasTemperature sensor6a(&gpio6a);
-DallasTemperature sensor6b(&gpio6b);
-DallasTemperature sensor6c(&gpio6c);
+// DallasTemperature sensor6a(&gpio6a);
+// DallasTemperature sensor6b(&gpio6b);
+// DallasTemperature sensor6c(&gpio6c);
 
 DallasTemperature sensorBinnen(&gpioBinnen);
 DallasTemperature sensorBuiten(&gpioBuiten);
@@ -94,20 +94,20 @@ void setup(void)
  sensor4c.setResolution(10);
 
 
- sensor5a.begin();
- sensor5a.setResolution(10);
- sensor5b.begin();
- sensor5b.setResolution(10);
- sensor5c.begin();
- sensor5c.setResolution(10);
+//  sensor5a.begin();
+//  sensor5a.setResolution(10);
+//  sensor5b.begin();
+//  sensor5b.setResolution(10);
+//  sensor5c.begin();
+//  sensor5c.setResolution(10);
 
 
- sensor6a.begin();
- sensor6a.setResolution(10);
- sensor6b.begin();
- sensor6b.setResolution(10);
- sensor6c.begin();
- sensor6c.setResolution(10);
+//  sensor6a.begin();
+//  sensor6a.setResolution(10);
+//  sensor6b.begin();
+//  sensor6b.setResolution(10);
+//  sensor6c.begin();
+//  sensor6c.setResolution(10);
 
 
  sensorBinnen.begin();
@@ -138,13 +138,13 @@ void loop()
  sensor4b.requestTemperatures();
  sensor4c.requestTemperatures();
 
- sensor5a.requestTemperatures();
- sensor5b.requestTemperatures();
- sensor5c.requestTemperatures();
+//  sensor5a.requestTemperatures();
+//  sensor5b.requestTemperatures();
+//  sensor5c.requestTemperatures();
 
- sensor6a.requestTemperatures();
- sensor6b.requestTemperatures();
- sensor6c.requestTemperatures();
+//  sensor6a.requestTemperatures();
+//  sensor6b.requestTemperatures();
+//  sensor6c.requestTemperatures();
 
  sensorBinnen.requestTemperatures();
  sensorBuiten.requestTemperatures();
@@ -166,13 +166,13 @@ void loop()
  float sensor4bTemp = sensor4b.getTempCByIndex(0);
  float sensor4cTemp = sensor4c.getTempCByIndex(0);
 
- float sensor5aTemp = sensor5a.getTempCByIndex(0);
- float sensor5bTemp = sensor5b.getTempCByIndex(0);
- float sensor5cTemp = sensor5c.getTempCByIndex(0);
+//  float sensor5aTemp = sensor5a.getTempCByIndex(0);
+//  float sensor5bTemp = sensor5b.getTempCByIndex(0);
+//  float sensor5cTemp = sensor5c.getTempCByIndex(0);
 
- float sensor6aTemp = sensor6a.getTempCByIndex(0);
- float sensor6bTemp = sensor6b.getTempCByIndex(0);
- float sensor6cTemp = sensor6c.getTempCByIndex(0);
+//  float sensor6aTemp = sensor6a.getTempCByIndex(0);
+//  float sensor6bTemp = sensor6b.getTempCByIndex(0);
+//  float sensor6cTemp = sensor6c.getTempCByIndex(0);
 
  float sensorBinnenTemp = sensorBinnen.getTempCByIndex(0);
  float sensorBuitenTemp = sensorBuiten.getTempCByIndex(0);
@@ -191,12 +191,12 @@ void loop()
 	  << "4a:" << precision(2) << sensor4aTemp << ","
 	  << "4b:" << precision(2) << sensor4bTemp << ","
 	  << "4c:" << precision(2) << sensor4cTemp << ","
-	  << "5a:" << precision(2) << sensor5aTemp << ","
-	  << "5b:" << precision(2) << sensor5bTemp << ","
-	  << "5c:" << precision(2) << sensor5cTemp << ","
- 	  << "6a:" << precision(2) << sensor6aTemp << ","
-	  << "6b:" << precision(2) << sensor6bTemp << ","
-	  << "6c:" << precision(2) << sensor6cTemp << ","
+	//   << "5a:" << precision(2) << sensor5aTemp << ","
+	//   << "5b:" << precision(2) << sensor5bTemp << ","
+	//   << "5c:" << precision(2) << sensor5cTemp << ","
+ 	//   << "6a:" << precision(2) << sensor6aTemp << ","
+	//   << "6b:" << precision(2) << sensor6bTemp << ","
+	//   << "6c:" << precision(2) << sensor6cTemp << ","
 	  << "Binnen:" << precision(2) << sensorBinnenTemp << ","
 	  << "Buiten:" << precision(2) << sensorBuitenTemp << "\r"
 
