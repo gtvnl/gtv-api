@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   end if Rails.env.production?
   mount Sidekiq::Web, at: "/sidekiq"
 
+  match "/admin/switch" => "switch#switch" , :as => "switch", :via => [:get]
   match "/admin/all_on" => "switch#all_on" , :as => "all_on", :via => [:get]
   match "/admin/all_off" => "switch#all_off" , :as => "all_off", :via => [:get]
 
