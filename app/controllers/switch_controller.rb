@@ -1,6 +1,8 @@
 class SwitchController < ApplicationController
   def switch
-    binding.pry
+    relais =  "Relais " + request.params[:format]
+    gpio = Gpio.find_by(name: relais)
+    puts gpio.name
   end
   def all_on
     Relais.all_on
