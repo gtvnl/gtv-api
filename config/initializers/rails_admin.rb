@@ -4,6 +4,8 @@ require 'rails_admin/config/actions/base'
 
 module RailsAdminLinks
 end
+module RailsAdminGraphs
+end
 
 module RailsAdmin
   module Config
@@ -14,7 +16,19 @@ module RailsAdmin
           true
         end
         register_instance_option :link_icon do
-         'icon-eye-open'
+         'icon-circle'
+        end
+        register_instance_option :root? do
+          true
+        end
+      end
+      class Graphs < RailsAdmin::Config::Actions::Base
+       RailsAdmin::Config::Actions.register(self)
+        register_instance_option :object_level do
+          true
+        end
+        register_instance_option :link_icon do
+         'icon-bar-chart'
         end
         register_instance_option :root? do
           true
@@ -64,6 +78,7 @@ RailsAdmin.config do |config|
     # delete
     #show_in_app
     links
+    graphs
 
   config.model 'Setpoint' do
       exclude_fields :id, :created_at, :updated_at
