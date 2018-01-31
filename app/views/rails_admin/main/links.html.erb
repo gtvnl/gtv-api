@@ -1,10 +1,10 @@
 
-<%= link_to 'Groep 1', main_app.switch_path(1), remote: true, class: 'btn btn-info' %>
-<%= link_to 'Groep 2', main_app.switch_path(2), remote: true,  class: 'btn btn-info' %>
-<%= link_to 'Groep 3', main_app.switch_path(3), remote: true,  class: 'btn btn-info' %>
-<%= link_to 'Groep 4', main_app.switch_path(4), remote: true,  class: 'btn btn-info' %>
-<%= link_to 'Verlichting', main_app.switch_path(5), remote: true,  class: 'btn btn-info' %>
+<%= link_to 'Groep 1', main_app.switch_path(1), remote: true, class: 'btn btn-info', id: "button_id" %>
+<%= link_to 'Groep 2', main_app.switch_path(2), remote: true,  class: 'btn btn-info', id: "button_id" %>
+<%= link_to 'Groep 3', main_app.switch_path(3), remote: true,  class: 'btn btn-info', id: "button_id" %>
+<%= link_to 'Groep 4', main_app.switch_path(4), remote: true,  class: 'btn btn-info', id: "button_id" %>
+<%= link_to 'Verlichting', main_app.switch_path(5), remote: true,  class: 'btn btn-info', id: "button_id" %>
 
 <hr />
-<%= link_to 'Alles AAN', main_app.all_on_path, remote: true,  class: 'btn btn-warning' %>
-<%= link_to 'Alles UIT', main_app.all_off_path, remote: true, class: 'btn btn-danger' %>
+<%= link_to 'Alles AAN', main_app.all_on_path, remote: true,  class: 'btn btn-warning', id: "button_id" %>
+<%= link_to 'Alles UIT', main_app.all_off_path, remote: true, class: 'btn btn-danger', id: "button_id" %>
