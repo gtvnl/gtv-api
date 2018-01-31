@@ -36,6 +36,6 @@ Rails.application.routes.draw do
 
 
 
-  root to:  'charts#charts'
+  root to:  'charts#index_day'
 
 end
