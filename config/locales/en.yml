@@ -26,5 +26,9 @@ en:
         menu: 'AAN/UIT'
         breadcrumb: 'AAN/UIT'
         title: 'Groepen handmatig aan of uit schakelen'
+      graphs:
+        menu: 'Grafiek'
+        breadcrumb: 'Grafiek'
+        title: 'Temperatuur grafieken'
 
 
