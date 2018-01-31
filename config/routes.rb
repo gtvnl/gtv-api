@@ -36,6 +36,6 @@ Rails.application.routes.draw do
 
 
 
-  root to:  redirect('/admin')
+  root to:  'charts#charts'
 
 end
