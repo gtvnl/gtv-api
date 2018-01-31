@@ -5,41 +5,70 @@ console.log('switch')
 <% gpio = Gpio.find_by(name: relais) %>
 
 <% if request.params[:format] == "1" %>
-<% if gpio.is_on? %>
-console.log('groep 1 off')
-<%= puts 'groep 1 off' %>
-document.getElementById('groep1').classList.remove("btn-info");
-document.getElementById('groep1').classList.add("btn-success");
-<% else %>
-console.log('groep 1 on')
-<%= puts 'groep 1 on' %>
-document.getElementById('groep1').classList.remove("btn-success");
-document.getElementById('groep1').classList.add("btn-info");
+  <% if gpio.is_on? %>
+    console.log('groep 1 off')
+    <%= puts 'groep 1 off' %>
+    document.getElementById('groep1').classList.remove("btn-info");
+    document.getElementById('groep1').classList.add("btn-success");
+  <% else %>
+    console.log('groep 1 on')
+    <%= puts 'groep 1 on' %>
+    document.getElementById('groep1').classList.remove("btn-success");
+    document.getElementById('groep1').classList.add("btn-info");
+  <% end %>
 <% end %>
 
 
 <% elsif request.params[:format] == "2" %>
-document.getElementById('groep2').classList.remove("btn-info");
-document.getElementById('groep2').classList.add("btn-success");
-console.log('groep 2')
-<%= puts 'groep 2' %>
+  <% if gpio.is_on? %>
+    console.log('groep 1 off')
+    <%= puts 'groep 2 off' %>
+    document.getElementById('groep2').classList.remove("btn-info");
+    document.getElementById('groep2').classList.add("btn-success");
+  <% else %>
+    console.log('groep 2 on')
+    <%= puts 'groep 1 on' %>
+    document.getElementById('groep2').classList.remove("btn-success");
+    document.getElementById('groep2').classList.add("btn-info");
+  <% end %>
 
 <% elsif request.params[:format] == "3" %>
-document.getElementById('groep3').classList.remove("btn-info");
-document.getElementById('groep3').classList.add("btn-success");
-console.log('groep 3')
-<%= puts 'groep 3' %>
+  <% if gpio.is_on? %>
+    console.log('groep 3 off')
+    <%= puts 'groep 3 off' %>
+    document.getElementById('groep3').classList.remove("btn-info");
+    document.getElementById('groep3').classList.add("btn-success");
+  <% else %>
+    console.log('groep 3 on')
+    <%= puts 'groep 3 on' %>
+    document.getElementById('groep3').classList.remove("btn-success");
+    document.getElementById('groep3').classList.add("btn-info");
+  <% end %>
 
 <% elsif request.params[:format] == "4" %>
-document.getElementById('groep4').classList.remove("btn-info");
-document.getElementById('groep4').classList.add("btn-success");
-console.log('groep 4')
-<%= puts 'groep 4' %>
+  <% if gpio.is_on? %>
+    console.log('groep 4 off')
+    <%= puts 'groep 4 off' %>
+    document.getElementById('groep4').classList.remove("btn-info");
+    document.getElementById('groep4').classList.add("btn-success");
+  <% else %>
+    console.log('groep 4 on')
+    <%= puts 'groep 4 on' %>
+    document.getElementById('groep4').classList.remove("btn-success");
+    document.getElementById('groep4').classList.add("btn-info");
+  <% end %>
 
 <% else %>
-document.getElementById('verlichting').classList.remove("btn-info");
-document.getElementById('verlichting').classList.add("btn-success");
-console.log('verlichting')
-<%= puts 'verlichting' %>
+  <% if gpio.is_on? %>
+    console.log('verlichting off')
+    <%= puts 'verlichting off' %>
+    document.getElementById('verlichting').classList.remove("btn-info");
+    document.getElementById('verlichting').classList.add("btn-success");
+  <% else %>
+    console.log('verlichting on')
+    <%= puts 'verlichting on' %>
+    document.getElementById('verlichting').classList.remove("btn-success");
+    document.getElementById('groverlichtingep1').classList.add("btn-info");
+  <% end %>
 
 <% end %>
