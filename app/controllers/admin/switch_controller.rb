@@ -1,4 +1,4 @@
-module RailsAdmin
+module Admin
     class SwitchController < ApplicationController
         def all_on
         end
