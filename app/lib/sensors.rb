@@ -5,12 +5,12 @@ class Sensors
       Serial.read.each do |key,value|
 
       s = Sensor.find_by(name: key)
-      name = s.name
+      # name = s.name
 
         unless s.nil?
           s.value = value
           s.save
-          Log.create(description: "UPDATE: Sensor #{name} with value #{value} °C", value: value, sensor: name)
+          Log.create(description: "UPDATE: Sensor #{name} with value #{value} °C", value: value, sensor: key)
 
         end
       end
