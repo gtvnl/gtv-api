@@ -30,7 +30,7 @@ Rails.application.routes.draw do
 
   post 'authenticate', to: 'authentication#authenticate'
 
-  get 'switch_relais', to: 'gpios#switch_relais'
+  get 'switch', to: 'switch#switch'
 
 
   root to:  redirect('/admin')
