@@ -181,23 +181,12 @@ void loop()
 
    Serial << "1a:" << precision(2) << sensor1aTemp << ","
           << "1b:" << precision(2) << sensor1bTemp << ","
-//	  << "1c:" << precision(2) << sensor1cTemp << ","
 	  << "2a:" << precision(2) << sensor2aTemp << ","
 	  << "2b:" << precision(2) << sensor2bTemp << ","
-//	  << "2c:" << precision(2) << sensor2cTemp << ","
 	  << "3a:" << precision(2) << sensor3aTemp << ","
 	  << "3b:" << precision(2) << sensor3bTemp << ","
-//	  << "3c:" << precision(2) << sensor3cTemp << ","
 	  << "4a:" << precision(2) << sensor4aTemp << ","
 	  << "4b:" << precision(2) << sensor4bTemp << ","
-//	  << "4c:" << precision(2) << sensor4cTemp << ","
-	//   << "5a:" << precision(2) << sensor5aTemp << ","
-	//   << "5b:" << precision(2) << sensor5bTemp << ","
-	//   << "5c:" << precision(2) << sensor5cTemp << ","
- 	//   << "6a:" << precision(2) << sensor6aTemp << ","
-	//   << "6b:" << precision(2) << sensor6bTemp << ","
-	//   << "6c:" << precision(2) << sensor6cTemp << ","
-//	  << "Binnen:" << precision(2) << sensorBinnenTemp << ","
 	  << "Buiten:" << precision(2) << sensorBuitenTemp << "\r"
 
 ;
