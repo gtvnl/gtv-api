@@ -21,7 +21,7 @@ while ser.isOpen():
   datastring = sio.readline()
   length = len(datastring.split(','))
 
-  if length == 20:
+  if length == 14:
       print(datastring)
       with open(outfile,'w') as f: #appends to existing file
         f.write(datetime.utcnow().isoformat() + '\t' + datastring + '\n')
