@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails'
+gem 'rails', '~> 5.1.4'
 gem 'mysql2'
 gem 'rack-attack'
 gem 'thin'
@@ -8,7 +8,7 @@ gem 'whenever', :require => false
 gem 'awesome_print'
 gem 'active_model_serializers'
 gem 'time_difference'
-gem 'rails_admin'
+gem 'rails_admin', '~> 1.3'
 gem 'rails_admin_material'
 gem 'figaro'
 gem 'chartkick'
