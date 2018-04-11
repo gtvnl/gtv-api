@@ -4,10 +4,10 @@ class Setpoints
     def send_email(setpoint, current_temp, desired_temp, min_temp, highlow)
 
 
-      title = "CRITICALLY #{highlow} TEMPERATURE detected: #{current_temp} on #{setpoint.name}."
-      body = "Sensor: #{setpoint.sensor.name}\nCurrent Temperature: #{current_temp}\nSetpoint Temperature: #{desired_temp}\nCritical Temperature: #{min_temp}"
+      # title = "CRITICALLY #{highlow} TEMPERATURE detected: #{current_temp} on #{setpoint.name}."
+      # body = "Sensor: #{setpoint.sensor.name}\nCurrent Temperature: #{current_temp}\nSetpoint Temperature: #{desired_temp}\nCritical Temperature: #{min_temp}"
 
-      ErrorMailer.error_email(title, body).deliver
+      # ErrorMailer.error_email(title, body).deliver
 
     end
 
