@@ -40,7 +40,7 @@ end
 
 
 RailsAdmin.config do |config|
-  config.main_app_name = ["Asperge Portal"]
+  config.main_app_name = ["Verhoeven"]
   config.parent_controller = '::RailsAdminCustomController'
 
 
