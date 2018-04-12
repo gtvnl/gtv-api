@@ -1,5 +1,5 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: "gtv.21602040@gmail.com"
+  default from: "root@verhoeven"
   layout 'mailer'
 
   def send_email(title, body)

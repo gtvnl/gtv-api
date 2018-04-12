@@ -1,5 +1,5 @@
 class ExportMailer < ApplicationMailer
-  default from: "gtv.21602040@gmail.com"
+  default from: "root@verhoeven"
 
   def daily_export_email(message)
     attachments['log.csv'] = File.read('log.csv')
@@ -9,7 +9,6 @@ class ExportMailer < ApplicationMailer
     @user = User.first
     mail(to: @user.email, subject: "#{@title}")
 
-    # Log.create(description: "Email sent: #{@user.email}, subject: #{@title}")
 
   end
 end

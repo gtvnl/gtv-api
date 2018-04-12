@@ -14,7 +14,6 @@ class Serial
 
     unless serialString.blank? && !last_read
       h = Hash.new
-
       sensorNames = ["1a","1b","2a","2b","3a","3b","4a","4b","Buiten"]
 
       array = serialString.split("\t")[1].split("\r")[0].split(",")
@@ -31,12 +30,8 @@ class Serial
         end
         # Count the key/value pairs to check if we have complete data
         if h.count == 9
-
           puts serialString
-
           return h.sort.to_h
-
-
         else
           puts "Incomplete data"
         end
@@ -44,6 +39,7 @@ class Serial
       else
         puts "temp.dat is empty"
       end
+
     end
   end
 end
