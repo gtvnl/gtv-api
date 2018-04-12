@@ -59,23 +59,23 @@ class ChartsController < ApplicationController
 
 
     @data = [
-      {name: "Sensor 1a", data: @sensor_1a},
-      {name: "Sensor 1b", data: @sensor_1b},
+      {name: "Sensor 1a", data: @sensor_1a.to_a.reverse.to_h.invert.invert },
+      {name: "Sensor 1b", data: @sensor_1b.to_a.reverse.to_h.invert.invert },
       # {name: "Sensor 1c", data: @sensor_1c},
 
-      {name: "Sensor 2a", data: @sensor_2a},
-      {name: "Sensor 2b", data: @sensor_2b},
+      {name: "Sensor 2a", data: @sensor_2a.to_a.reverse.to_h.invert.invert },
+      {name: "Sensor 2b", data: @sensor_2b.to_a.reverse.to_h.invert.invert },
       # {name: "Sensor 2c", data: @sensor_2c},
 
-      {name: "Sensor 3a", data: @sensor_3a},
-      {name: "Sensor 3b", data: @sensor_3b},
+      {name: "Sensor 3a", data: @sensor_3a.to_a.reverse.to_h.invert.invert },
+      {name: "Sensor 3b", data: @sensor_3b.to_a.reverse.to_h.invert.invert },
       # {name: "Sensor 3c", data: @sensor_3c},
 
-      {name: "Sensor 4a", data: @sensor_4a},
-      {name: "Sensor 4b", data: @sensor_4b},
+      {name: "Sensor 4a", data: @sensor_4a.to_a.reverse.to_h.invert.invert },
+      {name: "Sensor 4b", data: @sensor_4b.to_a.reverse.to_h.invert.invert },
       # {name: "Sensor 4c", data: @sensor_4c},
 
-      {name: "Buiten", data: @buiten},
+      {name: "Buiten", data: @buiten.to_a.reverse.to_h.invert.invert },
 
       # {name: "Sensor 5a", data: @sensor_5a},
       # {name: "Sensor 5b", data: @sensor_5b},
@@ -155,23 +155,23 @@ class ChartsController < ApplicationController
 
 
     @data = [
-      {name: "Sensor 1a", data: @sensor_1a},
-      {name: "Sensor 1b", data: @sensor_1b},
+      {name: "Sensor 1a", data: @sensor_1a.to_a.reverse.to_h.invert.invert },
+      {name: "Sensor 1b", data: @sensor_1b.to_a.reverse.to_h.invert.invert },
       # {name: "Sensor 1c", data: @sensor_1c},
 
-      {name: "Sensor 2a", data: @sensor_2a},
-      {name: "Sensor 2b", data: @sensor_2b},
+      {name: "Sensor 2a", data: @sensor_2a.to_a.reverse.to_h.invert.invert },
+      {name: "Sensor 2b", data: @sensor_2b.to_a.reverse.to_h.invert.invert },
       # {name: "Sensor 2c", data: @sensor_2c},
 
-      {name: "Sensor 3a", data: @sensor_3a},
-      {name: "Sensor 3b", data: @sensor_3b},
+      {name: "Sensor 3a", data: @sensor_3a.to_a.reverse.to_h.invert.invert },
+      {name: "Sensor 3b", data: @sensor_3b.to_a.reverse.to_h.invert.invert },
       # {name: "Sensor 3c", data: @sensor_3c},
 
-      {name: "Sensor 4a", data: @sensor_4a},
-      {name: "Sensor 4b", data: @sensor_4b},
+      {name: "Sensor 4a", data: @sensor_4a.to_a.reverse.to_h.invert.invert },
+      {name: "Sensor 4b", data: @sensor_4b.to_a.reverse.to_h.invert.invert },
       # {name: "Sensor 4c", data: @sensor_4c},
 
-      {name: "Buiten", data: @buiten},
+      {name: "Buiten", data: @buiten.to_a.reverse.to_h.invert.invert },
 
       # {name: "Sensor 5a", data: @sensor_5a},
       # {name: "Sensor 5b", data: @sensor_5b},
