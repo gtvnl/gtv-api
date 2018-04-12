@@ -7,7 +7,7 @@ using namespace ios;
 
 OneWire gpio1a(2);  // Sensor 1a on pin 2
 OneWire gpio1b(3);  // Sensor 1b on pin 3
-// OneWire gpio1c(4);  // Sensor 1c on pin 4
+OneWire gpio1c(4);  // Sensor 1c on pin 4
 
 OneWire gpio2a(5);  // Sensor 2a on pin 5
 OneWire gpio2b(6);  // Sensor 2b on pin 6
@@ -34,7 +34,7 @@ OneWire gpioBuiten(14); // Sensor Buiten on pin 14
 
 DallasTemperature sensor1a(&gpio1a);
 DallasTemperature sensor1b(&gpio1b);
-// DallasTemperature sensor1c(&gpio1c);
+DallasTemperature sensor1c(&gpio1c);
 
 DallasTemperature sensor2a(&gpio2a);
 DallasTemperature sensor2b(&gpio2b);
@@ -67,8 +67,8 @@ void setup(void)
  sensor1a.setResolution(10);
  sensor1b.begin();
  sensor1b.setResolution(10);
-// sensor1c.begin();
-// sensor1c.setResolution(10);
+ sensor1c.begin();
+ sensor1c.setResolution(10);
 
  sensor2a.begin();
  sensor2a.setResolution(10);
@@ -124,7 +124,7 @@ void loop()
  // send command to get temperatures
  sensor1a.requestTemperatures();
  sensor1b.requestTemperatures();
-// sensor1c.requestTemperatures();
+ sensor1c.requestTemperatures();
 
  sensor2a.requestTemperatures();
  sensor2b.requestTemperatures();
@@ -152,7 +152,7 @@ void loop()
 
  float sensor1aTemp = sensor1a.getTempCByIndex(0);
  float sensor1bTemp = sensor1b.getTempCByIndex(0);
-// float sensor1cTemp = sensor1c.getTempCByIndex(0);
+ float sensor1cTemp = sensor1c.getTempCByIndex(0);
 
  float sensor2aTemp = sensor2a.getTempCByIndex(0);
  float sensor2bTemp = sensor2b.getTempCByIndex(0);
@@ -181,13 +181,14 @@ void loop()
 
    Serial << "1a:" << precision(2) << sensor1aTemp << ","
           << "1b:" << precision(2) << sensor1bTemp << ","
-	  << "2a:" << precision(2) << sensor2aTemp << ","
-	  << "2b:" << precision(2) << sensor2bTemp << ","
-	  << "3a:" << precision(2) << sensor3aTemp << ","
-	  << "3b:" << precision(2) << sensor3bTemp << ","
-	  << "4a:" << precision(2) << sensor4aTemp << ","
-	  << "4b:" << precision(2) << sensor4bTemp << ","
-	  << "Buiten:" << precision(2) << sensorBuitenTemp << "\r"
+          << "1c:" << precision(2) << sensor1cTemp << ","
+      	  << "2a:" << precision(2) << sensor2aTemp << ","
+      	  << "2b:" << precision(2) << sensor2bTemp << ","
+      	  << "3a:" << precision(2) << sensor3aTemp << ","
+      	  << "3b:" << precision(2) << sensor3bTemp << ","
+      	  << "4a:" << precision(2) << sensor4aTemp << ","
+      	  << "4b:" << precision(2) << sensor4bTemp << ","
+      	  << "Buiten:" << precision(2) << sensorBuitenTemp << "\r"
 
 ;
 
