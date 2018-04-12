@@ -98,6 +98,10 @@ RailsAdmin.config do |config|
 
   config.model 'Log' do
       exclude_fields :id, :updated_at
+      # show items per page
+      list do
+        items_per_page 500
+      end
   end
 
     ## With an audit adapter, you can add:
