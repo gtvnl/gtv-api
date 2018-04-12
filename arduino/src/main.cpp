@@ -28,7 +28,7 @@ OneWire gpio4c(13); // Sensor 4c on pin 13
 // OneWire gpio6b(18); // Sensor 6b on pin 18
 // OneWire gpio6c(19); // Sensor 6c on pin 19
 
-// OneWire gpioBinnen(20); // Sensor Binnen on pin 20
+OneWire gpioBinnen(20); // Sensor Binnen on pin 20
 OneWire gpioBuiten(14); // Sensor Buiten on pin 14
 
 DallasTemperature sensor1a(&gpio1a);
@@ -55,7 +55,7 @@ DallasTemperature sensor4c(&gpio4c);
 // DallasTemperature sensor6b(&gpio6b);
 // DallasTemperature sensor6c(&gpio6c);
 
-// DallasTemperature sensorBinnen(&gpioBinnen);
+DallasTemperature sensorBinnen(&gpioBinnen);
 DallasTemperature sensorBuiten(&gpioBuiten);
 
 
@@ -104,8 +104,8 @@ void setup(void)
 //  sensor6c.begin();
 //  sensor6c.setResolution(10);
 
-// sensorBinnen.begin();
-// sensorBinnen.setResolution(10);
+sensorBinnen.begin();
+sensorBinnen.setResolution(10);
 
  sensorBuiten.begin();
  sensorBuiten.setResolution(10);
@@ -140,7 +140,7 @@ void loop()
 //  sensor6b.requestTemperatures();
 //  sensor6c.requestTemperatures();
 
-// sensorBinnen.requestTemperatures();
+sensorBinnen.requestTemperatures();
  sensorBuiten.requestTemperatures();
 
 
@@ -168,7 +168,7 @@ void loop()
 //  float sensor6bTemp = sensor6b.getTempCByIndex(0);
 //  float sensor6cTemp = sensor6c.getTempCByIndex(0);
 
-// float sensorBinnenTemp = sensorBinnen.getTempCByIndex(0);
+float sensorBinnenTemp = sensorBinnen.getTempCByIndex(0);
  float sensorBuitenTemp = sensorBuiten.getTempCByIndex(0);
 //
 // delay(1000);
@@ -185,6 +185,7 @@ void loop()
       	  << "4a:" << precision(2) << sensor4aTemp << ","
       	  << "4b:" << precision(2) << sensor4bTemp << ","
       	  << "4c:" << precision(2) << sensor4cTemp << ","
+      	  << "4c:" << precision(2) << sensorBinnenTemp << ","
       	  << "Buiten:" << precision(2) << sensorBuitenTemp << "\r"
 
 ;
