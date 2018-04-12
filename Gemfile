@@ -31,7 +31,7 @@ gem 'sass-rails'
 gem 'uglifier'
 gem 'turbolinks'
 gem 'therubyracer'
-
+gem 'forecast_io', '~> 2.0', '>= 2.0.2'
 
 group :development, :test do
   gem 'byebug', platform: :mri
