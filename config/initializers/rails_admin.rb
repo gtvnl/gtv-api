@@ -100,7 +100,7 @@ RailsAdmin.config do |config|
       exclude_fields :id, :updated_at
       # show items per page
       list do
-        items_per_page 500
+        items_per_page 100
       end
   end
 
