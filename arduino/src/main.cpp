@@ -5,32 +5,32 @@
 using namespace ios;
 
 
-OneWire gpio1a(2);  // Sensor 1a
-OneWire gpio1b(3);  // Sensor 1b
-// OneWire gpio1c(4);  // Sensor 1c
+OneWire gpio1a(2);  // Sensor 1a on pin 2
+OneWire gpio1b(3);  // Sensor 1b on pin 3
+// OneWire gpio1c(4);  // Sensor 1c on pin 4
 
-OneWire gpio2a(5);  // Sensor 2a
-OneWire gpio2b(6);  // Sensor 2b
-// OneWire gpio2c(7);  // Sensor 2c
+OneWire gpio2a(5);  // Sensor 2a on pin 5
+OneWire gpio2b(6);  // Sensor 2b on pin 6
+// OneWire gpio2c(7);  // Sensor 2c on pin 7
 
-OneWire gpio3a(8);  // Sensor 3a
-OneWire gpio3b(9);  // Sensor 3b
-// OneWire gpio3c(10); // Sensor 3c
+OneWire gpio3a(8);  // Sensor 3a on pin 8
+OneWire gpio3b(9);  // Sensor 3b on pin 9
+// OneWire gpio3c(10); // Sensor 3c on pin 10
 
-OneWire gpio4a(11); // Sensor 4a
-OneWire gpio4b(12); // Sensor 4b
-// OneWire gpio4c(13); // Sensor 4c
+OneWire gpio4a(11); // Sensor 4a on pin 11
+OneWire gpio4b(12); // Sensor 4b on pin 12
+// OneWire gpio4c(13); // Sensor 4c on pin 13
 
-// OneWire gpio5a(14); // Sensor 5a
-// OneWire gpio5b(15); // Sensor 5b
-// OneWire gpio5c(16); // Sensor 5c
+// OneWire gpio5a(14); // Sensor 5a on pin 14
+// OneWire gpio5b(15); // Sensor 5b on pin 15
+// OneWire gpio5c(16); // Sensor 5c on pin 16
 
-// OneWire gpio6a(17); // Sensor 6a
-// OneWire gpio6b(18); // Sensor 6b
-// OneWire gpio6c(19); // Sensor 6c
+// OneWire gpio6a(17); // Sensor 6a on pin 17
+// OneWire gpio6b(18); // Sensor 6b on pin 18
+// OneWire gpio6c(19); // Sensor 6c on pin 19
 
-// OneWire gpioBinnen(20); // Sensor Binnen
-OneWire gpioBuiten(21); // Sensor Buiten
+// OneWire gpioBinnen(20); // Sensor Binnen on pin 20
+OneWire gpioBuiten(14); // Sensor Buiten on pin 14
 
 DallasTemperature sensor1a(&gpio1a);
 DallasTemperature sensor1b(&gpio1b);
