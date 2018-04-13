@@ -108,7 +108,7 @@ void setup(void)
 // sensorBinnen.setResolution(10);
 
  sensorBuiten.begin();
- sensorBuiten.setResolution(10);
+ sensorBuiten.setResolution(12);
 
 
 }
